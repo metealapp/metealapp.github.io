@@ -20,6 +20,7 @@
 
   let _messages = {};
   let _currentLang = 'en';
+  document.documentElement.classList.add('i18n-loading');
 
   /** Detect best language from browser/storage */
   function detectLang() {
@@ -102,11 +103,14 @@
       const info = LANG_LABELS[_currentLang];
       langBtn.innerHTML = `<span>${info.flag} ${info.label}</span><span class="chevron">▾</span>`;
     }
+
+    document.documentElement.classList.remove('i18n-loading');
   }
 
   /** Load locale JSON and apply */
   async function loadLang(lang) {
     try {
+      document.documentElement.classList.add('i18n-loading');
       // Fetch relative to the HTML page (document.baseURI)
       const url = 'locales/' + lang + '.json';
       const resp = await fetch(url);
@@ -121,6 +125,8 @@
       // Fallback to 'en' if not already trying it
       if (lang !== 'en') {
         await loadLang('en');
+      } else {
+        document.documentElement.classList.remove('i18n-loading');
       }
     }
   }

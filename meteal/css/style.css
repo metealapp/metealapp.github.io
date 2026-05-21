@@ -55,6 +55,13 @@
   --header-height: 64px;
 }
 
+html.i18n-loading [data-i18n],
+html.i18n-loading [data-i18n-html],
+html.i18n-loading [data-i18n-placeholder],
+html.i18n-loading [data-i18n-title] {
+  visibility: hidden;
+}
+
 /* ── Reset & Base ── */
 *, *::before, *::after {
   box-sizing: border-box;

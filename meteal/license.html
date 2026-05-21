@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" class="i18n-loading">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -67,12 +67,12 @@
 
         <h3 data-i18n="license.features_title">주요 기능</h3>
         <ul id="featuresList">
-          <li>오늘/내일 날씨 확인</li>
-          <li>최근 체감온도 변화 비교</li>
-          <li>여러 지역 저장 및 비교</li>
-          <li>날씨 위젯 지원</li>
-          <li>다국어 지원</li>
-          <li>간단하고 직관적인 UI</li>
+          <li data-i18n="license.feature_today">오늘/내일 날씨 확인</li>
+          <li data-i18n="license.feature_feels_like">최근 체감온도 변화 비교</li>
+          <li data-i18n="license.feature_regions">여러 지역 저장 및 비교</li>
+          <li data-i18n="license.feature_widget">날씨 위젯 지원</li>
+          <li data-i18n="license.feature_multilang">다국어 지원</li>
+          <li data-i18n="license.feature_ui">간단하고 직관적인 UI</li>
         </ul>
 
         <div class="app-info-grid" style="margin-top:1.25rem;">
@@ -300,27 +300,5 @@
   </footer>
 
   <script src="js/i18n.js"></script>
-  <script>
-    // Dynamically render features list from i18n key
-    function renderFeatures() {
-      if (window.i18n) {
-        const raw = window.i18n.t('license.features_list');
-        if (raw && raw !== 'license.features_list') {
-          const items = raw.split('|');
-          const ul = document.getElementById('featuresList');
-          if (ul) {
-            ul.innerHTML = items.map(item => `<li>${item.trim()}</li>`).join('');
-          }
-        }
-      }
-    }
-
-    document.addEventListener('DOMContentLoaded', function () {
-      setTimeout(renderFeatures, 100); // reduced timeout for better UX
-    });
-
-    // Re-render when language is switched dynamically
-    window.addEventListener('languageChanged', renderFeatures);
-  </script>
 </body>
 </html>
