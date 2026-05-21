@@ -1,212 +1,171 @@
 {
   "nav": {
-    "home": "Accueil",
-    "guide": "Guide d'utilisation",
-    "privacy": "Politique de confidentialité",
-    "license": "Infos de l'app"
+    "home": "Home",
+    "guide": "User Guide",
+    "privacy": "Privacy Policy",
+    "license": "App Info"
   },
   "hero": {
-    "tagline": "Comparez uniquement la météo dont vous avez besoin, en un coup d'œil",
-    "subtitle": "Une application météo simple pour vérifier intuitivement la météo du jour avec les récents changements de température ressentie, et comparer rapidement la météo de plusieurs régions.",
-    "badge": "v1.0.61 · iOS & Android",
+    "tagline": "Compare only the weather you need, at a glance",
+    "subtitle": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
+    "badge": "v1.0.62 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
-    "download_coming_soon": "Bientôt disponible"
+    "download_coming_soon": "Coming Soon"
   },
   "features": {
-    "title": "Fonctionnalités clés",
-    "subtitle": "Vérifiez la météo d'aujourd'hui et de demain plus intelligemment",
+    "title": "Key Features",
     "weather": {
-      "title": "Température ressentie sur 8 jours",
-      "desc": "Comprenez intuitivement la température actuelle en fonction de l'évolution de la température ressentie au cours des 8 derniers jours (aujourd'hui inclus)."
+      "title": "8-Day Feels-Like Temperature",
+      "desc": "Intuitively check changes in feels-like temperature over the last 8 days including today."
     },
     "comparison": {
-      "title": "Comparaison multi-régions",
-      "desc": "Regroupez plusieurs régions et comparez leur météo sur un seul écran."
+      "title": "Multi-Region Comparison",
+      "desc": "Quickly compare the weather of multiple regions on a single screen."
     },
     "widget": {
-      "title": "Widget d'écran d'accueil",
-      "desc": "Vérifiez rapidement la météo grâce aux widgets d'écran d'accueil iOS et Android."
+      "title": "Home Screen Widget",
+      "desc": "Easily check essential weather info directly from your home screen without opening the app."
     },
     "multilang": {
-      "title": "Support multilingue",
-      "desc": "Prend en charge 7 langues : 한국어, English, Deutsch, Français, Italiano, 日本語, 简体中文."
+      "title": "Multi-Language Support",
+      "desc": "Supports Korean, English, Japanese, Chinese, German, French, and Italian."
     },
     "offline": {
-      "title": "Cache hors ligne",
-      "desc": "Les données météo récentes sont mises en cache sur l'appareil pour être consultables hors ligne."
+      "title": "Offline Cache",
+      "desc": "Stores recently fetched data so you can check the weather even with unstable networks."
     },
     "nogps": {
-      "title": "GPS non requis",
-      "desc": "Fonctionne sans autorisation de localisation précise. Recherchez et enregistrez des régions manuellement."
+      "title": "No GPS Required",
+      "desc": "Does not require background location access, saving your battery and privacy."
     }
-  },
-  "datasources": {
-    "title": "Sources de données",
-    "desc": "Meteal utilise des fournisseurs de données open source fiables."
   },
   "footer": {
-    "copyright": "© 2026 Meteal. Tous droits réservés.",
-    "contact": "Contact : meteal.app@gmail.com",
-    "links": {
-      "guide": "Guide d'utilisation",
-      "privacy": "Politique de confidentialité",
-      "license": "Infos de l'app"
-    }
+    "copyright": "© 2026 Meteal",
+    "contact": "Contact: meteal.app@gmail.com"
   },
   "guide": {
-    "title": "Guide d'utilisation",
-    "subtitle": "Comment utiliser Meteal et descriptions détaillées du comportement",
-    "region_limits": {
-      "title": "Limites d'enregistrement des régions et groupes",
-      "desc": "Meteal propose des fonctionnalités de base dans la plage gratuite. Des publicités récompensées sont requises au-delà des limites.",
-      "note": "Changer une région n'est PAS considéré comme un ajout — aucune publicité n'est requise. Cependant, vous ne pouvez pas passer à une région déjà enregistrée dans votre liste de régions uniques.",
-      "th_feature": "Fonctionnalité",
-      "th_free": "Plage gratuite",
-      "th_ad_from": "Pub requise dès",
-      "th_max": "Maximum",
-      "row1_feature": "Région unique",
-      "row1_free": "Jusqu'à 2",
-      "row1_ad": "3ème",
-      "row1_max": "Max. 7",
-      "row2_feature": "Création de groupe",
-      "row2_free": "Jusqu'à 2",
-      "row2_ad": "3ème",
-      "row2_max": "Max. 5",
-      "row3_feature": "Régions dans un groupe",
-      "row3_free": "Jusqu'à 2 par groupe",
-      "row3_ad": "3ème dans chaque groupe",
-      "row3_max": "Max. 5 par groupe"
-    },
-    "ad_info": {
-      "title": "Informations sur les publicités",
-      "desc": "Des publicités récompensées sont requises lors de l'ajout de régions/groupes au-delà de la plage gratuite. Les publicités peuvent ne pas se charger en raison de :",
-      "reason1": "Connexion réseau instable",
-      "reason2": "Aucun inventaire publicitaire disponible",
-      "reason3": "Délai de réponse du serveur",
-      "reason4": "Restrictions de l'appareil ou de l'OS",
-      "reason5": "Problèmes de service temporaires"
-    },
+    "title": "User Guide",
+    "subtitle": "Meteal App Behavior & Usage Guide",
     "weather_codes": {
-      "title": "Règles d'affichage de l'état météo",
-      "desc": "Les conditions météorologiques sont affichées selon les codes météo Open-Meteo.",
-      "th_code": "Code",
-      "th_display": "Affichage",
-      "th_icon": "Icône"
+      "row0": "Clear",
+      "row1": "Mostly Clear",
+      "row2": "Partly Cloudy",
+      "row3": "Cloudy",
+      "row4": "Fog",
+      "row5": "Rain",
+      "row6": "Snow",
+      "row7": "Thunderstorm"
     },
     "refresh": {
-      "title": "Méthodes de mise à jour météo",
-      "th_location": "Écran",
-      "th_method": "Méthode de mise à jour"
+      "title": "Weather Refresh Methods",
+      "th_location": "Screen",
+      "th_method": "Method",
+      "row1_loc": "Single Region Screen",
+      "row1_method": "Pull down to refresh",
+      "row2_loc": "Group Screen",
+      "row2_method": "Pull down to refresh group data",
+      "row3_loc": "Error Screen",
+      "row3_method": "Tap retry button",
+      "row4_loc": "Region Change",
+      "row4_method": "Auto-refresh",
+      "row5_loc": "Language Change",
+      "row5_method": "Refresh + widget labels update"
     },
     "structure": {
-      "title": "Structure de gestion des régions et groupes",
-      "th_item": "Élément",
-      "th_desc": "Description"
-    },
-    "additional": {
-      "title": "Informations supplémentaires",
-      "nogps": "Aucun GPS ou autorisation de localisation n'est utilisé.",
-      "default_region": "Région par défaut : Séoul, Corée du Sud",
-      "data_source": "Données météo : Open-Meteo / Recherche de région : GeoNames",
-      "status_badges": "Badges de statut des données météo : récent (latest) / cache (cached) / hors ligne (offline)",
-      "widget_single": "Les widgets se mettent à jour en fonction de la région unique sélectionnée.",
-      "widget_no_group": "Les widgets n'affichent pas des groupes entiers.",
-      "supported_langs": "Langues prises en charge : 한국어, English, Deutsch, Français, Italiano, 日本語, 简体中文"
+      "title": "Region & Group Management Structure",
+      "th_item": "Item",
+      "th_desc": "Description",
+      "row1_item": "Single Region",
+      "row1_desc": "List for individually registered regions",
+      "row2_item": "Group",
+      "row2_desc": "List for comparing multiple regions",
+      "row3_item": "Regions within Group",
+      "row3_desc": "Regions compared within each group",
+      "row4_item": "Duplicate Single",
+      "row4_desc": "Same region cannot be registered twice",
+      "row5_item": "Duplicate in Group",
+      "row5_desc": "Same region cannot be in same group twice",
+      "row6_item": "Region Change",
+      "row6_desc": "Cannot change to a region already in single list"
     },
     "data_storage": {
-      "title": "Stockage et mise à jour des données météo de l'app",
-      "range": "Plage de données : Horaire (7 jours passés + 7 jours de prévision), Quotidien (7 jours passés + 7 jours de prévision)",
-      "included": "Inclus : Température, Température ressentie, Précipitations, Probabilité de précipitations, Humidité, Couverture nuageuse, Codes météo, Vitesse/direction du vent, Lever/coucher du soleil",
-      "cache_title": "Durée du cache",
-      "th_type": "Type de données",
-      "th_duration": "Durée du cache"
-    },
-    "widget_refresh": {
-      "title": "Mise à jour des données du widget",
-      "android_title": "Android",
-      "android_desc": "Tâche d'arrière-plan s'exécutant environ toutes les heures, récupère la plage complète des données Open-Meteo et stocke les données partielles du widget.",
-      "widget_data_title": "Données stockées par le widget",
-      "widget_data_items": "Région unique sélectionnée, Température ressentie max/min sur 8 jours, Résumé AM/PM d'aujourd'hui, Lieu, Heure de collecte, Étiquettes de langue",
-      "ios_title": "iOS",
-      "ios_desc": "Deux chemins : actualisation en arrière-plan de l'app + auto-actualisation du widget",
-      "ios_self_refresh": "Le widget s'auto-actualise si >1 heure s'est écoulée depuis la dernière actualisation et si les coordonnées sont disponibles.",
-      "ios_range": "Plage d'auto-actualisation du widget : past_days=7, forecast_days=1"
+      "title": "App Weather Data Storage & Refresh",
+      "row1_type": "Hourly Weather",
+      "row1_duration": "60 minutes",
+      "row2_type": "Daily Weather",
+      "row2_duration": "6 hours",
+      "row3_type": "Previous Day Data",
+      "row3_duration": "24 hours",
+      "row4_type": "Current Weather",
+      "row4_duration": "60 minutes (based on hourly data)"
     }
   },
   "privacy": {
-    "title": "Politique de confidentialité",
-    "subtitle": "Politique de confidentialité de l'app Meteal",
-    "updated": "Dernière mise à jour : 2026-05-12",
+    "title": "Privacy Policy",
+    "subtitle": "Meteal Privacy Policy",
     "s1": {
-      "title": "1. Informations que nous collectons",
-      "s1_1_title": "1-1. Non collectées directement",
-      "s1_1_desc": "Nous ne collectons pas directement d'informations personnelles identifiables telles que les noms, adresses e-mail ou numéros de téléphone.",
-      "s1_2_title": "1-2. Traitées automatiquement",
-      "s1_2_desc": "ID publicitaire, informations sur l'appareil (modèle, version de l'OS), localisation approximative via IP, données d'interaction publicitaire",
-      "s1_3_title": "1-3. Données de configuration utilisateur",
-      "s1_3_desc": "Les régions enregistrées, groupes et paramètres de l'app sont stockés localement dans une base de données SQLite sur votre appareil. Le développeur ne collecte PAS ces données sur des serveurs."
+      "title": "1. Information We Collect",
+      "s1_1": "1-1. Not directly collected",
+      "s1_1_desc": "Names, emails, phone numbers, etc.",
+      "s1_2": "1-2. Auto-processed data",
+      "s1_2_desc": "Advertising ID, Device info, IP location, Ad interaction",
+      "s1_3": "1-3. User Config Data",
+      "s1_3_desc": "Stored locally on device"
     },
     "s2": {
-      "title": "2. Objectif de l'utilisation des données",
-      "items": "Informations météorologiques / Recherche de région / Affichage des publicités / Amélioration de la stabilité de l'app"
+      "title": "2. Purpose of Data Usage",
+      "items": "Weather info / Location search / Ads / Stability improvement"
     },
     "s3": {
-      "title": "3. Services tiers",
-      "desc": "Les services tiers suivants peuvent traiter des données."
+      "title": "3. Third-Party Services",
+      "desc": "The following third-party services may process data.",
+      "admob_desc": "Ads/Analytics",
+      "openmeteo_desc": "Weather Data",
+      "geonames_desc": "Location Search"
     },
     "s4": {
-      "title": "4. Informations de localisation",
-      "desc": "Nous ne demandons pas d'autorisations GPS ou ACCESS_FINE_LOCATION. Seules les coordonnées des régions sélectionnées par l'utilisateur sont envoyées à Open-Meteo pour la récupération des données météo."
+      "title": "4. Location Information",
+      "desc": "Does not use GPS. Only selected region coordinates are used."
     },
     "s5": {
-      "title": "5. Conservation des données",
-      "desc": "Les données de configuration utilisateur sont stockées uniquement sur l'appareil et sont supprimées lors de la désinstallation de l'app. Les services tiers suivent leurs propres politiques de confidentialité."
+      "title": "5. Data Retention",
+      "desc": "User data on device only."
     },
     "s6": {
-      "title": "6. Confidentialité des enfants",
-      "desc": "Cette application n'est pas destinée aux enfants."
+      "title": "6. Children's Privacy",
+      "desc": "App not directed toward children."
     },
     "s7": {
-      "title": "7. Sécurité",
-      "desc": "Comme il n'y a pas de serveurs exploités par le développeur, toutes les données utilisateur restent sur votre appareil."
+      "title": "7. Security",
+      "desc": "Data stays local."
     },
     "s8": {
-      "title": "8. Avertissement",
-      "desc": "Les données météo sont fournies par des services tiers (Open-Meteo). La précision n'est pas garantie."
+      "title": "8. Disclaimer",
+      "desc": "Accuracy not guaranteed."
     },
     "s9": {
-      "title": "9. Modifications de la politique",
-      "desc": "Cette politique peut être mise à jour et sera annoncée via l'app ou les boutiques d'applications."
+      "title": "9. Policy Changes",
+      "desc": "Announced via app."
     },
     "s10": {
       "title": "10. Contact",
-      "desc": "Pour toute question relative à la confidentialité, veuillez nous contacter à l'adresse e-mail ci-dessous."
+      "desc": "meteal.app@gmail.com"
     }
   },
   "license": {
-    "title": "Infos de l'app",
-    "subtitle": "Informations sur l'app Meteal et licences open source",
-    "app_desc_title": "À propos de l'app",
-    "app_desc": "Une application météo simple pour vérifier intuitivement la météo du jour avec les récents changements de température ressentie, et comparer rapidement la météo de plusieurs régions.",
-    "features_title": "Fonctionnalités clés",
-    "features_list": "Température ressentie sur 8 jours|Enregistrer et comparer plusieurs régions|Support de widget météo|Support multilingue|Interface simple et intuitive",
-    "supported_langs_title": "Langues prises en charge",
-    "platforms_title": "Plateformes prises en charge",
-    "contact_title": "Contact",
-    "datasources_title": "Sources de données",
-    "icons_title": "Icônes",
-    "icons_desc": "Google Material Symbols",
-    "ads_title": "Publicité et services tiers",
-    "ads_desc": "Les publicités sont diffusées via Google AdMob. Les SDK publicitaires peuvent traiter les ID publicitaires, les informations sur l'appareil et les données d'interaction publicitaire.",
-    "location_title": "Informations de localisation",
-    "location_desc": "Aucune autorisation GPS précise n'est demandée. Les coordonnées des régions sélectionnées manuellement peuvent être utilisées pour les demandes de données météo.",
-    "cache_title": "Données hors ligne et cache",
-    "cache_desc": "Les données météo récemment consultées peuvent être temporairement stockées sur l'appareil. Utilisé pour les performances et l'affichage hors ligne.",
-    "oss_title": "Bibliothèques open source Flutter",
-    "copyright_title": "Droits d'auteur",
-    "th_library": "Bibliothèque",
-    "th_version": "Version",
-    "th_license": "Licence"
+    "title": "App Info",
+    "subtitle": "Meteal App Info & Open Source Licenses",
+    "features_title": "Summary of Features",
+    "features_list": "Check today/tomorrow weather | Compare recent feels-like temps | Save and compare multiple regions | Home screen widget | Offline cache & multi-language",
+    "datasources_title": "Data Sources",
+    "ds_th_service": "Service",
+    "ds_th_purpose": "Purpose",
+    "ds_th_license": "License",
+    "ds_th_link": "Link",
+    "ds_weather": "Weather Data",
+    "ds_location": "Location Search",
+    "oss_title": "Flutter Open Source Libraries",
+    "oss_sdk": "SDK"
   }
 }

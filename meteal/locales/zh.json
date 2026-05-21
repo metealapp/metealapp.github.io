@@ -1,212 +1,171 @@
 {
   "nav": {
-    "home": "首页",
-    "guide": "使用指南",
-    "privacy": "隐私政策",
-    "license": "应用信息"
+    "home": "Home",
+    "guide": "User Guide",
+    "privacy": "Privacy Policy",
+    "license": "App Info"
   },
   "hero": {
-    "tagline": "一目了然地比较您所需的天气",
-    "subtitle": "一款简单的天气应用，可通过近期体感温度变化直观了解今日天气，并快速比较多个地区的天气。",
-    "badge": "v1.0.61 · iOS & Android",
+    "tagline": "Compare only the weather you need, at a glance",
+    "subtitle": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
+    "badge": "v1.0.62 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
-    "download_coming_soon": "即将推出"
+    "download_coming_soon": "Coming Soon"
   },
   "features": {
-    "title": "主要功能",
-    "subtitle": "更智能地查看今明两天的天气",
+    "title": "Key Features",
     "weather": {
-      "title": "8天体感温度趋势",
-      "desc": "根据最近8天（包含今天）的体感温度变化，更直观地掌握当前温度。"
+      "title": "8-Day Feels-Like Temperature",
+      "desc": "Intuitively check changes in feels-like temperature over the last 8 days including today."
     },
     "comparison": {
-      "title": "多地区对比",
-      "desc": "将多个地区分组，在同一界面对比各地天气。"
+      "title": "Multi-Region Comparison",
+      "desc": "Quickly compare the weather of multiple regions on a single screen."
     },
     "widget": {
-      "title": "主屏幕小组件",
-      "desc": "通过iOS和Android主屏幕小组件快速查看天气。"
+      "title": "Home Screen Widget",
+      "desc": "Easily check essential weather info directly from your home screen without opening the app."
     },
     "multilang": {
-      "title": "多语言支持",
-      "desc": "支持7种语言：한국어、English、Deutsch、Français、Italiano、日本語、简体中文。"
+      "title": "Multi-Language Support",
+      "desc": "Supports Korean, English, Japanese, Chinese, German, French, and Italian."
     },
     "offline": {
-      "title": "离线缓存",
-      "desc": "在设备上缓存最近的天气数据，离线时也可查看。"
+      "title": "Offline Cache",
+      "desc": "Stores recently fetched data so you can check the weather even with unstable networks."
     },
     "nogps": {
-      "title": "无需GPS",
-      "desc": "无需精确位置权限即可使用。搜索并手动注册地区。"
+      "title": "No GPS Required",
+      "desc": "Does not require background location access, saving your battery and privacy."
     }
-  },
-  "datasources": {
-    "title": "数据来源",
-    "desc": "Meteal使用可靠的开源数据提供商。"
   },
   "footer": {
-    "copyright": "© 2026 Meteal. 保留所有权利。",
-    "contact": "联系方式: meteal.app@gmail.com",
-    "links": {
-      "guide": "使用指南",
-      "privacy": "隐私政策",
-      "license": "应用信息"
-    }
+    "copyright": "© 2026 Meteal",
+    "contact": "Contact: meteal.app@gmail.com"
   },
   "guide": {
-    "title": "使用指南",
-    "subtitle": "Meteal应用的使用方法及详细行为说明",
-    "region_limits": {
-      "title": "地区与分组注册限制",
-      "desc": "Meteal在免费范围内提供基本功能，超出限制需观看激励广告。",
-      "note": "更改地区不视为新增，无需观看广告。但不能更改为已在单一地区列表中注册的地区。",
-      "th_feature": "功能",
-      "th_free": "免费范围",
-      "th_ad_from": "需要广告时",
-      "th_max": "最大数量",
-      "row1_feature": "单一地区",
-      "row1_free": "最多2个",
-      "row1_ad": "第3个起",
-      "row1_max": "最多7个",
-      "row2_feature": "创建分组",
-      "row2_free": "最多2个",
-      "row2_ad": "第3个起",
-      "row2_max": "最多5个",
-      "row3_feature": "分组内地区",
-      "row3_free": "每组最多2个",
-      "row3_ad": "每组第3个起",
-      "row3_max": "每组最多5个"
-    },
-    "ad_info": {
-      "title": "广告说明",
-      "desc": "超出免费范围添加地区/分组时需要激励广告。以下情况可能导致广告无法加载：",
-      "reason1": "网络连接不稳定",
-      "reason2": "无可用广告库存",
-      "reason3": "服务器响应延迟",
-      "reason4": "设备或操作系统限制",
-      "reason5": "服务临时故障"
-    },
+    "title": "User Guide",
+    "subtitle": "Meteal App Behavior & Usage Guide",
     "weather_codes": {
-      "title": "天气状态显示规则",
-      "desc": "根据Open-Meteo API的天气代码显示天气状态。",
-      "th_code": "代码",
-      "th_display": "显示",
-      "th_icon": "图标"
+      "row0": "Clear",
+      "row1": "Mostly Clear",
+      "row2": "Partly Cloudy",
+      "row3": "Cloudy",
+      "row4": "Fog",
+      "row5": "Rain",
+      "row6": "Snow",
+      "row7": "Thunderstorm"
     },
     "refresh": {
-      "title": "天气刷新方法",
-      "th_location": "界面",
-      "th_method": "刷新方法"
+      "title": "Weather Refresh Methods",
+      "th_location": "Screen",
+      "th_method": "Method",
+      "row1_loc": "Single Region Screen",
+      "row1_method": "Pull down to refresh",
+      "row2_loc": "Group Screen",
+      "row2_method": "Pull down to refresh group data",
+      "row3_loc": "Error Screen",
+      "row3_method": "Tap retry button",
+      "row4_loc": "Region Change",
+      "row4_method": "Auto-refresh",
+      "row5_loc": "Language Change",
+      "row5_method": "Refresh + widget labels update"
     },
     "structure": {
-      "title": "地区与分组管理结构",
-      "th_item": "项目",
-      "th_desc": "说明"
-    },
-    "additional": {
-      "title": "附加信息",
-      "nogps": "不使用GPS/位置权限。",
-      "default_region": "默认地区：韩国首尔",
-      "data_source": "天气数据：Open-Meteo / 地区搜索：GeoNames",
-      "status_badges": "天气数据状态标签：最新(latest) / 缓存(cached) / 离线(offline)",
-      "widget_single": "小组件根据选定的单一地区刷新。",
-      "widget_no_group": "小组件不显示完整分组。",
-      "supported_langs": "支持语言：한국어、English、Deutsch、Français、Italiano、日本語、简体中文"
+      "title": "Region & Group Management Structure",
+      "th_item": "Item",
+      "th_desc": "Description",
+      "row1_item": "Single Region",
+      "row1_desc": "List for individually registered regions",
+      "row2_item": "Group",
+      "row2_desc": "List for comparing multiple regions",
+      "row3_item": "Regions within Group",
+      "row3_desc": "Regions compared within each group",
+      "row4_item": "Duplicate Single",
+      "row4_desc": "Same region cannot be registered twice",
+      "row5_item": "Duplicate in Group",
+      "row5_desc": "Same region cannot be in same group twice",
+      "row6_item": "Region Change",
+      "row6_desc": "Cannot change to a region already in single list"
     },
     "data_storage": {
-      "title": "应用天气数据存储与刷新",
-      "range": "数据范围：每小时（过去7天+预报7天），每日（过去7天+预报7天）",
-      "included": "包含项目：温度、体感温度、降水量、降水概率、湿度、云量、天气代码、风速/风向、日出/日落",
-      "cache_title": "缓存保留时间",
-      "th_type": "数据类型",
-      "th_duration": "缓存时长"
-    },
-    "widget_refresh": {
-      "title": "小组件数据刷新",
-      "android_title": "Android",
-      "android_desc": "大约每小时运行一次后台任务，获取Open-Meteo全范围数据并存储部分小组件数据。",
-      "widget_data_title": "小组件存储数据",
-      "widget_data_items": "选定单一地区、8天体感温度最高/最低值、今日上午/下午摘要、位置、采集时间、语言标签",
-      "ios_title": "iOS",
-      "ios_desc": "应用后台刷新路径 + 小组件自刷新路径并行",
-      "ios_self_refresh": "距上次刷新超过1小时且存在坐标时，小组件自动刷新。",
-      "ios_range": "小组件自刷新范围：past_days=7，forecast_days=1"
+      "title": "App Weather Data Storage & Refresh",
+      "row1_type": "Hourly Weather",
+      "row1_duration": "60 minutes",
+      "row2_type": "Daily Weather",
+      "row2_duration": "6 hours",
+      "row3_type": "Previous Day Data",
+      "row3_duration": "24 hours",
+      "row4_type": "Current Weather",
+      "row4_duration": "60 minutes (based on hourly data)"
     }
   },
   "privacy": {
-    "title": "隐私政策",
-    "subtitle": "Meteal应用隐私政策",
-    "updated": "最后更新：2026-05-12",
+    "title": "Privacy Policy",
+    "subtitle": "Meteal Privacy Policy",
     "s1": {
-      "title": "1. 我们收集的信息",
-      "s1_1_title": "1-1. 不直接收集的信息",
-      "s1_1_desc": "我们不直接收集姓名、电子邮件地址、电话号码等个人识别信息。",
-      "s1_2_title": "1-2. 自动处理的信息",
-      "s1_2_desc": "广告ID、设备信息（型号、操作系统版本）、基于IP的大概位置、广告互动数据",
-      "s1_3_title": "1-3. 用户配置数据",
-      "s1_3_desc": "注册的地区、分组和应用设置存储在设备上的SQLite数据库中。开发者不会在服务器上收集这些数据。"
+      "title": "1. Information We Collect",
+      "s1_1": "1-1. Not directly collected",
+      "s1_1_desc": "Names, emails, phone numbers, etc.",
+      "s1_2": "1-2. Auto-processed data",
+      "s1_2_desc": "Advertising ID, Device info, IP location, Ad interaction",
+      "s1_3": "1-3. User Config Data",
+      "s1_3_desc": "Stored locally on device"
     },
     "s2": {
-      "title": "2. 数据使用目的",
-      "items": "提供天气信息 / 地区搜索功能 / 广告展示 / 应用稳定性改善"
+      "title": "2. Purpose of Data Usage",
+      "items": "Weather info / Location search / Ads / Stability improvement"
     },
     "s3": {
-      "title": "3. 第三方服务",
-      "desc": "以下第三方服务可能处理数据。"
+      "title": "3. Third-Party Services",
+      "desc": "The following third-party services may process data.",
+      "admob_desc": "Ads/Analytics",
+      "openmeteo_desc": "Weather Data",
+      "geonames_desc": "Location Search"
     },
     "s4": {
-      "title": "4. 位置信息",
-      "desc": "我们不请求GPS或ACCESS_FINE_LOCATION权限。仅将用户手动选择的地区坐标发送至Open-Meteo进行天气数据查询。"
+      "title": "4. Location Information",
+      "desc": "Does not use GPS. Only selected region coordinates are used."
     },
     "s5": {
-      "title": "5. 数据保留",
-      "desc": "用户配置数据仅存储在设备上，卸载应用时将被删除。第三方服务遵循各自的隐私政策。"
+      "title": "5. Data Retention",
+      "desc": "User data on device only."
     },
     "s6": {
-      "title": "6. 儿童隐私",
-      "desc": "本应用不面向儿童。"
+      "title": "6. Children's Privacy",
+      "desc": "App not directed toward children."
     },
     "s7": {
-      "title": "7. 安全",
-      "desc": "由于没有开发者运营的服务器，用户数据仅保留在设备上。"
+      "title": "7. Security",
+      "desc": "Data stays local."
     },
     "s8": {
-      "title": "8. 免责声明",
-      "desc": "天气数据由第三方服务（Open-Meteo）提供，不保证准确性。"
+      "title": "8. Disclaimer",
+      "desc": "Accuracy not guaranteed."
     },
     "s9": {
-      "title": "9. 政策变更",
-      "desc": "本政策可能会更新，将通过应用或应用商店进行通知。"
+      "title": "9. Policy Changes",
+      "desc": "Announced via app."
     },
     "s10": {
-      "title": "10. 联系方式",
-      "desc": "如有隐私相关问题，请通过以下电子邮件与我们联系。"
+      "title": "10. Contact",
+      "desc": "meteal.app@gmail.com"
     }
   },
   "license": {
-    "title": "应用信息",
-    "subtitle": "Meteal应用信息与开源许可证",
-    "app_desc_title": "关于应用",
-    "app_desc": "一款简单的天气应用，可通过近期体感温度变化直观了解今日天气，并快速比较多个地区的天气。",
-    "features_title": "主要功能",
-    "features_list": "8天体感温度趋势|保存并对比多个地区|天气小组件支持|多语言支持|简单直观的界面",
-    "supported_langs_title": "支持语言",
-    "platforms_title": "支持平台",
-    "contact_title": "联系方式",
-    "datasources_title": "数据来源",
-    "icons_title": "图标",
-    "icons_desc": "Google Material Symbols",
-    "ads_title": "广告与第三方服务",
-    "ads_desc": "通过Google AdMob展示广告。广告SDK可能处理广告ID、设备信息和广告互动数据。",
-    "location_title": "位置信息",
-    "location_desc": "不请求精确GPS权限。手动选择的地区坐标可能用于天气数据请求。",
-    "cache_title": "离线数据与缓存",
-    "cache_desc": "最近查看的天气数据可能临时存储在设备上，用于性能提升和离线显示。",
-    "oss_title": "Flutter开源库",
-    "copyright_title": "版权",
-    "th_library": "库",
-    "th_version": "版本",
-    "th_license": "许可证"
+    "title": "App Info",
+    "subtitle": "Meteal App Info & Open Source Licenses",
+    "features_title": "Summary of Features",
+    "features_list": "Check today/tomorrow weather | Compare recent feels-like temps | Save and compare multiple regions | Home screen widget | Offline cache & multi-language",
+    "datasources_title": "Data Sources",
+    "ds_th_service": "Service",
+    "ds_th_purpose": "Purpose",
+    "ds_th_license": "License",
+    "ds_th_link": "Link",
+    "ds_weather": "Weather Data",
+    "ds_location": "Location Search",
+    "oss_title": "Flutter Open Source Libraries",
+    "oss_sdk": "SDK"
   }
 }
