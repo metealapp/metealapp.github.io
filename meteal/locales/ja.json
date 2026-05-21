@@ -1,171 +1,265 @@
 {
   "nav": {
-    "home": "Home",
-    "guide": "User Guide",
-    "privacy": "Privacy Policy",
-    "license": "App Info"
+    "home": "ホーム",
+    "guide": "利用ガイド",
+    "privacy": "プライバシーポリシー",
+    "license": "アプリ情報"
   },
   "hero": {
-    "tagline": "Compare only the weather you need, at a glance",
-    "subtitle": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
-    "badge": "v1.0.62 · iOS & Android",
+    "tagline": "必要な天気だけを、ひと目で比較",
+    "subtitle": "最近の体感温度の変化とともに今日の天気を直感的に確認し、複数の地域の天気をすばやく比較できるシンプルな天気アプリ。",
+    "badge": "v1.0.61 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Coming Soon"
   },
   "features": {
-    "title": "Key Features",
+    "title": "主な機能",
+    "subtitle": "今日と明日の天気をもっとスマートに確認しましょう",
     "weather": {
-      "title": "8-Day Feels-Like Temperature",
-      "desc": "Intuitively check changes in feels-like temperature over the last 8 days including today."
+      "title": "8日間の体感温度推移",
+      "desc": "最近8日間（今日を含む）の体感温度の変化をもとに、現在の温度をより直感的に把握できます。"
     },
     "comparison": {
-      "title": "Multi-Region Comparison",
-      "desc": "Quickly compare the weather of multiple regions on a single screen."
+      "title": "地域別比較",
+      "desc": "複数の地域をグループにまとめ、一画面で天気を比較できます。"
     },
     "widget": {
-      "title": "Home Screen Widget",
-      "desc": "Easily check essential weather info directly from your home screen without opening the app."
+      "title": "ホーム画面ウィジェット",
+      "desc": "iOSとAndroidのホーム画面ウィジェットで素早く天気を確認できます。"
     },
     "multilang": {
-      "title": "Multi-Language Support",
-      "desc": "Supports Korean, English, Japanese, Chinese, German, French, and Italian."
+      "title": "多言語対応",
+      "desc": "한국어、English、Deutsch、Français、Italiano、日本語、简体中文の7言語に対応しています。"
     },
     "offline": {
-      "title": "Offline Cache",
-      "desc": "Stores recently fetched data so you can check the weather even with unstable networks."
+      "title": "オフラインキャッシュ",
+      "desc": "最近の天気データをデバイスにキャッシュし、オフラインでも確認できます。"
     },
     "nogps": {
-      "title": "No GPS Required",
-      "desc": "Does not require background location access, saving your battery and privacy."
+      "title": "GPS不要",
+      "desc": "位置情報の権限なしで利用可能。地域を検索して手動登録できます。"
     }
   },
+  "datasources": {
+    "label": "オープンデータ",
+    "title": "データ提供元",
+    "desc": "Metealは信頼できるオープンソースデータを使用しています。",
+    "open_meteo_card": "<strong>Open-Meteo</strong> — 天気データ（CC BY 4.0）",
+    "geonames_card": "<strong>GeoNames</strong> — 地域検索（CC Attribution 4.0）"
+  },
   "footer": {
-    "copyright": "© 2026 Meteal",
-    "contact": "Contact: meteal.app@gmail.com"
+    "copyright": "© 2026 Meteal. All rights reserved.",
+    "contact": "お問い合わせ: meteal.app@gmail.com",
+    "links": {
+      "guide": "利用ガイド",
+      "privacy": "プライバシーポリシー",
+      "license": "アプリ情報"
+    }
   },
   "guide": {
-    "title": "User Guide",
-    "subtitle": "Meteal App Behavior & Usage Guide",
+    "title": "利用ガイド",
+    "subtitle": "Metealアプリの使い方と詳細な動作説明",
+    "region_limits": {
+      "title": "地域・グループ登録制限",
+      "desc": "Metealは無料範囲内で基本機能を提供します。超過時はリワード広告の視聴が必要です。",
+      "note": "地域の変更は追加とはみなされないため、広告視聴は不要です。ただし、単一地域リストに登録済みの地域への変更はできません。",
+      "th_feature": "機能",
+      "th_free": "無料範囲",
+      "th_ad_from": "広告必要時点",
+      "th_max": "最大数",
+      "row1_feature": "単一地域",
+      "row1_free": "2件まで",
+      "row1_ad": "3件目から",
+      "row1_max": "最大7件",
+      "row2_feature": "グループ作成",
+      "row2_free": "2件まで",
+      "row2_ad": "3件目から",
+      "row2_max": "最大5件",
+      "row3_feature": "グループ内地域",
+      "row3_free": "グループごと2件まで",
+      "row3_ad": "各グループ3件目から",
+      "row3_max": "グループごと最大5件"
+    },
+    "ad_info": {
+      "title": "広告について",
+      "desc": "リワード広告は無料範囲超過時の地域/グループ追加に必要です。以下の場合、広告が読み込まれない場合があります：",
+      "reason1": "不安定なネットワーク状態",
+      "reason2": "広告在庫不足",
+      "reason3": "サーバー応答遅延",
+      "reason4": "端末またはOSの制限",
+      "reason5": "一時的なサービス障害"
+    },
     "weather_codes": {
-      "row0": "Clear",
-      "row1": "Mostly Clear",
-      "row2": "Partly Cloudy",
-      "row3": "Cloudy",
-      "row4": "Fog",
-      "row5": "Rain",
-      "row6": "Snow",
-      "row7": "Thunderstorm"
+      "title": "天気状態の表示基準",
+      "desc": "Open-Meteo APIの天気コードに基づいて天気状態を表示します。",
+      "th_code": "コード",
+      "th_display": "表示",
+      "th_icon": "アイコン",
+      "row_clear": "晴れ",
+      "row_mostly_clear": "おおむね晴れ",
+      "row_partly_cloudy": "一部曇り",
+      "row_cloudy": "曇り",
+      "row_fog": "霧",
+      "row_rain": "雨",
+      "row_snow": "雪",
+      "row_thunderstorm": "雷雨"
     },
     "refresh": {
-      "title": "Weather Refresh Methods",
-      "th_location": "Screen",
-      "th_method": "Method",
-      "row1_loc": "Single Region Screen",
-      "row1_method": "Pull down to refresh",
-      "row2_loc": "Group Screen",
-      "row2_method": "Pull down to refresh group data",
-      "row3_loc": "Error Screen",
-      "row3_method": "Tap retry button",
-      "row4_loc": "Region Change",
-      "row4_method": "Auto-refresh",
-      "row5_loc": "Language Change",
-      "row5_method": "Refresh + widget labels update"
+      "title": "天気の更新方法",
+      "th_location": "画面",
+      "th_method": "更新方法",
+      "row_single_screen": "単一地域画面",
+      "row_single_method": "下に引いて更新",
+      "row_group_screen": "グループ画面",
+      "row_group_method": "下に引いてグループデータを更新",
+      "row_error_screen": "エラー画面",
+      "row_error_method": "再試行ボタンをタップ",
+      "row_region_change": "地域変更時",
+      "row_region_method": "自動更新",
+      "row_language_change": "言語変更時",
+      "row_language_method": "更新してウィジェットのラベルも更新"
     },
     "structure": {
-      "title": "Region & Group Management Structure",
-      "th_item": "Item",
-      "th_desc": "Description",
-      "row1_item": "Single Region",
-      "row1_desc": "List for individually registered regions",
-      "row2_item": "Group",
-      "row2_desc": "List for comparing multiple regions",
-      "row3_item": "Regions within Group",
-      "row3_desc": "Regions compared within each group",
-      "row4_item": "Duplicate Single",
-      "row4_desc": "Same region cannot be registered twice",
-      "row5_item": "Duplicate in Group",
-      "row5_desc": "Same region cannot be in same group twice",
-      "row6_item": "Region Change",
-      "row6_desc": "Cannot change to a region already in single list"
+      "title": "地域・グループ管理構造",
+      "th_item": "項目",
+      "th_desc": "説明",
+      "row_single_item": "単一地域",
+      "row_single_desc": "個別に登録された地域の一覧",
+      "row_group_item": "グループ",
+      "row_group_desc": "複数の地域をまとめて比較する一覧",
+      "row_group_regions_item": "グループ内地域",
+      "row_group_regions_desc": "グループ内で比較する地域",
+      "row_single_duplicate_item": "単一地域の重複",
+      "row_single_duplicate_desc": "同じ地域を二重に登録することはできません",
+      "row_group_duplicate_item": "グループ内の重複",
+      "row_group_duplicate_desc": "同じ地域を同じグループ内で二重に登録することはできません",
+      "row_region_change_item": "地域変更",
+      "row_region_change_desc": "単一地域一覧にある既存の地域には変更できません"
+    },
+    "additional": {
+      "title": "追加情報",
+      "nogps": "GPS/位置情報の権限は使用しません。",
+      "default_region": "デフォルト地域: 韓国ソウル",
+      "data_source": "天気データ: Open-Meteo / 地域検索: GeoNames",
+      "status_badges": "天気データ状態バッジ: 最新(latest) / キャッシュ(cached) / オフライン(offline)",
+      "widget_single": "ウィジェットは選択した単一地域を基準に更新されます。",
+      "widget_no_group": "ウィジェットはグループ全体を表示しません。",
+      "supported_langs": "対応言語: 한국어、English、Deutsch、Français、Italiano、日本語、简体中文"
     },
     "data_storage": {
-      "title": "App Weather Data Storage & Refresh",
-      "row1_type": "Hourly Weather",
-      "row1_duration": "60 minutes",
-      "row2_type": "Daily Weather",
-      "row2_duration": "6 hours",
-      "row3_type": "Previous Day Data",
-      "row3_duration": "24 hours",
-      "row4_type": "Current Weather",
-      "row4_duration": "60 minutes (based on hourly data)"
+      "title": "アプリ天気データの保存と更新",
+      "range": "データ範囲: 時間別（過去7日＋予報7日）、日別（過去7日＋予報7日）",
+      "included": "含む項目: 気温、体感温度、降水量、降水確率、湿度、雲量、天気コード、風速/風向、日の出/日の入り",
+      "cache_title": "キャッシュ保持時間",
+      "th_type": "データ種別",
+      "th_duration": "キャッシュ保持時間",
+      "row_hourly": "時間別天気",
+      "row_hourly_duration": "60分",
+      "row_daily": "日別天気",
+      "row_daily_duration": "6時間",
+      "row_previous_day": "前日データ",
+      "row_previous_day_duration": "24時間",
+      "row_current": "現在の天気",
+      "row_current_duration": "60分（時間別データから抽出）"
+    },
+    "widget_refresh": {
+      "title": "ウィジェットデータの更新",
+      "android_title": "Android",
+      "android_desc": "約1時間ごとにバックグラウンドで実行し、Open-Meteoの全範囲データを取得してウィジェット用データを保存します。",
+      "widget_data_title": "ウィジェット保存データ",
+      "widget_data_items": "選択済み単一地域、体感温度の最高/最低（8日分）、今日の午前/午後サマリー、位置情報、収集時刻、言語ラベル",
+      "ios_title": "iOS",
+      "ios_desc": "アプリのバックグラウンド更新 + ウィジェット自己更新の2経路",
+      "ios_self_refresh": "最終更新から1時間以上経過＆座標が存在する場合、ウィジェットが自動更新されます。",
+      "ios_range": "ウィジェット自己更新範囲: past_days=7、forecast_days=1"
     }
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Meteal Privacy Policy",
+    "title": "プライバシーポリシー",
+    "subtitle": "Metealアプリのプライバシーポリシー",
+    "updated": "最終更新: 2026-05-12",
     "s1": {
-      "title": "1. Information We Collect",
-      "s1_1": "1-1. Not directly collected",
-      "s1_1_desc": "Names, emails, phone numbers, etc.",
-      "s1_2": "1-2. Auto-processed data",
-      "s1_2_desc": "Advertising ID, Device info, IP location, Ad interaction",
-      "s1_3": "1-3. User Config Data",
-      "s1_3_desc": "Stored locally on device"
+      "title": "1. 収集する情報",
+      "s1_1_title": "1-1. 直接収集しない情報",
+      "s1_1_desc": "氏名、メールアドレス、電話番号などの個人識別情報は直接収集しません。",
+      "s1_2_title": "1-2. 自動処理される情報",
+      "s1_2_desc": "広告ID、端末情報（モデル、OSバージョン）、IPによる大まかな位置情報、広告インタラクションデータ",
+      "s1_3_title": "1-3. ユーザー設定データ",
+      "s1_3_desc": "登録済み地域、グループ、アプリ設定は端末内のSQLiteデータベースにローカル保存されます。開発者のサーバーには収集されません。"
     },
     "s2": {
-      "title": "2. Purpose of Data Usage",
-      "items": "Weather info / Location search / Ads / Stability improvement"
+      "title": "2. データの使用目的",
+      "items": "天気情報の提供 / 地域検索機能 / 広告表示 / アプリ安定性向上"
     },
     "s3": {
-      "title": "3. Third-Party Services",
-      "desc": "The following third-party services may process data.",
-      "admob_desc": "Ads/Analytics",
-      "openmeteo_desc": "Weather Data",
-      "geonames_desc": "Location Search"
+      "title": "3. 第三者サービス",
+      "desc": "以下の第三者サービスがデータを処理する場合があります。",
+      "admob_purpose": "広告/分析",
+      "weather_purpose": "天気データ",
+      "location_purpose": "地域検索",
+      "privacy_link": "プライバシーポリシー ↗"
     },
     "s4": {
-      "title": "4. Location Information",
-      "desc": "Does not use GPS. Only selected region coordinates are used."
+      "title": "4. 位置情報",
+      "desc": "GPSまたはACCESS_FINE_LOCATIONの権限は使用しません。ユーザーが手動で選択した地域の座標のみ、天気データ取得のためにOpen-Meteo APIに送信されます。"
     },
     "s5": {
-      "title": "5. Data Retention",
-      "desc": "User data on device only."
+      "title": "5. データ保持",
+      "desc": "ユーザー設定データは端末にのみ保存され、アプリを削除すると共に削除されます。第三者サービスは各自のプライバシーポリシーに従います。"
     },
     "s6": {
-      "title": "6. Children's Privacy",
-      "desc": "App not directed toward children."
+      "title": "6. 子どものプライバシー",
+      "desc": "このアプリは子どもを対象としていません。"
     },
     "s7": {
-      "title": "7. Security",
-      "desc": "Data stays local."
+      "title": "7. セキュリティ",
+      "desc": "開発者が運営するサーバーがないため、ユーザーデータは端末内のみに保管されます。"
     },
     "s8": {
-      "title": "8. Disclaimer",
-      "desc": "Accuracy not guaranteed."
+      "title": "8. 免責事項",
+      "desc": "天気データはサードパーティサービス（Open-Meteo）から提供されており、正確性は保証されません。"
     },
     "s9": {
-      "title": "9. Policy Changes",
-      "desc": "Announced via app."
+      "title": "9. ポリシーの変更",
+      "desc": "本ポリシーは変更される場合があり、アプリまたはアプリストアを通じてお知らせします。"
     },
     "s10": {
-      "title": "10. Contact",
-      "desc": "meteal.app@gmail.com"
+      "title": "10. お問い合わせ",
+      "desc": "プライバシーに関するお問い合わせは、以下のメールアドレスまでご連絡ください。"
     }
   },
   "license": {
-    "title": "App Info",
-    "subtitle": "Meteal App Info & Open Source Licenses",
-    "features_title": "Summary of Features",
-    "features_list": "Check today/tomorrow weather | Compare recent feels-like temps | Save and compare multiple regions | Home screen widget | Offline cache & multi-language",
-    "datasources_title": "Data Sources",
-    "ds_th_service": "Service",
-    "ds_th_purpose": "Purpose",
-    "ds_th_license": "License",
-    "ds_th_link": "Link",
-    "ds_weather": "Weather Data",
-    "ds_location": "Location Search",
-    "oss_title": "Flutter Open Source Libraries",
-    "oss_sdk": "SDK"
+    "title": "アプリ情報",
+    "subtitle": "Metealアプリ情報とオープンソースライセンス",
+    "app_desc_title": "アプリについて",
+    "app_desc": "最近の体感温度の変化とともに今日の天気を直感的に確認し、複数の地域の天気をすばやく比較できるシンプルな天気アプリ。",
+    "features_title": "主な機能",
+    "features_list": "8日間の体感温度推移|複数地域の保存と比較|天気ウィジェット対応|多言語対応|シンプルで直感的なUI",
+    "supported_langs_title": "対応言語",
+    "platforms_title": "対応プラットフォーム",
+    "contact_title": "お問い合わせ",
+    "datasources_title": "データ提供元",
+    "datasources_th_service": "サービス",
+    "datasources_th_usage": "用途",
+    "datasources_th_license": "ライセンス",
+    "datasources_th_link": "リンク",
+    "datasources_weather": "天気データ",
+    "datasources_location": "地域検索",
+    "icons_title": "アイコン",
+    "icons_desc": "Google Material Symbols",
+    "ads_title": "広告・第三者サービス",
+    "ads_desc": "Google AdMobを通じて広告が表示されます。広告SDKは広告ID、端末情報、広告インタラクションデータを処理する場合があります。",
+    "location_title": "位置情報",
+    "location_desc": "精密なGPS権限は要求しません。手動で選択した地域の座標が天気データリクエストに使用される場合があります。",
+    "cache_title": "オフラインデータ・キャッシュ",
+    "cache_desc": "最近確認した天気データを端末に一時保存する場合があります。パフォーマンス向上およびオフライン表示に使用されます。",
+    "oss_title": "Flutterオープンソースライブラリ",
+    "copyright_title": "著作権",
+    "th_library": "ライブラリ",
+    "th_version": "バージョン",
+    "th_license": "ライセンス",
+    "privacy_link": "プライバシーポリシー ↗",
+    "oss_note": "各ライブラリの完全なライセンステキストは、該当パッケージのpub.devページで確認できます。"
   }
 }
