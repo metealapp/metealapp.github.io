@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meteal — 오늘의 날씨, 더 스마트하게</title>
+  <meta name="description" content="Meteal은 오늘/내일 날씨, 체감온도 변화, 멀티 지역 비교에 초점을 맞춘 직관적인 날씨 앱입니다. iOS & Android.">
+  <meta name="keywords" content="Meteal, 날씨 앱, weather app, 체감온도, 지역 비교, iOS, Android">
+  <meta name="author" content="Meteal">
+  <meta property="og:title" content="Meteal — 오늘의 날씨, 더 스마트하게">
+  <meta property="og:description" content="간단하고 직관적인 날씨 앱. 오늘/내일 날씨, 체감온도 변화, 멀티 지역 비교.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/icon.png">
+  <meta name="theme-color" content="#1B2B4B">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header id="siteHeader">
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="assets/icon.png" alt="Meteal 아이콘">
+        <span>Meteal</span>
+      </a>
+
+      <button id="mobileNavToggle" aria-label="메뉴 열기">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="guide.html" data-i18n="nav.guide">이용 안내</a></li>
+        <li><a href="privacy.html" data-i18n="nav.privacy">개인정보처리방침</a></li>
+        <li><a href="license.html" data-i18n="nav.license">앱 정보</a></li>
+      </ul>
+
+      <div class="lang-selector" id="langSelector"></div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ── Hero ── -->
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <div class="hero-badge" data-i18n="hero.badge">v1.0.61 · iOS &amp; Android</div>
+        <img src="assets/icon.png" alt="Meteal 앱 아이콘" class="hero-icon">
+        <h1 data-i18n="hero.tagline">오늘의 날씨, 더 스마트하게</h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">간단하고 직관적인 날씨 앱</p>
+
+        <div class="hero-buttons">
+          <!-- iOS -->
+          <button class="store-btn btn-disabled" disabled aria-disabled="true" id="iosBtn">
+            <span class="store-icon">🍎</span>
+            <span class="store-text">
+              <small data-i18n="hero.download_coming_soon">Coming Soon</small>
+              <span data-i18n="hero.download_ios">App Store</span>
+            </span>
+          </button>
+
+          <!-- Android -->
+          <button class="store-btn btn-disabled" disabled aria-disabled="true" id="androidBtn">
+            <span class="store-icon">🤖</span>
+            <span class="store-text">
+              <small data-i18n="hero.download_coming_soon">Coming Soon</small>
+              <span data-i18n="hero.download_android">Google Play</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Features ── -->
+    <section class="features" id="features">
+      <div class="section-header">
+        <span class="section-label">Features</span>
+        <h2 data-i18n="features.title">주요 기능</h2>
+        <p data-i18n="features.subtitle">오늘과 내일의 날씨를 더 스마트하게 확인하세요</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🌤️</div>
+          <h3 data-i18n="features.weather.title">오늘/내일 날씨</h3>
+          <p data-i18n="features.weather.desc">오늘과 내일의 날씨를 한눈에 확인하세요. 체감온도 변화 추이까지 직관적으로 제공합니다.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🗺️</div>
+          <h3 data-i18n="features.comparison.title">지역 비교</h3>
+          <p data-i18n="features.comparison.desc">여러 지역의 날씨를 그룹으로 묶어 한 화면에서 비교할 수 있습니다.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3 data-i18n="features.widget.title">홈 화면 위젯</h3>
+          <p data-i18n="features.widget.desc">iOS와 Android 홈 화면 위젯으로 빠르게 날씨를 확인하세요.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3 data-i18n="features.multilang.title">다국어 지원</h3>
+          <p data-i18n="features.multilang.desc">한국어, English, Deutsch, Français, Italiano, 日本語, 简体中文 등 7개 언어를 지원합니다.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📶</div>
+          <h3 data-i18n="features.offline.title">오프라인 캐시</h3>
+          <p data-i18n="features.offline.desc">최근 날씨 데이터를 기기에 캐시하여 오프라인 상태에서도 확인할 수 있습니다.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📍</div>
+          <h3 data-i18n="features.nogps.title">GPS 불필요</h3>
+          <p data-i18n="features.nogps.desc">정밀 위치 권한 없이도 사용 가능합니다. 직접 지역을 검색하여 등록하세요.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Data Sources ── -->
+    <section class="data-sources" id="dataSources">
+      <div class="data-sources-inner">
+        <span class="section-label">Open Data</span>
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0.5rem 0 0.5rem;" data-i18n="datasources.title">데이터 출처</h2>
+        <p data-i18n="datasources.desc">Meteal은 신뢰할 수 있는 오픈소스 데이터를 사용합니다.</p>
+        <div class="data-source-cards">
+          <a href="https://open-meteo.com/" target="_blank" rel="noopener" class="data-source-card" id="openMeteoLink">
+            <span class="ds-icon">🌦️</span>
+            <span><strong>Open-Meteo</strong> — Weather Data (CC BY 4.0)</span>
+          </a>
+          <a href="https://www.geonames.org/" target="_blank" rel="noopener" class="data-source-card" id="geoNamesLink">
+            <span class="ds-icon">🌍</span>
+            <span><strong>GeoNames</strong> — Location Search (CC Attribution 4.0)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer id="siteFooter">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/icon.png" alt="Meteal">
+          <span>Meteal</span>
+        </div>
+        <div class="footer-copy" data-i18n="footer.copyright">© 2026 Meteal. All rights reserved.</div>
+        <div class="footer-email">
+          <a href="mailto:meteal.app@gmail.com" data-i18n="footer.contact">문의: meteal.app@gmail.com</a>
+        </div>
+      </div>
+      <nav class="footer-links" aria-label="Footer 링크">
+        <a href="guide.html" data-i18n="footer.links.guide">이용 안내</a>
+        <a href="privacy.html" data-i18n="footer.links.privacy">개인정보처리방침</a>
+        <a href="license.html" data-i18n="footer.links.license">앱 정보</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+</body>
+</html>

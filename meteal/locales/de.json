@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "guide": "Benutzerhandbuch",
+    "privacy": "Datenschutzrichtlinie",
+    "license": "App-Informationen"
+  },
+  "hero": {
+    "tagline": "Das Wetter von heute, intelligenter",
+    "subtitle": "Einfache und intuitive Wetter-App",
+    "badge": "v1.0.61 · iOS & Android",
+    "download_ios": "App Store",
+    "download_android": "Google Play",
+    "download_coming_soon": "Demnächst verfügbar"
+  },
+  "features": {
+    "title": "Hauptfunktionen",
+    "subtitle": "Überprüfen Sie das Wetter von heute und morgen intelligenter",
+    "weather": {
+      "title": "Heute & Morgen",
+      "desc": "Sehen Sie das Wetter von heute und morgen auf einen Blick. Inklusive intuitiver gefühlter Temperaturtrends."
+    },
+    "comparison": {
+      "title": "Mehrere Regionen vergleichen",
+      "desc": "Gruppieren Sie mehrere Regionen und vergleichen Sie deren Wetter auf einem Bildschirm."
+    },
+    "widget": {
+      "title": "Startbildschirm-Widget",
+      "desc": "Überprüfen Sie das Wetter schnell mit iOS- und Android-Startbildschirm-Widgets."
+    },
+    "multilang": {
+      "title": "Mehrsprachige Unterstützung",
+      "desc": "Unterstützt 7 Sprachen: 한국어, English, Deutsch, Français, Italiano, 日本語, 简体中文."
+    },
+    "offline": {
+      "title": "Offline-Cache",
+      "desc": "Aktuelle Wetterdaten werden auf dem Gerät zwischengespeichert, sodass Sie sie auch offline abrufen können."
+    },
+    "nogps": {
+      "title": "Kein GPS erforderlich",
+      "desc": "Funktioniert ohne genaue Standortberechtigung. Suchen und registrieren Sie Regionen manuell."
+    }
+  },
+  "datasources": {
+    "title": "Datenquellen",
+    "desc": "Meteal verwendet zuverlässige Open-Source-Datenprovider."
+  },
+  "footer": {
+    "copyright": "© 2026 Meteal. Alle Rechte vorbehalten.",
+    "contact": "Kontakt: meteal.app@gmail.com",
+    "links": {
+      "guide": "Benutzerhandbuch",
+      "privacy": "Datenschutzrichtlinie",
+      "license": "App-Informationen"
+    }
+  },
+  "guide": {
+    "title": "Benutzerhandbuch",
+    "subtitle": "So verwenden Sie Meteal – detaillierte Verhaltensbe­schreibungen",
+    "region_limits": {
+      "title": "Einschränkungen bei der Regions- und Gruppenregistrierung",
+      "desc": "Meteal bietet grundlegende Funktionen im kostenlosen Rahmen. Für Überschreitungen sind Belohnungswerbungen erforderlich.",
+      "note": "Das Ändern einer Region gilt nicht als Hinzufügen – keine Werbung erforderlich. Sie können jedoch nicht zu einer Region wechseln, die bereits in der Einzelregionenliste registriert ist.",
+      "th_feature": "Funktion",
+      "th_free": "Kostenlos",
+      "th_ad_from": "Werbung ab",
+      "th_max": "Maximum",
+      "row1_feature": "Einzelne Region",
+      "row1_free": "Bis zu 2",
+      "row1_ad": "Ab der 3.",
+      "row1_max": "Max. 7",
+      "row2_feature": "Gruppe erstellen",
+      "row2_free": "Bis zu 2",
+      "row2_ad": "Ab der 3.",
+      "row2_max": "Max. 5",
+      "row3_feature": "Regionen in Gruppe",
+      "row3_free": "Bis zu 2 pro Gruppe",
+      "row3_ad": "Ab der 3. je Gruppe",
+      "row3_max": "Max. 5 pro Gruppe"
+    },
+    "ad_info": {
+      "title": "Werbeinformationen",
+      "desc": "Belohnungswerbungen sind erforderlich, wenn Regionen/Gruppen über das kostenlose Kontingent hinaus hinzugefügt werden. Werbung kann in folgenden Fällen nicht geladen werden:",
+      "reason1": "Instabile Netzwerkverbindung",
+      "reason2": "Kein Werbeinventar verfügbar",
+      "reason3": "Serververzögerung",
+      "reason4": "Geräte- oder OS-Einschränkungen",
+      "reason5": "Vorübergehende Serviceausfälle"
+    },
+    "weather_codes": {
+      "title": "Wetterstatus-Anzeigeregeln",
+      "desc": "Wetterbedingungen werden basierend auf Open-Meteo-Wettercodes angezeigt.",
+      "th_code": "Code",
+      "th_display": "Anzeige",
+      "th_icon": "Symbol"
+    },
+    "refresh": {
+      "title": "Wetter aktualisieren",
+      "th_location": "Bildschirm",
+      "th_method": "Aktualisierungsmethode"
+    },
+    "structure": {
+      "title": "Regions- und Gruppenmanagement-Struktur",
+      "th_item": "Element",
+      "th_desc": "Beschreibung"
+    },
+    "additional": {
+      "title": "Zusätzliche Informationen",
+      "nogps": "Kein GPS oder Standortberechtigung wird verwendet.",
+      "default_region": "Standardregion: Seoul, Südkorea",
+      "data_source": "Wetterdaten: Open-Meteo / Regionensuche: GeoNames",
+      "status_badges": "Wetterdaten-Statusabzeichen: aktuell (latest) / Cache (cached) / offline",
+      "widget_single": "Widgets werden basierend auf der ausgewählten Einzelregion aktualisiert.",
+      "widget_no_group": "Widgets zeigen keine vollständigen Gruppen an.",
+      "supported_langs": "Unterstützte Sprachen: 한국어, English, Deutsch, Français, Italiano, 日本語, 简体中文"
+    },
+    "data_storage": {
+      "title": "App-Wetterdaten Speicherung & Aktualisierung",
+      "range": "Datenbereich: Stündlich (7 Vergangenheit + 7 Prognose), Täglich (7 Vergangenheit + 7 Prognose)",
+      "included": "Enthalten: Temperatur, Gefühlte Temperatur, Niederschlag, Niederschlagswahrscheinlichkeit, Luftfeuchtigkeit, Bewölkung, Wettercodes, Windgeschwindigkeit/-richtung, Sonnenauf-/-untergang",
+      "cache_title": "Cache-Dauer",
+      "th_type": "Datentyp",
+      "th_duration": "Cache-Dauer"
+    },
+    "widget_refresh": {
+      "title": "Widget-Daten aktualisieren",
+      "android_title": "Android",
+      "android_desc": "Hintergrundaufgabe läuft ca. jede Stunde, ruft den vollen Open-Meteo-Datenbereich ab und speichert teilweise Widget-Daten.",
+      "widget_data_title": "Widget-gespeicherte Daten",
+      "widget_data_items": "Ausgewählte Einzelregion, Gefühlte Temp. Hoch/Tief für 8 Tage, Heute AM/PM-Zusammenfassung, Standort, Erhebungszeit, Sprachetiketten",
+      "ios_title": "iOS",
+      "ios_desc": "Zwei Pfade: App-Hintergrundaktualisierung + Widget-Selbstaktualisierung",
+      "ios_self_refresh": "Widget aktualisiert sich selbst, wenn >1 Stunde seit der letzten Aktualisierung vergangen ist und Koordinaten vorhanden sind.",
+      "ios_range": "Widget-Selbstaktualisierungsbereich: past_days=7, forecast_days=1"
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "subtitle": "Datenschutzrichtlinie der Meteal App",
+    "updated": "Zuletzt aktualisiert: 2026-05-12",
+    "s1": {
+      "title": "1. Informationen, die wir sammeln",
+      "s1_1_title": "1-1. Nicht direkt gesammelt",
+      "s1_1_desc": "Wir sammeln keine persönlich identifizierbaren Informationen wie Namen, E-Mail-Adressen oder Telefonnummern direkt.",
+      "s1_2_title": "1-2. Automatisch verarbeitet",
+      "s1_2_desc": "Werbe-ID, Geräteinformationen (Modell, OS-Version), ungefährer Standort via IP, Werbeinteraktionsdaten",
+      "s1_3_title": "1-3. Benutzerkonfigurationsdaten",
+      "s1_3_desc": "Registrierte Regionen, Gruppen und App-Einstellungen werden lokal in einer SQLite-Datenbank auf Ihrem Gerät gespeichert. Der Entwickler sammelt diese Daten nicht auf Servern."
+    },
+    "s2": {
+      "title": "2. Zweck der Datennutzung",
+      "items": "Wetterinformationen / Regionssuche / Werbeanzeige / App-Stabilitätsverbesserung"
+    },
+    "s3": {
+      "title": "3. Drittanbieter-Dienste",
+      "desc": "Folgende Drittanbieter-Dienste können Daten verarbeiten."
+    },
+    "s4": {
+      "title": "4. Standortinformationen",
+      "desc": "Wir fordern keine GPS- oder ACCESS_FINE_LOCATION-Berechtigungen an. Nur die Koordinaten der vom Benutzer ausgewählten Regionen werden zur Wetterabfrage an Open-Meteo gesendet."
+    },
+    "s5": {
+      "title": "5. Datenspeicherung",
+      "desc": "Benutzerkonfigurationsdaten werden nur auf dem Gerät gespeichert und beim Deinstallieren der App gelöscht. Drittanbieter-Dienste folgen ihren eigenen Datenschutzrichtlinien."
+    },
+    "s6": {
+      "title": "6. Datenschutz für Kinder",
+      "desc": "Diese App richtet sich nicht an Kinder."
+    },
+    "s7": {
+      "title": "7. Sicherheit",
+      "desc": "Da es keine vom Entwickler betriebenen Server gibt, verbleiben alle Benutzerdaten auf Ihrem Gerät."
+    },
+    "s8": {
+      "title": "8. Haftungsausschluss",
+      "desc": "Wetterdaten werden von Drittanbieter-Diensten (Open-Meteo) bereitgestellt. Die Genauigkeit wird nicht garantiert."
+    },
+    "s9": {
+      "title": "9. Änderungen der Richtlinie",
+      "desc": "Diese Richtlinie kann aktualisiert werden und wird über die App oder App-Stores angekündigt."
+    },
+    "s10": {
+      "title": "10. Kontakt",
+      "desc": "Bei datenschutzbezogenen Anfragen kontaktieren Sie uns bitte unter der unten angegebenen E-Mail-Adresse."
+    }
+  },
+  "license": {
+    "title": "App-Informationen",
+    "subtitle": "Meteal App-Informationen und Open-Source-Lizenzen",
+    "app_desc_title": "Über die App",
+    "app_desc": "Eine Wetter-App, die einfaches tägliches Wetter und Regionalvergleich bietet.",
+    "features_title": "Hauptfunktionen",
+    "features_list": "Wetter heute/morgen|Vergleich der gefühlten Temperatur|Mehrere Regionen speichern und vergleichen|Wetter-Widget-Unterstützung|Mehrsprachige Unterstützung|Einfache und intuitive Benutzeroberfläche",
+    "supported_langs_title": "Unterstützte Sprachen",
+    "platforms_title": "Unterstützte Plattformen",
+    "contact_title": "Kontakt",
+    "datasources_title": "Datenquellen",
+    "icons_title": "Symbole",
+    "icons_desc": "Google Material Symbols",
+    "ads_title": "Werbung und Drittanbieter-Dienste",
+    "ads_desc": "Werbung wird über Google AdMob geschaltet. Werbe-SDKs können Werbe-IDs, Geräteinformationen und Werbeinteraktionsdaten verarbeiten.",
+    "location_title": "Standortinformationen",
+    "location_desc": "Es wird keine genaue GPS-Berechtigung angefordert. Koordinaten manuell ausgewählter Regionen können für Wetteranfragen verwendet werden.",
+    "cache_title": "Offline-Daten und Cache",
+    "cache_desc": "Zuletzt angesehene Wetterdaten können vorübergehend auf dem Gerät gespeichert werden. Wird für Leistung und Offline-Anzeige verwendet.",
+    "oss_title": "Flutter Open-Source-Bibliotheken",
+    "copyright_title": "Urheberrecht",
+    "th_library": "Bibliothek",
+    "th_version": "Version",
+    "th_license": "Lizenz"
+  }
+}

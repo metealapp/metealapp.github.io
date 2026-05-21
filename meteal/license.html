@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>앱 정보 — Meteal</title>
+  <meta name="description" content="Meteal 앱 정보, 오픈소스 라이선스, 데이터 출처, 광고 및 제3자 서비스 정보.">
+  <meta name="author" content="Meteal">
+  <meta property="og:title" content="앱 정보 — Meteal">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1B2B4B">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header id="siteHeader">
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="assets/icon.png" alt="Meteal 아이콘">
+        <span>Meteal</span>
+      </a>
+
+      <button id="mobileNavToggle" aria-label="메뉴 열기">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="guide.html" data-i18n="nav.guide">이용 안내</a></li>
+        <li><a href="privacy.html" data-i18n="nav.privacy">개인정보처리방침</a></li>
+        <li><a href="license.html" class="active" data-i18n="nav.license">앱 정보</a></li>
+      </ul>
+
+      <div class="lang-selector" id="langSelector"></div>
+    </nav>
+  </header>
+
+  <!-- ── Page Hero ── -->
+  <div class="page-hero">
+    <div class="page-hero-inner">
+      <div class="breadcrumb">
+        <a href="index.html">Meteal</a> › <span data-i18n="nav.license">앱 정보</span>
+      </div>
+      <h1 data-i18n="license.title">앱 정보</h1>
+      <p data-i18n="license.subtitle">Meteal 앱 정보 및 오픈소스 라이선스</p>
+    </div>
+  </div>
+
+  <main>
+    <div class="page-content">
+
+      <!-- App Description -->
+      <section class="content-section" id="app-description">
+        <h2 data-i18n="license.app_desc_title">앱 소개</h2>
+
+        <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1.25rem;">
+          <img src="assets/icon.png" alt="Meteal 아이콘" style="width:64px;height:64px;border-radius:14px;box-shadow:var(--shadow-card);">
+          <div>
+            <div style="font-size:1.3rem;font-weight:800;color:var(--color-text);">Meteal</div>
+            <div style="font-size:0.85rem;color:var(--color-text-muted);">v1.0.61+61</div>
+          </div>
+        </div>
+
+        <p data-i18n="license.app_desc">간단한 일별 날씨와 지역 비교를 제공하는 날씨 앱입니다.</p>
+
+        <h3 data-i18n="license.features_title">주요 기능</h3>
+        <ul id="featuresList">
+          <li>오늘/내일 날씨 확인</li>
+          <li>최근 체감온도 변화 비교</li>
+          <li>여러 지역 저장 및 비교</li>
+          <li>날씨 위젯 지원</li>
+          <li>다국어 지원</li>
+          <li>간단하고 직관적인 UI</li>
+        </ul>
+
+        <div class="app-info-grid" style="margin-top:1.25rem;">
+          <div class="info-chip">
+            <span>🌐</span>
+            <div>
+              <div class="chip-label" data-i18n="license.supported_langs_title">지원 언어</div>
+              <div class="chip-value">한국어, English, Deutsch, Français, Italiano, 日本語, 简体中文</div>
+            </div>
+          </div>
+          <div class="info-chip">
+            <span>📱</span>
+            <div>
+              <div class="chip-label" data-i18n="license.platforms_title">지원 플랫폼</div>
+              <div class="chip-value">iOS, Android</div>
+            </div>
+          </div>
+          <div class="info-chip">
+            <span>✉️</span>
+            <div>
+              <div class="chip-label" data-i18n="license.contact_title">문의</div>
+              <div class="chip-value"><a href="mailto:meteal.app@gmail.com" id="licenseEmail">meteal.app@gmail.com</a></div>
+            </div>
+          </div>
+          <div class="info-chip">
+            <span>©</span>
+            <div>
+              <div class="chip-label" data-i18n="license.copyright_title">저작권</div>
+              <div class="chip-value">© 2026 Meteal</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Data Sources -->
+      <section class="content-section" id="data-sources">
+        <h2 data-i18n="license.datasources_title">데이터 출처</h2>
+
+        <div class="table-wrap">
+          <table id="dataSourcesTable">
+            <thead>
+              <tr>
+                <th>서비스</th>
+                <th>용도</th>
+                <th>라이선스</th>
+                <th>링크</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Open-Meteo</td>
+                <td>날씨 데이터 (Weather Data)</td>
+                <td><span class="license-badge badge-bsd">CC BY 4.0</span></td>
+                <td><a href="https://open-meteo.com/" target="_blank" rel="noopener" id="openMeteoLicenseLink">open-meteo.com ↗</a></td>
+              </tr>
+              <tr>
+                <td>GeoNames</td>
+                <td>지역 검색 (Location Search)</td>
+                <td><span class="license-badge badge-bsd">CC Attribution 4.0</span></td>
+                <td><a href="https://www.geonames.org/" target="_blank" rel="noopener" id="geoNamesLicenseLink">geonames.org ↗</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Icons -->
+      <section class="content-section" id="icons-section">
+        <h2 data-i18n="license.icons_title">아이콘</h2>
+        <div class="third-party-item" style="max-width:500px;">
+          <div>
+            <strong data-i18n="license.icons_desc">Google Material Symbols</strong>
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;">
+            <span class="license-badge badge-apache">Apache 2.0</span>
+            <a href="https://fonts.google.com/icons" target="_blank" rel="noopener" id="materialIconsLink">fonts.google.com/icons ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ads & Third Party -->
+      <section class="content-section" id="ads-section">
+        <h2 data-i18n="license.ads_title">광고 및 제3자 서비스</h2>
+        <p data-i18n="license.ads_desc">Google AdMob을 통해 광고가 표시됩니다. 광고 SDK는 광고 ID, 기기 정보, 광고 상호작용 데이터를 처리할 수 있습니다.</p>
+
+        <div class="third-party-item" style="max-width:500px;margin-top:0.75rem;">
+          <strong>Google AdMob</strong>
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" id="admobLicenseLink">Privacy Policy ↗</a>
+        </div>
+      </section>
+
+      <!-- Location -->
+      <section class="content-section" id="location-section">
+        <h2 data-i18n="license.location_title">위치 정보</h2>
+        <p data-i18n="license.location_desc">정밀 GPS 권한을 요청하지 않습니다. 사용자가 직접 선택한 지역의 좌표가 날씨 데이터 요청에 사용될 수 있습니다.</p>
+      </section>
+
+      <!-- Offline Cache -->
+      <section class="content-section" id="cache-section">
+        <h2 data-i18n="license.cache_title">오프라인 데이터 및 캐시</h2>
+        <p data-i18n="license.cache_desc">최근 확인한 날씨 데이터를 기기에 임시 저장할 수 있습니다. 성능 향상 및 오프라인 표시에 사용됩니다.</p>
+      </section>
+
+      <!-- OSS Licenses -->
+      <section class="content-section" id="oss-licenses">
+        <h2 data-i18n="license.oss_title">Flutter 오픈소스 라이브러리</h2>
+
+        <div class="table-wrap">
+          <table class="lib-table" id="ossTable">
+            <thead>
+              <tr>
+                <th data-i18n="license.th_library">라이브러리</th>
+                <th data-i18n="license.th_version">버전</th>
+                <th data-i18n="license.th_license">라이선스</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>flutter</td>
+                <td>SDK</td>
+                <td><span class="license-badge badge-bsd">BSD 3-Clause</span></td>
+              </tr>
+              <tr>
+                <td>http</td>
+                <td>^1.6.0</td>
+                <td><span class="license-badge badge-bsd">BSD 3-Clause</span></td>
+              </tr>
+              <tr>
+                <td>intl</td>
+                <td>^0.20.2</td>
+                <td><span class="license-badge badge-bsd">BSD 3-Clause</span></td>
+              </tr>
+              <tr>
+                <td>sqflite</td>
+                <td>^2.3.3+1</td>
+                <td><span class="license-badge badge-mit">MIT</span></td>
+              </tr>
+              <tr>
+                <td>path_provider</td>
+                <td>^2.1.4</td>
+                <td><span class="license-badge badge-bsd">BSD 3-Clause</span></td>
+              </tr>
+              <tr>
+                <td>path</td>
+                <td>^1.9.0</td>
+                <td><span class="license-badge badge-bsd">BSD 3-Clause</span></td>
+              </tr>
+              <tr>
+                <td>provider</td>
+                <td>^6.1.5+1</td>
+                <td><span class="license-badge badge-mit">MIT</span></td>
+              </tr>
+              <tr>
+                <td>easy_localization</td>
+                <td>^3.0.8</td>
+                <td><span class="license-badge badge-mit">MIT</span></td>
+              </tr>
+              <tr>
+                <td>home_widget</td>
+                <td>^0.9.1</td>
+                <td><span class="license-badge badge-mit">MIT</span></td>
+              </tr>
+              <tr>
+                <td>workmanager</td>
+                <td>^0.9.0</td>
+                <td><span class="license-badge badge-mit">MIT</span></td>
+              </tr>
+              <tr>
+                <td>google_mobile_ads</td>
+                <td>^8.0.0</td>
+                <td><span class="license-badge badge-apache">Apache 2.0</span></td>
+              </tr>
+              <tr>
+                <td>url_launcher</td>
+                <td>^6.3.1</td>
+                <td><span class="license-badge badge-bsd">BSD 3-Clause</span></td>
+              </tr>
+              <tr>
+                <td>app_tracking_transparency</td>
+                <td>^2.0.4</td>
+                <td><span class="license-badge badge-mit">MIT</span></td>
+              </tr>
+              <tr>
+                <td>connectivity_plus</td>
+                <td>^7.1.1</td>
+                <td><span class="license-badge badge-bsd">BSD 3-Clause</span></td>
+              </tr>
+              <tr>
+                <td>cupertino_icons</td>
+                <td>^1.0.8</td>
+                <td><span class="license-badge badge-mit">MIT</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout callout-note" style="margin-top:1rem;">
+          <span class="callout-icon">⚖️</span>
+          <span>각 라이브러리의 전체 라이선스 텍스트는 해당 패키지의 pub.dev 페이지에서 확인할 수 있습니다.</span>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer id="siteFooter">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/icon.png" alt="Meteal">
+          <span>Meteal</span>
+        </div>
+        <div class="footer-copy" data-i18n="footer.copyright">© 2026 Meteal. All rights reserved.</div>
+        <div class="footer-email">
+          <a href="mailto:meteal.app@gmail.com" data-i18n="footer.contact">문의: meteal.app@gmail.com</a>
+        </div>
+      </div>
+      <nav class="footer-links" aria-label="Footer 링크">
+        <a href="guide.html" data-i18n="footer.links.guide">이용 안내</a>
+        <a href="privacy.html" data-i18n="footer.links.privacy">개인정보처리방침</a>
+        <a href="license.html" data-i18n="footer.links.license">앱 정보</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script>
+    // Dynamically render features list from i18n key
+    document.addEventListener('DOMContentLoaded', function () {
+      // After i18n loads, update features list
+      setTimeout(() => {
+        if (window.i18n) {
+          const raw = window.i18n.t('license.features_list');
+          if (raw && raw !== 'license.features_list') {
+            const items = raw.split('|');
+            const ul = document.getElementById('featuresList');
+            if (ul) {
+              ul.innerHTML = items.map(item => `<li>${item.trim()}</li>`).join('');
+            }
+          }
+        }
+      }, 400);
+    });
+  </script>
+</body>
+</html>

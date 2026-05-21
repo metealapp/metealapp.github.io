@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이용 안내 — Meteal</title>
+  <meta name="description" content="Meteal 앱의 이용 안내 페이지. 지역 등록 한도, 날씨 코드, 새로고침 방법, 캐시 정보 등을 확인하세요.">
+  <meta name="author" content="Meteal">
+  <meta property="og:title" content="이용 안내 — Meteal">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1B2B4B">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header id="siteHeader">
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="assets/icon.png" alt="Meteal 아이콘">
+        <span>Meteal</span>
+      </a>
+
+      <button id="mobileNavToggle" aria-label="메뉴 열기">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="guide.html" class="active" data-i18n="nav.guide">이용 안내</a></li>
+        <li><a href="privacy.html" data-i18n="nav.privacy">개인정보처리방침</a></li>
+        <li><a href="license.html" data-i18n="nav.license">앱 정보</a></li>
+      </ul>
+
+      <div class="lang-selector" id="langSelector"></div>
+    </nav>
+  </header>
+
+  <!-- ── Page Hero ── -->
+  <div class="page-hero">
+    <div class="page-hero-inner">
+      <div class="breadcrumb">
+        <a href="index.html">Meteal</a> › <span data-i18n="nav.guide">이용 안내</span>
+      </div>
+      <h1 data-i18n="guide.title">앱 이용 안내</h1>
+      <p data-i18n="guide.subtitle">Meteal 앱 사용 방법과 상세 동작 설명</p>
+    </div>
+  </div>
+
+  <main>
+    <div class="page-content">
+
+      <!-- 1. 지역 및 그룹 등록 한도 -->
+      <section class="content-section" id="region-limits">
+        <h2 data-i18n="guide.region_limits.title">지역 및 그룹 등록 한도</h2>
+        <p data-i18n="guide.region_limits.desc">Meteal은 무료 범위 내에서 기본 기능을 제공하며, 초과 시 리워드 광고 시청이 필요합니다.</p>
+
+        <div class="table-wrap">
+          <table id="regionLimitsTable">
+            <thead>
+              <tr>
+                <th data-i18n="guide.region_limits.th_feature">기능</th>
+                <th data-i18n="guide.region_limits.th_free">무료 범위</th>
+                <th data-i18n="guide.region_limits.th_ad_from">광고 필요 시점</th>
+                <th data-i18n="guide.region_limits.th_max">최대 한도</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-i18n="guide.region_limits.row1_feature">단일 지역</td>
+                <td data-i18n="guide.region_limits.row1_free">2개까지</td>
+                <td data-i18n="guide.region_limits.row1_ad">3번째부터</td>
+                <td data-i18n="guide.region_limits.row1_max">최대 7개</td>
+              </tr>
+              <tr>
+                <td data-i18n="guide.region_limits.row2_feature">그룹 생성</td>
+                <td data-i18n="guide.region_limits.row2_free">2개까지</td>
+                <td data-i18n="guide.region_limits.row2_ad">3번째부터</td>
+                <td data-i18n="guide.region_limits.row2_max">최대 5개</td>
+              </tr>
+              <tr>
+                <td data-i18n="guide.region_limits.row3_feature">그룹 내 지역</td>
+                <td data-i18n="guide.region_limits.row3_free">그룹당 2개까지</td>
+                <td data-i18n="guide.region_limits.row3_ad">각 그룹 3번째부터</td>
+                <td data-i18n="guide.region_limits.row3_max">그룹당 최대 5개</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout callout-info">
+          <span class="callout-icon">ℹ️</span>
+          <span data-i18n="guide.region_limits.note">지역 변경은 추가로 간주하지 않으므로 광고 시청이 필요하지 않습니다. 단, 단일 지역 목록에 이미 등록된 지역으로는 변경할 수 없습니다.</span>
+        </div>
+      </section>
+
+      <!-- 2. 광고 안내 -->
+      <section class="content-section" id="ad-info">
+        <h2 data-i18n="guide.ad_info.title">광고 안내</h2>
+        <p data-i18n="guide.ad_info.desc">리워드 광고는 무료 범위 초과 시 지역/그룹 추가에 필요합니다. 아래의 경우 광고가 로드되지 않을 수 있습니다:</p>
+        <ul>
+          <li data-i18n="guide.ad_info.reason1">불안정한 네트워크 상태</li>
+          <li data-i18n="guide.ad_info.reason2">광고 재고 부족</li>
+          <li data-i18n="guide.ad_info.reason3">서버 응답 지연</li>
+          <li data-i18n="guide.ad_info.reason4">기기 또는 OS 제한</li>
+          <li data-i18n="guide.ad_info.reason5">일시적인 서비스 장애</li>
+        </ul>
+      </section>
+
+      <!-- 3. 날씨 상태 표시 기준 -->
+      <section class="content-section" id="weather-codes">
+        <h2 data-i18n="guide.weather_codes.title">날씨 상태 표시 기준</h2>
+        <p data-i18n="guide.weather_codes.desc">Open-Meteo API의 날씨 코드를 기반으로 아래와 같이 날씨 상태를 표시합니다.</p>
+
+        <div class="table-wrap">
+          <table id="weatherCodesTable">
+            <thead>
+              <tr>
+                <th data-i18n="guide.weather_codes.th_code">코드</th>
+                <th data-i18n="guide.weather_codes.th_display">표시</th>
+                <th data-i18n="guide.weather_codes.th_icon">아이콘</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td>Clear / 맑음</td>
+                <td>☀️</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Mostly Clear / 대체로 맑음</td>
+                <td>🌤️</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Partly Cloudy / 구름 조금</td>
+                <td>⛅</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Cloudy / 흐림</td>
+                <td>☁️</td>
+              </tr>
+              <tr>
+                <td>45, 48</td>
+                <td>Fog / 안개</td>
+                <td>🌫️</td>
+              </tr>
+              <tr>
+                <td>51, 53, 55, 56, 57, 61, 63, 65, 66, 67, 80, 81, 82</td>
+                <td>Rain / 비</td>
+                <td>🌧️</td>
+              </tr>
+              <tr>
+                <td>71, 73, 75, 77, 85, 86</td>
+                <td>Snow / 눈</td>
+                <td>❄️</td>
+              </tr>
+              <tr>
+                <td>95, 96, 99</td>
+                <td>Thunderstorm / 뇌우</td>
+                <td>⛈️</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 4. 날씨 새로고침 방법 -->
+      <section class="content-section" id="refresh-methods">
+        <h2 data-i18n="guide.refresh.title">날씨 새로고침 방법</h2>
+
+        <div class="table-wrap">
+          <table id="refreshTable">
+            <thead>
+              <tr>
+                <th data-i18n="guide.refresh.th_location">화면</th>
+                <th data-i18n="guide.refresh.th_method">새로고침 방법</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>단일 지역 화면</td>
+                <td>아래로 당겨서 새로고침 (Pull to Refresh)</td>
+              </tr>
+              <tr>
+                <td>그룹 화면</td>
+                <td>아래로 당겨서 그룹 데이터 새로고침</td>
+              </tr>
+              <tr>
+                <td>오류 화면</td>
+                <td>재시도 버튼 탭</td>
+              </tr>
+              <tr>
+                <td>지역 변경 시</td>
+                <td>자동 새로고침</td>
+              </tr>
+              <tr>
+                <td>언어 변경 시</td>
+                <td>새로고침 + 위젯 레이블 업데이트</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 5. 지역 및 그룹 관리 구조 -->
+      <section class="content-section" id="structure">
+        <h2 data-i18n="guide.structure.title">지역 및 그룹 관리 구조</h2>
+
+        <div class="table-wrap">
+          <table id="structureTable">
+            <thead>
+              <tr>
+                <th data-i18n="guide.structure.th_item">항목</th>
+                <th data-i18n="guide.structure.th_desc">설명</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>단일 지역</td>
+                <td>개별 등록된 지역 목록</td>
+              </tr>
+              <tr>
+                <td>그룹</td>
+                <td>여러 지역을 묶어 비교하는 목록</td>
+              </tr>
+              <tr>
+                <td>그룹 내 지역</td>
+                <td>그룹 내에서 비교하는 지역들</td>
+              </tr>
+              <tr>
+                <td>단일 지역 중복</td>
+                <td>동일 지역은 두 번 등록 불가</td>
+              </tr>
+              <tr>
+                <td>그룹 내 중복</td>
+                <td>동일 지역은 같은 그룹 내 두 번 등록 불가</td>
+              </tr>
+              <tr>
+                <td>지역 변경</td>
+                <td>단일 지역 목록의 기존 지역으로 변경 불가</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 6. 추가 정보 -->
+      <section class="content-section" id="additional-info">
+        <h2 data-i18n="guide.additional.title">추가 정보</h2>
+        <ul>
+          <li data-i18n="guide.additional.nogps">GPS/위치 권한을 사용하지 않습니다.</li>
+          <li data-i18n="guide.additional.default_region">기본 지역: 대한민국 서울</li>
+          <li data-i18n="guide.additional.data_source">날씨 데이터: Open-Meteo / 지역 검색: GeoNames</li>
+          <li data-i18n="guide.additional.status_badges">날씨 데이터 상태 뱃지: 최신(latest) / 캐시(cached) / 오프라인(offline)</li>
+          <li data-i18n="guide.additional.widget_single">위젯은 단일 지역 목록 기준으로 새로고침됩니다.</li>
+          <li data-i18n="guide.additional.widget_no_group">위젯은 그룹 전체를 표시하지 않습니다.</li>
+          <li data-i18n="guide.additional.supported_langs">지원 언어: 한국어, English, Deutsch, Français, Italiano, 日本語, 简体中文</li>
+        </ul>
+      </section>
+
+      <!-- 7. 앱 날씨 데이터 저장 및 새로고침 -->
+      <section class="content-section" id="data-storage">
+        <h2 data-i18n="guide.data_storage.title">앱 날씨 데이터 저장 및 새로고침</h2>
+        <p data-i18n="guide.data_storage.range">데이터 범위: 시간별 (과거 7일 + 예보 7일), 일별 (과거 7일 + 예보 7일)</p>
+        <p data-i18n="guide.data_storage.included">포함 항목: 기온, 체감온도, 강수량, 강수 확률, 습도, 운량, 날씨 코드, 풍속/풍향, 일출/일몰</p>
+
+        <h3 data-i18n="guide.data_storage.cache_title">캐시 유지 시간</h3>
+        <div class="table-wrap">
+          <table id="cacheTable">
+            <thead>
+              <tr>
+                <th data-i18n="guide.data_storage.th_type">데이터 유형</th>
+                <th data-i18n="guide.data_storage.th_duration">캐시 유지 시간</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>시간별 날씨 (Hourly Weather)</td>
+                <td>60분</td>
+              </tr>
+              <tr>
+                <td>일별 날씨 (Daily Weather)</td>
+                <td>6시간</td>
+              </tr>
+              <tr>
+                <td>전날 데이터 (Previous Day Data)</td>
+                <td>24시간</td>
+              </tr>
+              <tr>
+                <td>현재 날씨 (Current Weather)</td>
+                <td>60분 (시간별 데이터에서 추출)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 8. 위젯 데이터 새로고침 -->
+      <section class="content-section" id="widget-refresh">
+        <h2 data-i18n="guide.widget_refresh.title">위젯 데이터 새로고침</h2>
+
+        <h3 data-i18n="guide.widget_refresh.android_title">Android</h3>
+        <p data-i18n="guide.widget_refresh.android_desc">약 1시간마다 백그라운드 작업 실행, Open-Meteo 전체 범위 데이터 가져옴, 위젯용 부분 데이터 저장</p>
+
+        <h3 data-i18n="guide.widget_refresh.widget_data_title">위젯 저장 데이터</h3>
+        <div class="callout callout-note">
+          <span class="callout-icon">📦</span>
+          <span data-i18n="guide.widget_refresh.widget_data_items">선택된 단일 지역, 체감온도 최고/최저 8일치, 오늘 오전/오후 요약, 위치, 수집 시각, 언어 레이블</span>
+        </div>
+
+        <h3 data-i18n="guide.widget_refresh.ios_title">iOS</h3>
+        <p data-i18n="guide.widget_refresh.ios_desc">앱 백그라운드 새로고침 경로 + 위젯 자체 새로고침 경로 병행</p>
+        <p data-i18n="guide.widget_refresh.ios_self_refresh">위젯 자체 새로고침: 마지막 새로고침 후 1시간 이상 경과 + 좌표 존재 시 자동 실행</p>
+
+        <div class="callout callout-info" style="margin-top:0.75rem;">
+          <span class="callout-icon">📡</span>
+          <span data-i18n="guide.widget_refresh.ios_range">위젯 자체 새로고침 범위: past_days=7, forecast_days=1</span>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer id="siteFooter">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/icon.png" alt="Meteal">
+          <span>Meteal</span>
+        </div>
+        <div class="footer-copy" data-i18n="footer.copyright">© 2026 Meteal. All rights reserved.</div>
+        <div class="footer-email">
+          <a href="mailto:meteal.app@gmail.com" data-i18n="footer.contact">문의: meteal.app@gmail.com</a>
+        </div>
+      </div>
+      <nav class="footer-links" aria-label="Footer 링크">
+        <a href="guide.html" data-i18n="footer.links.guide">이용 안내</a>
+        <a href="privacy.html" data-i18n="footer.links.privacy">개인정보처리방침</a>
+        <a href="license.html" data-i18n="footer.links.license">앱 정보</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+</body>
+</html>
