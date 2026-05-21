@@ -6,8 +6,8 @@
     "license": "App Info"
   },
   "hero": {
-    "tagline": "Today's Weather, Smarter",
-    "subtitle": "Simple and intuitive weather app",
+    "tagline": "Compare only the weather you need, at a glance",
+    "subtitle": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
     "badge": "v1.0.61 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
@@ -17,8 +17,8 @@
     "title": "Key Features",
     "subtitle": "Check today and tomorrow's weather smarter",
     "weather": {
-      "title": "Today & Tomorrow",
-      "desc": "Check today's and tomorrow's weather at a glance. Includes intuitive feels-like temperature change trends."
+      "title": "8-Day Feels-Like Temperature",
+      "desc": "Intuitively understand the current temperature based on the feels-like temperature trend over the recent 8 days (including today)."
     },
     "comparison": {
       "title": "Multi-Region Comparison",
@@ -188,9 +188,9 @@
     "title": "App Info",
     "subtitle": "Meteal App Information & Open Source Licenses",
     "app_desc_title": "About the App",
-    "app_desc": "A weather app that provides simple daily weather and regional comparison.",
+    "app_desc": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
     "features_title": "Key Features",
-    "features_list": "Today's/tomorrow's weather|Recent feels-like temperature comparison|Save and compare multiple regions|Weather widget support|Multi-language support|Simple and intuitive UI",
+    "features_list": "8-Day feels-like temperature comparison|Save and compare multiple regions|Weather widget support|Multi-language support|Simple and intuitive UI",
     "supported_langs_title": "Supported Languages",
     "platforms_title": "Supported Platforms",
     "contact_title": "Contact",

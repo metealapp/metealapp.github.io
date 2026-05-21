@@ -6,8 +6,8 @@
     "license": "App-Informationen"
   },
   "hero": {
-    "tagline": "Das Wetter von heute, intelligenter",
-    "subtitle": "Einfache und intuitive Wetter-App",
+    "tagline": "Vergleichen Sie nur das Wetter, das Sie brauchen, auf einen Blick",
+    "subtitle": "Eine einfache Wetter-App, um das heutige Wetter mit den jüngsten gefühlten Temperaturänderungen intuitiv zu überprüfen und das Wetter in mehreren Regionen schnell zu vergleichen.",
     "badge": "v1.0.61 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
@@ -17,8 +17,8 @@
     "title": "Hauptfunktionen",
     "subtitle": "Überprüfen Sie das Wetter von heute und morgen intelligenter",
     "weather": {
-      "title": "Heute & Morgen",
-      "desc": "Sehen Sie das Wetter von heute und morgen auf einen Blick. Inklusive intuitiver gefühlter Temperaturtrends."
+      "title": "8-Tage Gefühlte Temperatur",
+      "desc": "Verstehen Sie die aktuelle Temperatur intuitiv basierend auf dem Trend der gefühlten Temperatur der letzten 8 Tage (einschließlich heute)."
     },
     "comparison": {
       "title": "Mehrere Regionen vergleichen",
@@ -188,9 +188,9 @@
     "title": "App-Informationen",
     "subtitle": "Meteal App-Informationen und Open-Source-Lizenzen",
     "app_desc_title": "Über die App",
-    "app_desc": "Eine Wetter-App, die einfaches tägliches Wetter und Regionalvergleich bietet.",
+    "app_desc": "Eine einfache Wetter-App, um das heutige Wetter mit den jüngsten gefühlten Temperaturänderungen intuitiv zu überprüfen und das Wetter in mehreren Regionen schnell zu vergleichen.",
     "features_title": "Hauptfunktionen",
-    "features_list": "Wetter heute/morgen|Vergleich der gefühlten Temperatur|Mehrere Regionen speichern und vergleichen|Wetter-Widget-Unterstützung|Mehrsprachige Unterstützung|Einfache und intuitive Benutzeroberfläche",
+    "features_list": "8-Tage Gefühlte Temperatur|Mehrere Regionen speichern und vergleichen|Wetter-Widget-Unterstützung|Mehrsprachige Unterstützung|Einfache und intuitive Benutzeroberfläche",
     "supported_langs_title": "Unterstützte Sprachen",
     "platforms_title": "Unterstützte Plattformen",
     "contact_title": "Kontakt",

@@ -6,8 +6,8 @@
     "license": "Info sull'app"
   },
   "hero": {
-    "tagline": "Il meteo di oggi, più intelligente",
-    "subtitle": "App meteo semplice e intuitiva",
+    "tagline": "Confronta solo il meteo che ti serve, a colpo d'occhio",
+    "subtitle": "Una semplice app meteo per controllare intuitivamente il meteo di oggi con i recenti cambiamenti di temperatura percepita e confrontare rapidamente il meteo di più regioni.",
     "badge": "v1.0.61 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
@@ -17,8 +17,8 @@
     "title": "Funzionalità principali",
     "subtitle": "Controlla il meteo di oggi e domani in modo più intelligente",
     "weather": {
-      "title": "Oggi & Domani",
-      "desc": "Controlla il meteo di oggi e domani a colpo d'occhio. Include le tendenze della temperatura percepita."
+      "title": "Temperatura percepita per 8 giorni",
+      "desc": "Comprendi intuitivamente la temperatura attuale in base all'andamento della temperatura percepita negli ultimi 8 giorni (incluso oggi)."
     },
     "comparison": {
       "title": "Confronto multi-regione",
@@ -188,9 +188,9 @@
     "title": "Info sull'app",
     "subtitle": "Informazioni sull'app Meteal e licenze open source",
     "app_desc_title": "Informazioni sull'app",
-    "app_desc": "Un'app meteo che fornisce meteo giornaliero semplice e confronto regionale.",
+    "app_desc": "Una semplice app meteo per controllare intuitivamente il meteo di oggi con i recenti cambiamenti di temperatura percepita e confrontare rapidamente il meteo di più regioni.",
     "features_title": "Funzionalità principali",
-    "features_list": "Meteo oggi/domani|Confronto temperatura percepita recente|Salva e confronta più regioni|Supporto widget meteo|Supporto multilingue|Interfaccia semplice e intuitiva",
+    "features_list": "Temperatura percepita per 8 giorni|Salva e confronta più regioni|Supporto widget meteo|Supporto multilingue|Interfaccia semplice e intuitiva",
     "supported_langs_title": "Lingue supportate",
     "platforms_title": "Piattaforme supportate",
     "contact_title": "Contatti",

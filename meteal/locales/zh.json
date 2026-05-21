@@ -6,8 +6,8 @@
     "license": "应用信息"
   },
   "hero": {
-    "tagline": "今日天气，更加智能",
-    "subtitle": "简单直观的天气应用",
+    "tagline": "一目了然地比较您所需的天气",
+    "subtitle": "一款简单的天气应用，可通过近期体感温度变化直观了解今日天气，并快速比较多个地区的天气。",
     "badge": "v1.0.61 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
@@ -17,8 +17,8 @@
     "title": "主要功能",
     "subtitle": "更智能地查看今明两天的天气",
     "weather": {
-      "title": "今日与明日天气",
-      "desc": "一目了然查看今天和明天的天气，直观呈现体感温度变化趋势。"
+      "title": "8天体感温度趋势",
+      "desc": "根据最近8天（包含今天）的体感温度变化，更直观地掌握当前温度。"
     },
     "comparison": {
       "title": "多地区对比",
@@ -188,9 +188,9 @@
     "title": "应用信息",
     "subtitle": "Meteal应用信息与开源许可证",
     "app_desc_title": "关于应用",
-    "app_desc": "一款提供简单日常天气和地区对比的天气应用。",
+    "app_desc": "一款简单的天气应用，可通过近期体感温度变化直观了解今日天气，并快速比较多个地区的天气。",
     "features_title": "主要功能",
-    "features_list": "今日/明日天气查看|最近体感温度变化对比|保存并对比多个地区|天气小组件支持|多语言支持|简单直观的界面",
+    "features_list": "8天体感温度趋势|保存并对比多个地区|天气小组件支持|多语言支持|简单直观的界面",
     "supported_langs_title": "支持语言",
     "platforms_title": "支持平台",
     "contact_title": "联系方式",

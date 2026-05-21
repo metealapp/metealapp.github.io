@@ -6,8 +6,8 @@
     "license": "Infos de l'app"
   },
   "hero": {
-    "tagline": "La météo d'aujourd'hui, plus intelligemment",
-    "subtitle": "Application météo simple et intuitive",
+    "tagline": "Comparez uniquement la météo dont vous avez besoin, en un coup d'œil",
+    "subtitle": "Une application météo simple pour vérifier intuitivement la météo du jour avec les récents changements de température ressentie, et comparer rapidement la météo de plusieurs régions.",
     "badge": "v1.0.61 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
@@ -17,8 +17,8 @@
     "title": "Fonctionnalités clés",
     "subtitle": "Vérifiez la météo d'aujourd'hui et de demain plus intelligemment",
     "weather": {
-      "title": "Aujourd'hui & Demain",
-      "desc": "Consultez la météo d'aujourd'hui et de demain en un coup d'œil. Inclut les tendances de température ressentie."
+      "title": "Température ressentie sur 8 jours",
+      "desc": "Comprenez intuitivement la température actuelle en fonction de l'évolution de la température ressentie au cours des 8 derniers jours (aujourd'hui inclus)."
     },
     "comparison": {
       "title": "Comparaison multi-régions",
@@ -188,9 +188,9 @@
     "title": "Infos de l'app",
     "subtitle": "Informations sur l'app Meteal et licences open source",
     "app_desc_title": "À propos de l'app",
-    "app_desc": "Une application météo qui fournit une météo quotidienne simple et une comparaison régionale.",
+    "app_desc": "Une application météo simple pour vérifier intuitivement la météo du jour avec les récents changements de température ressentie, et comparer rapidement la météo de plusieurs régions.",
     "features_title": "Fonctionnalités clés",
-    "features_list": "Météo aujourd'hui/demain|Comparaison de la température ressentie récente|Enregistrer et comparer plusieurs régions|Support de widget météo|Support multilingue|Interface simple et intuitive",
+    "features_list": "Température ressentie sur 8 jours|Enregistrer et comparer plusieurs régions|Support de widget météo|Support multilingue|Interface simple et intuitive",
     "supported_langs_title": "Langues prises en charge",
     "platforms_title": "Plateformes prises en charge",
     "contact_title": "Contact",

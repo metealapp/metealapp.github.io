@@ -19,7 +19,7 @@
   };
 
   let _messages = {};
-  let _currentLang = 'ko';
+  let _currentLang = 'en';
 
   /** Detect best language from browser/storage */
   function detectLang() {
