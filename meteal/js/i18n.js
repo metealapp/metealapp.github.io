@@ -104,6 +104,7 @@
       _currentLang = lang;
       localStorage.setItem(STORAGE_KEY, lang);
       applyTranslations();
+      window.dispatchEvent(new CustomEvent('languageChanged', { detail: lang }));
     } catch (err) {
       console.warn('[i18n] Failed to load', lang, err);
       // Fallback to 'en' if not already trying it

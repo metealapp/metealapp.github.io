@@ -302,21 +302,25 @@
   <script src="js/i18n.js"></script>
   <script>
     // Dynamically render features list from i18n key
-    document.addEventListener('DOMContentLoaded', function () {
-      // After i18n loads, update features list
-      setTimeout(() => {
-        if (window.i18n) {
-          const raw = window.i18n.t('license.features_list');
-          if (raw && raw !== 'license.features_list') {
-            const items = raw.split('|');
-            const ul = document.getElementById('featuresList');
-            if (ul) {
-              ul.innerHTML = items.map(item => `<li>${item.trim()}</li>`).join('');
-            }
+    function renderFeatures() {
+      if (window.i18n) {
+        const raw = window.i18n.t('license.features_list');
+        if (raw && raw !== 'license.features_list') {
+          const items = raw.split('|');
+          const ul = document.getElementById('featuresList');
+          if (ul) {
+            ul.innerHTML = items.map(item => `<li>${item.trim()}</li>`).join('');
           }
         }
-      }, 400);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      setTimeout(renderFeatures, 100); // reduced timeout for better UX
     });
+
+    // Re-render when language is switched dynamically
+    window.addEventListener('languageChanged', renderFeatures);
   </script>
 </body>
 </html>
