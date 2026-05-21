@@ -80,6 +80,17 @@
     // Update <html lang>
     document.documentElement.lang = _currentLang;
 
+    // Update document title
+    const titleTag = document.querySelector('title[data-i18n-title-tag]');
+    if (titleTag) {
+      const key = titleTag.getAttribute('data-i18n-title-tag');
+      const format = titleTag.getAttribute('data-title-format') || '{t}';
+      const val = t(key);
+      if (val !== key) {
+        document.title = format.replace('{t}', val);
+      }
+    }
+
     // Update active button in dropdown
     document.querySelectorAll('.lang-dropdown button').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.lang === _currentLang);
