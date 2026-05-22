@@ -218,11 +218,13 @@
       "title": "Guida ai widget",
       "basis": "Tutti i widget mostrano le informazioni della regione visualizzata più di recente nella schermata singola.",
       "android_title": "Widget Android",
-      "android_home": "Schermata Home: grafico massime/minime percepite degli ultimi 8 giorni con icone meteo mattino/pomeriggio",
+      "android_home": "Mostra il grafico delle massime/minime percepite degli ultimi 8 giorni con le icone meteo di mattina e pomeriggio.",
       "ios_title": "Widget iOS",
       "ios_home": "Schermata Home: grafico massime/minime percepite degli ultimi 8 giorni con icone mattino/pomeriggio in alto a destra",
       "ios_lock_full": "Schermata di blocco: grafico di confronto massime/minime percepite degli ultimi 8 giorni",
-      "ios_lock_split": "Schermata di blocco: grafici separati per massime e minime percepite"
+      "ios_lock_split": "Schermata di blocco: grafici separati per massime e minime percepite",
+      "android_desc": "I widget Android della schermata Home usano uno sfondo trasparente, così si integrano naturalmente con lo sfondo del dispositivo.",
+      "ios_desc": "I widget iOS della schermata Home adattano automaticamente sfondo e colori alla modalità chiara o scura."
     }
   },
   "privacy": {

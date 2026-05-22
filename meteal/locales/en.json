@@ -218,11 +218,13 @@
       "title": "Widget Guide",
       "basis": "All widgets display information for the region most recently shown on the single-region screen.",
       "android_title": "Android Widgets",
-      "android_home": "Home screen: recent 8-day feels-like high/low graph with morning and afternoon weather icons",
+      "android_home": "Shows a recent 8-day feels-like high/low graph with morning and afternoon weather icons.",
       "ios_title": "iOS Widgets",
       "ios_home": "Home screen: recent 8-day feels-like high/low graph with morning and afternoon icons in the upper right",
       "ios_lock_full": "Lock screen: recent 8-day feels-like high/low comparison graph",
-      "ios_lock_split": "Lock screen: separate feels-like high and low graphs"
+      "ios_lock_split": "Lock screen: separate feels-like high and low graphs",
+      "android_desc": "Android home screen widgets use a transparent background, so they blend naturally with your home screen wallpaper.",
+      "ios_desc": "iOS home screen widgets automatically adjust their background and colors for Light Mode and Dark Mode."
     }
   },
   "privacy": {

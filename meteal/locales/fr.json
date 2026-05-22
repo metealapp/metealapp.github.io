@@ -218,11 +218,13 @@
       "title": "Guide des widgets",
       "basis": "Tous les widgets affichent les informations de la dernière région affichée dans l’écran de région unique.",
       "android_title": "Widgets Android",
-      "android_home": "Écran d’accueil : graphique des maxima/minima ressentis sur les 8 derniers jours avec icônes météo matin/après-midi",
+      "android_home": "Affiche un graphique des maxima/minima ressentis sur les 8 derniers jours avec les icônes météo du matin et de l’après-midi.",
       "ios_title": "Widgets iOS",
       "ios_home": "Écran d’accueil : graphique des maxima/minima ressentis sur les 8 derniers jours avec icônes matin/après-midi en haut à droite",
       "ios_lock_full": "Écran verrouillé : graphique comparatif des maxima/minima ressentis sur les 8 derniers jours",
-      "ios_lock_split": "Écran verrouillé : graphiques séparés pour les maxima et minima ressentis"
+      "ios_lock_split": "Écran verrouillé : graphiques séparés pour les maxima et minima ressentis",
+      "android_desc": "Les widgets Android de l’écran d’accueil utilisent un arrière-plan transparent afin de s’intégrer naturellement au fond d’écran.",
+      "ios_desc": "Les widgets iOS de l’écran d’accueil ajustent automatiquement leur arrière-plan et leurs couleurs selon le mode clair ou sombre."
     }
   },
   "privacy": {

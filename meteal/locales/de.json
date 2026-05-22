@@ -218,11 +218,13 @@
       "title": "Widget-Anleitung",
       "basis": "Alle Widgets zeigen Informationen für die Region, die zuletzt in der Einzelregion-Ansicht angezeigt wurde.",
       "android_title": "Android-Widgets",
-      "android_home": "Startbildschirm: Diagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage mit Wetter-Icons für Vormittag und Nachmittag",
+      "android_home": "Zeigt ein Diagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage mit Wetter-Icons für Vormittag und Nachmittag.",
       "ios_title": "iOS-Widgets",
       "ios_home": "Startbildschirm: Diagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage mit Vormittags-/Nachmittags-Icons oben rechts",
       "ios_lock_full": "Sperrbildschirm: Vergleichsdiagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage",
-      "ios_lock_split": "Sperrbildschirm: getrennte Diagramme für gefühlte Höchst- und Tiefsttemperatur"
+      "ios_lock_split": "Sperrbildschirm: getrennte Diagramme für gefühlte Höchst- und Tiefsttemperatur",
+      "android_desc": "Android-Startbildschirm-Widgets verwenden einen transparenten Hintergrund und fügen sich dadurch natürlich in dein Hintergrundbild ein.",
+      "ios_desc": "iOS-Startbildschirm-Widgets passen Hintergrund und Farben automatisch an den Hell- oder Dunkelmodus an."
     }
   },
   "privacy": {
