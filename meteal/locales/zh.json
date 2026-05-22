@@ -1,4 +1,4 @@
-{
+﻿{
   "nav": {
     "home": "首页",
     "guide": "使用指南",
@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "一目了然地比较您所需的天气",
     "subtitle": "一款简单的天气应用，可通过近期体感温度变化直观了解今日天气，并快速比较多个地区的天气。",
-    "badge": "v1.0.2 · iOS & Android",
+    "badge": "v1.0.3 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "即将推出"

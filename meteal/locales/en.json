@@ -1,4 +1,4 @@
-{
+﻿{
   "nav": {
     "home": "Home",
     "guide": "User Guide",
@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "Compare only the weather you need, at a glance",
     "subtitle": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
-    "badge": "v1.0.2 · iOS & Android",
+    "badge": "v1.0.3 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Coming Soon"
