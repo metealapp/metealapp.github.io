@@ -17,8 +17,8 @@
     "title": "Hauptfunktionen",
     "subtitle": "Überprüfen Sie das Wetter von heute und morgen intelligenter",
     "weather": {
-      "title": "8-Tage Gefühlte Temperatur",
-      "desc": "Verstehen Sie die aktuelle Temperatur intuitiv basierend auf dem Trend der gefühlten Temperatur der letzten 8 Tage (einschließlich heute)."
+      "title": "Gefühlte-Temperatur-Diagramme",
+      "desc": "Vergleiche Höchst- und Tiefstwerte der gefühlten Temperatur für die letzten 8 und nächsten 7 Tage und erkenne den Temperaturverlauf auf einen Blick."
     },
     "comparison": {
       "title": "Mehrere Regionen vergleichen",
@@ -173,6 +173,56 @@
       "ios_desc": "Zwei Pfade: App-Hintergrundaktualisierung + Widget-Selbstaktualisierung",
       "ios_self_refresh": "Widget aktualisiert sich selbst, wenn >1 Stunde seit der letzten Aktualisierung vergangen ist und Koordinaten vorhanden sind.",
       "ios_range": "Widget-Selbstaktualisierungsbereich: past_days=7, forecast_days=1"
+    },
+    "tabs": {
+      "features": "App-Funktionen",
+      "limits": "Limits & Werbung",
+      "weather": "Wetteranzeige",
+      "widgets": "Widgets"
+    },
+    "app_features": {
+      "title": "App-Funktionen",
+      "desc": "Vergleiche Trends der gefühlten Temperatur und regionales Wetter schnell in Einzelregion- und Gruppenansichten.",
+      "single_title": "Diagramme für Einzelregionen",
+      "single_past": "Vergleichsdiagramm der gefühlten Höchst-/Tiefsttemperatur für die letzten 8 Tage inklusive heute",
+      "single_future": "Vergleichsdiagramm der gefühlten Höchst-/Tiefsttemperatur für die nächsten 7 Tage inklusive heute",
+      "group_title": "Wöchentliche Gruppenzusammenfassung",
+      "group_weekly": "Vergleichsdiagramm der gefühlten Höchst-/Tiefsttemperatur je Region für die nächsten 7 Tage inklusive heute"
+    },
+    "search": {
+      "title": "Suchverhalten",
+      "desc": "Die Regionensuche prüft sowohl Namen in der aktuell gewählten App-Sprache als auch die englischen/ASCII-Standardnamen von GeoNames.",
+      "ko_lang": "Meteal sucht zuerst nach Regionsnamen in der App-Sprache und prüft denselben Suchbegriff zusätzlich gegen die englischen/ASCII-Standardnamen von GeoNames.",
+      "en_lang": "Dadurch können englische Ortsnamen unabhängig von der gewählten App-Sprache gesucht werden.",
+      "reason": "Wenn eine Region in der gewählten Sprache nicht erscheint, suche nach ihrem englischen Namen. Manche Regionen haben in GeoNames nicht für jede Sprache einen Namen oder eine abweichende Schreibweise."
+    },
+    "display_rules": {
+      "title": "Allgemeine Anzeigeregeln",
+      "desc": "Meteal fasst Stundendaten passend für die App in Tages-, Vormittags- und Nachmittagswerte zusammen.",
+      "th_item": "Element",
+      "th_rule": "Anzeigemethode",
+      "day_weather": "Tageswetter",
+      "day_weather_rule": "Zeigt die Wetterlage, die im Zielzeitraum am häufigsten vorkommt.",
+      "am_weather": "Wetter am Vormittag",
+      "am_weather_rule": "Zeigt die Wetterlage, die am Vormittag am häufigsten vorkommt.",
+      "pm_weather": "Wetter am Nachmittag",
+      "pm_weather_rule": "Zeigt die Wetterlage, die am Nachmittag am häufigsten vorkommt.",
+      "am_temp": "Temperatur am Vormittag",
+      "am_temp_rule": "Fasst Temperaturdaten am Vormittag als Durchschnitt oder repräsentativen Wert zusammen.",
+      "pm_temp": "Temperatur am Nachmittag",
+      "pm_temp_rule": "Fasst Temperaturdaten am Nachmittag als Durchschnitt oder repräsentativen Wert zusammen.",
+      "options": "Niederschlag, Wind, Luftfeuchtigkeit, Niederschlagswahrscheinlichkeit",
+      "options_rule": "Jede Option wird passend als Summe, Durchschnitt oder Wahrscheinlichkeit zusammengefasst."
+    },
+    "widgets": {
+      "title": "Widget-Anleitung",
+      "basis": "Alle Widgets zeigen Informationen für die Region, die zuletzt in der Einzelregion-Ansicht angezeigt wurde.",
+      "android_title": "Android-Widgets",
+      "android_home": "Startbildschirm: Diagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage mit Wetter-Icons für Vormittag und Nachmittag",
+      "ios_title": "iOS-Widgets",
+      "ios_home": "Startbildschirm: Diagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage mit Vormittags-/Nachmittags-Icons oben rechts",
+      "ios_lock_full": "Sperrbildschirm: Vergleichsdiagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage",
+      "ios_lock_split": "Sperrbildschirm: getrennte Diagramme für gefühlte Höchst- und Tiefsttemperatur"
     }
   },
   "privacy": {

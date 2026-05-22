@@ -17,8 +17,8 @@
     "title": "Funzionalità principali",
     "subtitle": "Controlla il meteo di oggi e domani in modo più intelligente",
     "weather": {
-      "title": "Temperatura percepita per 8 giorni",
-      "desc": "Comprendi intuitivamente la temperatura attuale in base all'andamento della temperatura percepita negli ultimi 8 giorni (incluso oggi)."
+      "title": "Grafici della temperatura percepita",
+      "desc": "Confronta massime e minime percepite degli ultimi 8 giorni e dei prossimi 7 giorni per capire l’andamento a colpo d’occhio."
     },
     "comparison": {
       "title": "Confronto multi-regione",
@@ -173,6 +173,56 @@
       "ios_desc": "Due percorsi: aggiornamento in background dell'app + auto-aggiornamento del widget",
       "ios_self_refresh": "Il widget si auto-aggiorna se è trascorsa >1 ora dall'ultimo aggiornamento e le coordinate sono disponibili.",
       "ios_range": "Intervallo auto-aggiornamento widget: past_days=7, forecast_days=1"
+    },
+    "tabs": {
+      "features": "Funzioni app",
+      "limits": "Limiti e annunci",
+      "weather": "Regole meteo",
+      "widgets": "Widget"
+    },
+    "app_features": {
+      "title": "Funzioni dell’app",
+      "desc": "Confronta rapidamente l’andamento della temperatura percepita e il meteo per regione nelle viste singola e gruppo.",
+      "single_title": "Grafici per singola regione",
+      "single_past": "Grafico di confronto massime/minime percepite degli ultimi 8 giorni, incluso oggi",
+      "single_future": "Grafico di confronto massime/minime percepite dei prossimi 7 giorni, incluso oggi",
+      "group_title": "Riepilogo settimanale gruppo",
+      "group_weekly": "Grafico di confronto massime/minime percepite per ogni regione nei prossimi 7 giorni, incluso oggi"
+    },
+    "search": {
+      "title": "Modalità di ricerca",
+      "desc": "La ricerca delle regioni controlla sia i nomi nella lingua attualmente impostata nell’app sia i nomi inglesi/ASCII predefiniti di GeoNames.",
+      "ko_lang": "Meteal cerca prima i nomi delle regioni nella lingua dell’app, poi cerca lo stesso termine anche nei nomi inglesi/ASCII predefiniti di GeoNames.",
+      "en_lang": "Per questo i nomi dei luoghi in inglese possono essere cercati indipendentemente dalla lingua selezionata.",
+      "reason": "Se una regione non compare nella lingua selezionata, prova a cercarla con il nome inglese. Alcune regioni potrebbero non avere un nome in ogni lingua, oppure potrebbero avere una grafia diversa nei dati GeoNames."
+    },
+    "display_rules": {
+      "title": "Regole di visualizzazione comuni",
+      "desc": "Meteal riepiloga i dati orari in valori giornalieri, mattutini e pomeridiani adatti alle schermate dell’app.",
+      "th_item": "Elemento",
+      "th_rule": "Metodo di visualizzazione",
+      "day_weather": "Meteo giornaliero",
+      "day_weather_rule": "Mostra la condizione meteo più frequente nell’intervallo orario selezionato.",
+      "am_weather": "Meteo del mattino",
+      "am_weather_rule": "Mostra la condizione meteo più frequente durante il mattino.",
+      "pm_weather": "Meteo del pomeriggio",
+      "pm_weather_rule": "Mostra la condizione meteo più frequente durante il pomeriggio.",
+      "am_temp": "Temperatura del mattino",
+      "am_temp_rule": "Riepiloga le temperature del mattino come media o valore rappresentativo.",
+      "pm_temp": "Temperatura del pomeriggio",
+      "pm_temp_rule": "Riepiloga le temperature del pomeriggio come media o valore rappresentativo.",
+      "options": "Precipitazioni, vento, umidità, probabilità di precipitazione",
+      "options_rule": "Ogni opzione viene riepilogata nel modo più adatto, ad esempio totale, media o probabilità."
+    },
+    "widgets": {
+      "title": "Guida ai widget",
+      "basis": "Tutti i widget mostrano le informazioni della regione visualizzata più di recente nella schermata singola.",
+      "android_title": "Widget Android",
+      "android_home": "Schermata Home: grafico massime/minime percepite degli ultimi 8 giorni con icone meteo mattino/pomeriggio",
+      "ios_title": "Widget iOS",
+      "ios_home": "Schermata Home: grafico massime/minime percepite degli ultimi 8 giorni con icone mattino/pomeriggio in alto a destra",
+      "ios_lock_full": "Schermata di blocco: grafico di confronto massime/minime percepite degli ultimi 8 giorni",
+      "ios_lock_split": "Schermata di blocco: grafici separati per massime e minime percepite"
     }
   },
   "privacy": {

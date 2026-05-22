@@ -17,8 +17,8 @@
     "title": "Key Features",
     "subtitle": "Check today and tomorrow's weather smarter",
     "weather": {
-      "title": "8-Day Feels-Like Temperature",
-      "desc": "Intuitively understand the current temperature based on the feels-like temperature trend over the recent 8 days (including today)."
+      "title": "Feels-Like Temperature Graphs",
+      "desc": "Compare feels-like highs and lows for the recent 8 days and next 7 days to understand temperature trends at a glance."
     },
     "comparison": {
       "title": "Multi-Region Comparison",
@@ -173,6 +173,56 @@
       "ios_desc": "Two paths: app background refresh + widget self-refresh",
       "ios_self_refresh": "Widget self-refreshes if >1 hour has passed since last refresh and coordinates are available.",
       "ios_range": "Widget self-refresh range: past_days=7, forecast_days=1"
+    },
+    "tabs": {
+      "features": "App Features",
+      "limits": "Limits & Ads",
+      "weather": "Weather Display Rules",
+      "widgets": "Widgets"
+    },
+    "app_features": {
+      "title": "App Features",
+      "desc": "Compare feels-like temperature trends and regional weather quickly in single-region and group views.",
+      "single_title": "Single-Region Graphs",
+      "single_past": "Feels-like high/low comparison graph for the recent 8 days, including today",
+      "single_future": "Feels-like high/low comparison graph for the next 7 days, including today",
+      "group_title": "Group Weekly Summary",
+      "group_weekly": "Feels-like high/low comparison graph for each region over the next 7 days, including today"
+    },
+    "search": {
+      "title": "Search Behavior",
+      "desc": "Region search checks both names in the currently selected app language and GeoNames default English/ASCII names.",
+      "ko_lang": "Meteal first searches region names for the app language, then also searches the same query against GeoNames default English/ASCII names.",
+      "en_lang": "This means English place names can be searched regardless of the selected app language.",
+      "reason": "If a region does not appear in the selected language, try searching for its English name. Some regions may not have a name in every language, or the spelling may differ in GeoNames data."
+    },
+    "display_rules": {
+      "title": "Common Display Rules",
+      "desc": "Meteal summarizes hourly data into daily, morning, and afternoon values that fit the app screens.",
+      "th_item": "Item",
+      "th_rule": "Display Method",
+      "day_weather": "Daily weather",
+      "day_weather_rule": "Shows the weather condition that appears most often in the target time range.",
+      "am_weather": "Morning weather",
+      "am_weather_rule": "Shows the weather condition that appears most often during the morning period.",
+      "pm_weather": "Afternoon weather",
+      "pm_weather_rule": "Shows the weather condition that appears most often during the afternoon period.",
+      "am_temp": "Morning temperature",
+      "am_temp_rule": "Summarizes morning temperature data as an average or representative value.",
+      "pm_temp": "Afternoon temperature",
+      "pm_temp_rule": "Summarizes afternoon temperature data as an average or representative value.",
+      "options": "Precipitation, wind, humidity, precipitation probability",
+      "options_rule": "Each option is summarized in a suitable way, such as total, average, or probability."
+    },
+    "widgets": {
+      "title": "Widget Guide",
+      "basis": "All widgets display information for the region most recently shown on the single-region screen.",
+      "android_title": "Android Widgets",
+      "android_home": "Home screen: recent 8-day feels-like high/low graph with morning and afternoon weather icons",
+      "ios_title": "iOS Widgets",
+      "ios_home": "Home screen: recent 8-day feels-like high/low graph with morning and afternoon icons in the upper right",
+      "ios_lock_full": "Lock screen: recent 8-day feels-like high/low comparison graph",
+      "ios_lock_split": "Lock screen: separate feels-like high and low graphs"
     }
   },
   "privacy": {

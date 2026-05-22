@@ -17,8 +17,8 @@
     "title": "Fonctionnalités clés",
     "subtitle": "Vérifiez la météo d'aujourd'hui et de demain plus intelligemment",
     "weather": {
-      "title": "Température ressentie sur 8 jours",
-      "desc": "Comprenez intuitivement la température actuelle en fonction de l'évolution de la température ressentie au cours des 8 derniers jours (aujourd'hui inclus)."
+      "title": "Graphiques de température ressentie",
+      "desc": "Comparez les maxima et minima ressentis des 8 derniers jours et des 7 prochains jours pour comprendre la tendance d’un coup d’œil."
     },
     "comparison": {
       "title": "Comparaison multi-régions",
@@ -173,6 +173,56 @@
       "ios_desc": "Deux chemins : actualisation en arrière-plan de l'app + auto-actualisation du widget",
       "ios_self_refresh": "Le widget s'auto-actualise si >1 heure s'est écoulée depuis la dernière actualisation et si les coordonnées sont disponibles.",
       "ios_range": "Plage d'auto-actualisation du widget : past_days=7, forecast_days=1"
+    },
+    "tabs": {
+      "features": "Fonctions",
+      "limits": "Limites et pubs",
+      "weather": "Affichage météo",
+      "widgets": "Widgets"
+    },
+    "app_features": {
+      "title": "Fonctions de l’application",
+      "desc": "Comparez rapidement les tendances de température ressentie et la météo par région dans les vues région unique et groupe.",
+      "single_title": "Graphiques de région unique",
+      "single_past": "Graphique comparatif des maxima/minima ressentis sur les 8 derniers jours, aujourd’hui inclus",
+      "single_future": "Graphique comparatif des maxima/minima ressentis sur les 7 prochains jours, aujourd’hui inclus",
+      "group_title": "Résumé hebdomadaire du groupe",
+      "group_weekly": "Graphique comparatif des maxima/minima ressentis par région sur les 7 prochains jours, aujourd’hui inclus"
+    },
+    "search": {
+      "title": "Recherche",
+      "desc": "La recherche de régions utilise à la fois les noms dans la langue actuelle de l’application et les noms anglais/ASCII par défaut de GeoNames.",
+      "ko_lang": "Meteal recherche d’abord les noms de région dans la langue de l’application, puis recherche aussi le même terme dans les noms anglais/ASCII par défaut de GeoNames.",
+      "en_lang": "Les noms de lieux en anglais peuvent donc être recherchés quelle que soit la langue sélectionnée.",
+      "reason": "Si une région n’apparaît pas dans la langue sélectionnée, essayez son nom anglais. Certaines régions peuvent ne pas avoir de nom dans toutes les langues, ou avoir une orthographe différente dans les données GeoNames."
+    },
+    "display_rules": {
+      "title": "Règles d’affichage communes",
+      "desc": "Meteal résume les données horaires en valeurs quotidiennes, matin et après-midi adaptées aux écrans de l’application.",
+      "th_item": "Élément",
+      "th_rule": "Méthode d’affichage",
+      "day_weather": "Météo de la journée",
+      "day_weather_rule": "Affiche la condition météo la plus fréquente dans la plage horaire cible.",
+      "am_weather": "Météo du matin",
+      "am_weather_rule": "Affiche la condition météo la plus fréquente le matin.",
+      "pm_weather": "Météo de l’après-midi",
+      "pm_weather_rule": "Affiche la condition météo la plus fréquente l’après-midi.",
+      "am_temp": "Température du matin",
+      "am_temp_rule": "Résume les températures du matin sous forme de moyenne ou de valeur représentative.",
+      "pm_temp": "Température de l’après-midi",
+      "pm_temp_rule": "Résume les températures de l’après-midi sous forme de moyenne ou de valeur représentative.",
+      "options": "Précipitations, vent, humidité, probabilité de pluie",
+      "options_rule": "Chaque option est résumée de manière adaptée, par total, moyenne ou probabilité."
+    },
+    "widgets": {
+      "title": "Guide des widgets",
+      "basis": "Tous les widgets affichent les informations de la dernière région affichée dans l’écran de région unique.",
+      "android_title": "Widgets Android",
+      "android_home": "Écran d’accueil : graphique des maxima/minima ressentis sur les 8 derniers jours avec icônes météo matin/après-midi",
+      "ios_title": "Widgets iOS",
+      "ios_home": "Écran d’accueil : graphique des maxima/minima ressentis sur les 8 derniers jours avec icônes matin/après-midi en haut à droite",
+      "ios_lock_full": "Écran verrouillé : graphique comparatif des maxima/minima ressentis sur les 8 derniers jours",
+      "ios_lock_split": "Écran verrouillé : graphiques séparés pour les maxima et minima ressentis"
     }
   },
   "privacy": {
