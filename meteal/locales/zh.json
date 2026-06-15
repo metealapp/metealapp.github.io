@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "一目了然地比较您所需的天气",
     "subtitle": "一款简单的天气应用，可通过近期体感温度变化直观了解今日天气，并快速比较多个地区的天气。",
-    "badge": "v1.0.72 · iOS & Android",
+    "badge": "v1.0.77 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "即将推出"
@@ -31,6 +31,10 @@
     "multilang": {
       "title": "多语言支持",
       "desc": "支持7种语言：한국어、English、Deutsch、Français、Italiano、日本語、简体中文。"
+    },
+    "theme": {
+      "title": "自定义主题",
+      "desc": "可自行调整应用颜色，使用更符合个人喜好的界面风格。"
     },
     "offline": {
       "title": "离线缓存",
@@ -293,11 +297,12 @@
     "app_desc_title": "关于应用",
     "app_desc": "一款简单的天气应用，可通过近期体感温度变化直观了解今日天气，并快速比较多个地区的天气。",
     "features_title": "主要功能",
-    "features_list": "8天体感温度趋势|保存并对比多个地区|天气小组件支持|多语言支持|简单直观的界面",
+    "features_list": "8天体感温度趋势|保存并对比多个地区|天气小组件支持|自定义主题支持|多语言支持|简单直观的界面",
     "feature_today": "查看今天/明天的天气",
     "feature_feels_like": "比较近期体感温度变化",
     "feature_regions": "保存并对比多个地区",
     "feature_widget": "支持天气小组件",
+    "feature_theme": "支持自定义主题",
     "feature_multilang": "多语言支持",
     "feature_ui": "简单直观的界面",
     "supported_langs_title": "支持语言",

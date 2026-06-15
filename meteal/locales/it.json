@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "Confronta solo il meteo che ti serve, a colpo d'occhio",
     "subtitle": "Una semplice app meteo per controllare intuitivamente il meteo di oggi con i recenti cambiamenti di temperatura percepita e confrontare rapidamente il meteo di più regioni.",
-    "badge": "v1.0.72 · iOS & Android",
+    "badge": "v1.0.77 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Prossimamente"
@@ -31,6 +31,10 @@
     "multilang": {
       "title": "Supporto multilingue",
       "desc": "Supporta 7 lingue: 한국어, English, Deutsch, Français, Italiano, 日本語, 简体中文."
+    },
+    "theme": {
+      "title": "Temi personalizzati",
+      "desc": "Regola i colori dell’app e usa Meteal con un aspetto più adatto a te."
     },
     "offline": {
       "title": "Cache offline",
@@ -293,11 +297,12 @@
     "app_desc_title": "Informazioni sull'app",
     "app_desc": "Una semplice app meteo per controllare intuitivamente il meteo di oggi con i recenti cambiamenti di temperatura percepita e confrontare rapidamente il meteo di più regioni.",
     "features_title": "Funzionalità principali",
-    "features_list": "Temperatura percepita per 8 giorni|Salva e confronta più regioni|Supporto widget meteo|Supporto multilingue|Interfaccia semplice e intuitiva",
+    "features_list": "Temperatura percepita per 8 giorni|Salva e confronta più regioni|Supporto widget meteo|Temi personalizzati|Supporto multilingue|Interfaccia semplice e intuitiva",
     "feature_today": "Controlla il meteo di oggi e domani",
     "feature_feels_like": "Confronta i recenti cambiamenti della temperatura percepita",
     "feature_regions": "Salva e confronta più regioni",
     "feature_widget": "Supporto widget meteo",
+    "feature_theme": "Temi personalizzati",
     "feature_multilang": "Supporto multilingue",
     "feature_ui": "Interfaccia semplice e intuitiva",
     "supported_langs_title": "Lingue supportate",

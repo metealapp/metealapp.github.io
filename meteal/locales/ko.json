@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "나에게 필요한 날씨만, 한눈에 비교하다",
     "subtitle": "최근 체감온도 변화와 함께 오늘 날씨를 직관적으로 확인하고, 여러 지역의 날씨를 빠르게 비교할 수 있는 심플한 날씨 앱.",
-    "badge": "v1.0.72 · iOS & Android",
+    "badge": "v1.0.77 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Coming Soon"
@@ -31,6 +31,10 @@
     "multilang": {
       "title": "다국어 지원",
       "desc": "한국어, English, Deutsch, Français, Italiano, 日本語, 简体中文 등 7개 언어를 지원합니다."
+    },
+    "theme": {
+      "title": "사용자 테마",
+      "desc": "앱 색상을 직접 조정해 나에게 맞는 화면 분위기로 사용할 수 있습니다."
     },
     "offline": {
       "title": "오프라인 캐시",
@@ -293,11 +297,12 @@
     "app_desc_title": "앱 소개",
     "app_desc": "최근 체감온도 변화와 함께 오늘 날씨를 직관적으로 확인하고, 여러 지역의 날씨를 빠르게 비교할 수 있는 심플한 날씨 앱.",
     "features_title": "주요 기능",
-    "features_list": "8일간 체감온도 변화 비교|여러 지역 저장 및 비교|날씨 위젯 지원|다국어 지원|간단하고 직관적인 UI",
+    "features_list": "8일간 체감온도 변화 비교|여러 지역 저장 및 비교|날씨 위젯 지원|사용자 테마 지원|다국어 지원|간단하고 직관적인 UI",
     "feature_today": "오늘/내일 날씨 확인",
     "feature_feels_like": "최근 체감온도 변화 비교",
     "feature_regions": "여러 지역 저장 및 비교",
     "feature_widget": "날씨 위젯 지원",
+    "feature_theme": "사용자 테마 지원",
     "feature_multilang": "다국어 지원",
     "feature_ui": "간단하고 직관적인 UI",
     "supported_langs_title": "지원 언어",

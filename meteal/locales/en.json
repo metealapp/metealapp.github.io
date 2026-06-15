@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "Compare only the weather you need, at a glance",
     "subtitle": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
-    "badge": "v1.0.72 · iOS & Android",
+    "badge": "v1.0.77 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Coming Soon"
@@ -31,6 +31,10 @@
     "multilang": {
       "title": "Multi-Language Support",
       "desc": "Supports 7 languages: 한국어, English, Deutsch, Français, Italiano, 日本語, 简体中文."
+    },
+    "theme": {
+      "title": "Custom Themes",
+      "desc": "Adjust the app colors yourself and use Meteal with a look that fits you."
     },
     "offline": {
       "title": "Offline Cache",
@@ -293,11 +297,12 @@
     "app_desc_title": "About the App",
     "app_desc": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
     "features_title": "Key Features",
-    "features_list": "8-Day feels-like temperature comparison|Save and compare multiple regions|Weather widget support|Multi-language support|Simple and intuitive UI",
+    "features_list": "8-Day feels-like temperature comparison|Save and compare multiple regions|Weather widget support|Custom theme support|Multi-language support|Simple and intuitive UI",
     "feature_today": "Check today's and tomorrow's weather",
     "feature_feels_like": "Compare recent feels-like temperature changes",
     "feature_regions": "Save and compare multiple regions",
     "feature_widget": "Weather widget support",
+    "feature_theme": "Custom theme support",
     "feature_multilang": "Multi-language support",
     "feature_ui": "Simple and intuitive UI",
     "supported_langs_title": "Supported Languages",

@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "Comparez uniquement la météo dont vous avez besoin, en un coup d'œil",
     "subtitle": "Une application météo simple pour vérifier intuitivement la météo du jour avec les récents changements de température ressentie, et comparer rapidement la météo de plusieurs régions.",
-    "badge": "v1.0.72 · iOS & Android",
+    "badge": "v1.0.77 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Bientôt disponible"
@@ -31,6 +31,10 @@
     "multilang": {
       "title": "Support multilingue",
       "desc": "Prend en charge 7 langues : 한국어, English, Deutsch, Français, Italiano, 日本語, 简体中文."
+    },
+    "theme": {
+      "title": "Thèmes personnalisés",
+      "desc": "Ajustez les couleurs de l’app et utilisez Meteal avec une apparence qui vous correspond."
     },
     "offline": {
       "title": "Cache hors ligne",
@@ -293,11 +297,12 @@
     "app_desc_title": "À propos de l'app",
     "app_desc": "Une application météo simple pour vérifier intuitivement la météo du jour avec les récents changements de température ressentie, et comparer rapidement la météo de plusieurs régions.",
     "features_title": "Fonctionnalités clés",
-    "features_list": "Température ressentie sur 8 jours|Enregistrer et comparer plusieurs régions|Support de widget météo|Support multilingue|Interface simple et intuitive",
+    "features_list": "Température ressentie sur 8 jours|Enregistrer et comparer plusieurs régions|Support de widget météo|Thèmes personnalisés|Support multilingue|Interface simple et intuitive",
     "feature_today": "Consulter la météo d'aujourd'hui et de demain",
     "feature_feels_like": "Comparer les récents changements de température ressentie",
     "feature_regions": "Enregistrer et comparer plusieurs régions",
     "feature_widget": "Prise en charge des widgets météo",
+    "feature_theme": "Thèmes personnalisés",
     "feature_multilang": "Support multilingue",
     "feature_ui": "Interface simple et intuitive",
     "supported_langs_title": "Langues prises en charge",

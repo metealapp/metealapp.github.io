@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "必要な天気だけを、ひと目で比較",
     "subtitle": "最近の体感温度の変化とともに今日の天気を直感的に確認し、複数の地域の天気をすばやく比較できるシンプルな天気アプリ。",
-    "badge": "v1.0.72 · iOS & Android",
+    "badge": "v1.0.77 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Coming Soon"
@@ -31,6 +31,10 @@
     "multilang": {
       "title": "多言語対応",
       "desc": "한국어、English、Deutsch、Français、Italiano、日本語、简体中文の7言語に対応しています。"
+    },
+    "theme": {
+      "title": "カスタムテーマ",
+      "desc": "アプリの色を自分で調整し、好みに合った画面の雰囲気で利用できます。"
     },
     "offline": {
       "title": "オフラインキャッシュ",
@@ -293,11 +297,12 @@
     "app_desc_title": "アプリについて",
     "app_desc": "最近の体感温度の変化とともに今日の天気を直感的に確認し、複数の地域の天気をすばやく比較できるシンプルな天気アプリ。",
     "features_title": "主な機能",
-    "features_list": "8日間の体感温度推移|複数地域の保存と比較|天気ウィジェット対応|多言語対応|シンプルで直感的なUI",
+    "features_list": "8日間の体感温度推移|複数地域の保存と比較|天気ウィジェット対応|カスタムテーマ対応|多言語対応|シンプルで直感的なUI",
     "feature_today": "今日/明日の天気を確認",
     "feature_feels_like": "最近の体感温度変化を比較",
     "feature_regions": "複数地域の保存と比較",
     "feature_widget": "天気ウィジェット対応",
+    "feature_theme": "カスタムテーマ対応",
     "feature_multilang": "多言語対応",
     "feature_ui": "シンプルで直感的なUI",
     "supported_langs_title": "対応言語",
