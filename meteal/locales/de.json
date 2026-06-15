@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "Vergleichen Sie nur das Wetter, das Sie brauchen, auf einen Blick",
     "subtitle": "Eine einfache Wetter-App, um das heutige Wetter mit den jüngsten gefühlten Temperaturänderungen intuitiv zu überprüfen und das Wetter in mehreren Regionen schnell zu vergleichen.",
-    "badge": "v1.0.77 · iOS & Android",
+    "badge": "v1.0.78 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Demnächst verfügbar"
@@ -228,13 +228,19 @@
       "title": "Widget-Anleitung",
       "basis": "Alle Widgets zeigen Informationen für die Region, die zuletzt in der Einzelregion-Ansicht angezeigt wurde.",
       "android_title": "Android-Widgets",
-      "android_home": "Zeigt ein Diagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage mit Wetter-Icons für Vormittag und Nachmittag.",
+      "android_home": "Zeigt ein Diagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage, Wetter-Icons für Vormittag und Nachmittag, die aktuelle gefühlte Temperatur und aktuelle Wetterinformationen.",
       "ios_title": "iOS-Widgets",
-      "ios_home": "Startbildschirm: Diagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage mit Vormittags-/Nachmittags-Icons oben rechts",
+      "ios_home": "Startbildschirm: zeigt ein Diagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage, Wetter-Icons für Vormittag und Nachmittag, die aktuelle gefühlte Temperatur und aktuelle Wetterinformationen.",
       "ios_lock_full": "Sperrbildschirm: Vergleichsdiagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage",
       "ios_lock_split": "Sperrbildschirm: getrennte Diagramme für gefühlte Höchst- und Tiefsttemperatur",
       "android_desc": "Android-Startbildschirm-Widgets verwenden einen transparenten Hintergrund und fügen sich dadurch natürlich in dein Hintergrundbild ein.",
       "ios_desc": "iOS-Startbildschirm-Widgets passen Hintergrund und Farben automatisch an den Hell- oder Dunkelmodus an."
+    },
+    "widget_temperature_basis": {
+      "title": "Temperaturanzeige in Widgets",
+      "desc1": "Die in Widgets angezeigte aktuelle Temperaturzahl ist die aktuelle gefühlte Temperatur. Meteal verwendet bevorzugt die current apparent_temperature-Daten von Open-Meteo, damit die Widget-Anzeige zum Fokus auf gefühlte Temperaturen passt.",
+      "desc2": "Auch das Diagramm im Widget zeigt den Verlauf der gefühlten Höchst- und Tiefsttemperaturen der letzten 8 Tage. Die aktuelle gefühlte Temperaturzahl nutzt jedoch current-Daten für den aktuellen Zeitpunkt, während das Diagramm tägliche Höchst-/Tiefstwerte verwendet. Daher können die Werte voneinander abweichen.",
+      "desc3": "Die Wetterinformationen für Vormittag und Nachmittag werden als Zusammenfassung repräsentativer Tageszeiten angezeigt und getrennt von der aktuellen gefühlten Temperatur berechnet."
     }
   },
   "privacy": {

@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "Confronta solo il meteo che ti serve, a colpo d'occhio",
     "subtitle": "Una semplice app meteo per controllare intuitivamente il meteo di oggi con i recenti cambiamenti di temperatura percepita e confrontare rapidamente il meteo di più regioni.",
-    "badge": "v1.0.77 · iOS & Android",
+    "badge": "v1.0.78 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Prossimamente"
@@ -228,13 +228,19 @@
       "title": "Guida ai widget",
       "basis": "Tutti i widget mostrano le informazioni della regione visualizzata più di recente nella schermata singola.",
       "android_title": "Widget Android",
-      "android_home": "Mostra il grafico delle massime/minime percepite degli ultimi 8 giorni con le icone meteo di mattina e pomeriggio.",
+      "android_home": "Mostra il grafico delle massime/minime percepite degli ultimi 8 giorni, le icone meteo di mattina e pomeriggio, la temperatura percepita attuale e le informazioni meteo attuali.",
       "ios_title": "Widget iOS",
-      "ios_home": "Schermata Home: grafico massime/minime percepite degli ultimi 8 giorni con icone mattino/pomeriggio in alto a destra",
+      "ios_home": "Schermata Home: mostra il grafico delle massime/minime percepite degli ultimi 8 giorni, le icone meteo di mattina e pomeriggio, la temperatura percepita attuale e le informazioni meteo attuali.",
       "ios_lock_full": "Schermata di blocco: grafico di confronto massime/minime percepite degli ultimi 8 giorni",
       "ios_lock_split": "Schermata di blocco: grafici separati per massime e minime percepite",
       "android_desc": "I widget Android della schermata Home usano uno sfondo trasparente, così si integrano naturalmente con lo sfondo del dispositivo.",
       "ios_desc": "I widget iOS della schermata Home adattano automaticamente sfondo e colori alla modalità chiara o scura."
+    },
+    "widget_temperature_basis": {
+      "title": "Regole di visualizzazione della temperatura nei widget",
+      "desc1": "Il numero della temperatura attuale mostrato nei widget è la temperatura percepita attuale. Meteal dà priorità ai dati current apparent_temperature di Open-Meteo per mantenere il widget coerente con le informazioni basate sulla temperatura percepita.",
+      "desc2": "Anche il grafico del widget mostra l’andamento delle massime e minime percepite degli ultimi 8 giorni. Tuttavia, il numero della temperatura percepita attuale usa i dati current del momento presente, mentre il grafico usa i valori massimi/minimi giornalieri. Per questo i valori possono differire.",
+      "desc3": "Le informazioni meteo di mattina e pomeriggio sono mostrate come riepilogo di orari rappresentativi della giornata e sono calcolate separatamente dalla temperatura percepita attuale."
     }
   },
   "privacy": {

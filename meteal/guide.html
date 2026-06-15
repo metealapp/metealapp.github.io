@@ -390,7 +390,7 @@
             <div class="guide-media-grid">
               <figure class="guide-media">
                 <img src="assets/guide/wg_a_1.jpg" alt="Android 홈 화면 위젯">
-                <figcaption data-i18n="guide.widgets.android_home">최근 8일 체감온도 최고/최저 그래프와 오전/오후 날씨 아이콘을 제공합니다.</figcaption>
+                <figcaption data-i18n="guide.widgets.android_home">최근 8일 체감온도 최고/최저 그래프, 오전/오후 날씨 아이콘, 현재 체감온도와 현재 날씨 정보를 표시합니다.</figcaption>
               </figure>
             </div>
 
@@ -407,9 +407,16 @@
               </figure>
               <figure class="guide-media">
                 <img src="assets/guide/wg_ios_3.jpg" alt="iOS 홈 화면 위젯">
-                <figcaption data-i18n="guide.widgets.ios_home">홈 화면: 오늘 포함 최근 8일 체감온도 최고/최저 그래프와 우측 상단 오전/오후 날씨 아이콘 제공</figcaption>
+                <figcaption data-i18n="guide.widgets.ios_home">홈 화면: 최근 8일 체감온도 최고/최저 그래프, 오전/오후 날씨 아이콘, 현재 체감온도와 현재 날씨 정보를 표시합니다.</figcaption>
               </figure>
             </div>
+          </section>
+
+          <section class="content-section" id="widget-temperature-basis">
+            <h2 data-i18n="guide.widget_temperature_basis.title">위젯 온도 표시 기준</h2>
+            <p data-i18n="guide.widget_temperature_basis.desc1">위젯에 표시되는 현재 온도 숫자는 현재 체감온도입니다. 위젯의 체감온도 중심 정보와 일관되도록 Open-Meteo의 current apparent_temperature 데이터를 우선 사용합니다.</p>
+            <p data-i18n="guide.widget_temperature_basis.desc2">위젯의 그래프도 최근 8일의 체감온도 최고/최저 흐름을 표시합니다. 다만 현재 체감온도 숫자는 현재 시점의 current 데이터를, 그래프는 일별 최고/최저 데이터를 사용하므로 서로 값이 다를 수 있습니다.</p>
+            <p data-i18n="guide.widget_temperature_basis.desc3">오전/오후 날씨 정보는 하루 중 대표 시간대의 날씨 요약으로 표시되며, 현재 체감온도와는 별도로 계산됩니다.</p>
           </section>
 
           <section class="content-section" id="widget-refresh">

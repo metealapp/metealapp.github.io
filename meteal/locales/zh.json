@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "一目了然地比较您所需的天气",
     "subtitle": "一款简单的天气应用，可通过近期体感温度变化直观了解今日天气，并快速比较多个地区的天气。",
-    "badge": "v1.0.77 · iOS & Android",
+    "badge": "v1.0.78 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "即将推出"
@@ -228,13 +228,19 @@
       "title": "小组件说明",
       "basis": "所有小组件均以单一地区界面中最后显示的地区信息为准。",
       "android_title": "Android小组件",
-      "android_home": "显示最近8天的体感温度最高/最低图表以及上午/下午天气图标。",
+      "android_home": "显示最近8天的体感温度最高/最低图表、上午/下午天气图标、当前体感温度和当前天气信息。",
       "ios_title": "iOS小组件",
-      "ios_home": "主屏幕：提供包含今天在内最近8天的体感温度最高/最低图表，并在右上角显示上午/下午天气图标",
+      "ios_home": "主屏幕：显示最近8天的体感温度最高/最低图表、上午/下午天气图标、当前体感温度和当前天气信息。",
       "ios_lock_full": "锁屏：包含今天在内最近8天的体感温度最高/最低对比图表",
       "ios_lock_split": "锁屏：分别提供体感温度最高图表和最低图表",
       "android_desc": "Android主屏幕小组件采用透明背景，可自然融入用户的主屏幕壁纸。",
       "ios_desc": "iOS主屏幕小组件会根据浅色模式和深色模式自动调整背景和颜色。"
+    },
+    "widget_temperature_basis": {
+      "title": "小组件温度显示规则",
+      "desc1": "小组件中显示的当前温度数字是当前体感温度。为了与小组件以体感温度为中心的信息保持一致，Meteal会优先使用Open-Meteo的current apparent_temperature数据。",
+      "desc2": "小组件图表也显示最近8天体感温度最高/最低的变化趋势。不过，当前体感温度数字使用当前时刻的current数据，而图表使用每日最高/最低数据，因此数值可能不同。",
+      "desc3": "上午/下午天气信息会作为一天中代表性时段的天气摘要显示，并与当前体感温度分开计算。"
     }
   },
   "privacy": {

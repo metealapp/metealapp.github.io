@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "Compare only the weather you need, at a glance",
     "subtitle": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
-    "badge": "v1.0.77 · iOS & Android",
+    "badge": "v1.0.78 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Coming Soon"
@@ -228,13 +228,19 @@
       "title": "Widget Guide",
       "basis": "All widgets display information for the region most recently shown on the single-region screen.",
       "android_title": "Android Widgets",
-      "android_home": "Shows a recent 8-day feels-like high/low graph with morning and afternoon weather icons.",
+      "android_home": "Shows a recent 8-day feels-like high/low graph, morning and afternoon weather icons, current feels-like temperature, and current weather information.",
       "ios_title": "iOS Widgets",
-      "ios_home": "Home screen: recent 8-day feels-like high/low graph with morning and afternoon icons in the upper right",
+      "ios_home": "Home screen: shows a recent 8-day feels-like high/low graph, morning and afternoon weather icons, current feels-like temperature, and current weather information.",
       "ios_lock_full": "Lock screen: recent 8-day feels-like high/low comparison graph",
       "ios_lock_split": "Lock screen: separate feels-like high and low graphs",
       "android_desc": "Android home screen widgets use a transparent background, so they blend naturally with your home screen wallpaper.",
       "ios_desc": "iOS home screen widgets automatically adjust their background and colors for Light Mode and Dark Mode."
+    },
+    "widget_temperature_basis": {
+      "title": "Widget Temperature Display Rules",
+      "desc1": "The current temperature number shown in widgets is the current feels-like temperature. Meteal prioritizes Open-Meteo current apparent_temperature data so the widget stays consistent with its feels-like temperature focus.",
+      "desc2": "The widget graph also shows the recent 8-day trend of feels-like highs and lows. However, the current feels-like temperature number uses current data for the present moment, while the graph uses daily high/low data, so the values may differ.",
+      "desc3": "Morning and afternoon weather information is shown as a summary for representative times of the day and is calculated separately from the current feels-like temperature."
     }
   },
   "privacy": {
