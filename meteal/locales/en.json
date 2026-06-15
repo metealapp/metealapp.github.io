@@ -161,7 +161,7 @@
       "row_previous_day": "Previous day data",
       "row_previous_day_duration": "24 hours",
       "row_current": "Current weather",
-      "row_current_duration": "60 minutes (extracted from hourly data)"
+      "row_current_duration": "60 minutes (current data is used first)"
     },
     "widget_refresh": {
       "title": "Widget Data Refresh",
@@ -213,6 +213,12 @@
       "pm_temp_rule": "Summarizes afternoon temperature data as an average or representative value.",
       "options": "Precipitation, wind, humidity, precipitation probability",
       "options_rule": "Each option is summarized in a suitable way, such as total, average, or probability."
+    },
+    "current_weather_basis": {
+      "title": "Why current temperature and hourly temperature may differ",
+      "desc1": "Meteal prioritizes Open-Meteo current data for the current temperature so it can show a value closer to the present moment. Current data is provided based on 15-minute weather model data.",
+      "desc2": "Temperatures shown in hourly tables and graphs use hourly data, based on 1-hour weather information. As a result, the current temperature and the hourly temperature for the same time period may not always match.",
+      "desc3": "Meteal also does not display raw observations from a specific weather station. It uses forecast values provided by Open-Meteo, which combines multiple weather model datasets based on the coordinates of the selected region. Values may differ from national weather service apps or station observations depending on the region, elevation, model resolution, and interpolation method."
     },
     "widgets": {
       "title": "Widget Guide",

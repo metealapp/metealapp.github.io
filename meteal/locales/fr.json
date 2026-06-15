@@ -161,7 +161,7 @@
       "row_previous_day": "Données de la veille",
       "row_previous_day_duration": "24 heures",
       "row_current": "Météo actuelle",
-      "row_current_duration": "60 minutes (extraite des données horaires)"
+      "row_current_duration": "60 minutes (les données current sont utilisées en priorité)"
     },
     "widget_refresh": {
       "title": "Mise à jour des données du widget",
@@ -213,6 +213,12 @@
       "pm_temp_rule": "Résume les températures de l’après-midi sous forme de moyenne ou de valeur représentative.",
       "options": "Précipitations, vent, humidité, probabilité de pluie",
       "options_rule": "Chaque option est résumée de manière adaptée, par total, moyenne ou probabilité."
+    },
+    "current_weather_basis": {
+      "title": "Pourquoi la température actuelle et la température horaire peuvent différer",
+      "desc1": "Meteal utilise en priorité les données current d’Open-Meteo pour la température actuelle, afin d’afficher une valeur plus proche du moment présent. Les données current sont fournies à partir de données de modèles météo à intervalle de 15 minutes.",
+      "desc2": "En revanche, les températures affichées dans les tableaux et graphiques horaires utilisent les données hourly, basées sur des informations météo à intervalle d’une heure. La température actuelle et la température hourly du même créneau peuvent donc être différentes.",
+      "desc3": "De plus, Meteal n’affiche pas directement les mesures brutes d’une station météo précise. L’app utilise des valeurs prévisionnelles fournies par Open-Meteo, qui combine plusieurs données de modèles météo selon les coordonnées de la région sélectionnée. Selon la région, l’altitude, la résolution du modèle et la méthode d’interpolation, les valeurs peuvent différer de celles des applications des services météorologiques nationaux ou des relevés de stations."
     },
     "widgets": {
       "title": "Guide des widgets",

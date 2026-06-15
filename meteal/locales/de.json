@@ -161,7 +161,7 @@
       "row_previous_day": "Daten des Vortags",
       "row_previous_day_duration": "24 Stunden",
       "row_current": "Aktuelles Wetter",
-      "row_current_duration": "60 Minuten (aus stündlichen Daten extrahiert)"
+      "row_current_duration": "60 Minuten (current-Daten werden bevorzugt verwendet)"
     },
     "widget_refresh": {
       "title": "Widget-Daten aktualisieren",
@@ -213,6 +213,12 @@
       "pm_temp_rule": "Fasst Temperaturdaten am Nachmittag als Durchschnitt oder repräsentativen Wert zusammen.",
       "options": "Niederschlag, Wind, Luftfeuchtigkeit, Niederschlagswahrscheinlichkeit",
       "options_rule": "Jede Option wird passend als Summe, Durchschnitt oder Wahrscheinlichkeit zusammengefasst."
+    },
+    "current_weather_basis": {
+      "title": "Warum aktuelle Temperatur und stündliche Temperatur abweichen können",
+      "desc1": "Meteal verwendet für die aktuelle Temperatur bevorzugt die current-Daten von Open-Meteo, um einen Wert anzuzeigen, der näher am aktuellen Zeitpunkt liegt. Diese current-Daten basieren auf Wettermodelldaten im 15-Minuten-Takt.",
+      "desc2": "Die Temperaturen in stündlichen Tabellen und Diagrammen verwenden dagegen hourly-Daten und beruhen auf Wetterinformationen im 1-Stunden-Takt. Daher können die aktuelle Temperatur und die hourly-Temperatur desselben Zeitraums voneinander abweichen.",
+      "desc3": "Außerdem zeigt Meteal nicht die Rohmesswerte einer bestimmten Wetterstation an. Stattdessen werden Vorhersagewerte von Open-Meteo verwendet, die anhand der Koordinaten der ausgewählten Region mehrere Wettermodelldaten kombinieren. Je nach Region, Höhe, Modellauflösung und Interpolationsmethode können sich die Werte von Apps nationaler Wetterdienste oder Stationsmessungen unterscheiden."
     },
     "widgets": {
       "title": "Widget-Anleitung",

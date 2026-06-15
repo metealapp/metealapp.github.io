@@ -161,7 +161,7 @@
       "row_previous_day": "Dati del giorno precedente",
       "row_previous_day_duration": "24 ore",
       "row_current": "Meteo attuale",
-      "row_current_duration": "60 minuti (estratto dai dati orari)"
+      "row_current_duration": "60 minuti (i dati current vengono usati per primi)"
     },
     "widget_refresh": {
       "title": "Aggiornamento dati widget",
@@ -213,6 +213,12 @@
       "pm_temp_rule": "Riepiloga le temperature del pomeriggio come media o valore rappresentativo.",
       "options": "Precipitazioni, vento, umidità, probabilità di precipitazione",
       "options_rule": "Ogni opzione viene riepilogata nel modo più adatto, ad esempio totale, media o probabilità."
+    },
+    "current_weather_basis": {
+      "title": "Perché la temperatura attuale e quella oraria possono differire",
+      "desc1": "Meteal dà priorità ai dati current di Open-Meteo per la temperatura attuale, così da mostrare un valore più vicino al momento presente. I dati current sono forniti sulla base di dati dei modelli meteo a intervalli di 15 minuti.",
+      "desc2": "Le temperature mostrate nelle tabelle e nei grafici orari usano invece i dati hourly, basati su informazioni meteorologiche a intervalli di 1 ora. Per questo la temperatura attuale e la temperatura hourly dello stesso intervallo possono non coincidere.",
+      "desc3": "Inoltre, Meteal non mostra direttamente le misurazioni grezze di una specifica stazione meteorologica. Usa valori previsionali forniti da Open-Meteo, che combina diversi dati di modelli meteo in base alle coordinate della regione selezionata. A seconda di regione, altitudine, risoluzione del modello e metodo di interpolazione, i valori possono differire dalle app dei servizi meteorologici nazionali o dai dati delle stazioni."
     },
     "widgets": {
       "title": "Guida ai widget",

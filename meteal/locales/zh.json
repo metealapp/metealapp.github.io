@@ -161,7 +161,7 @@
       "row_previous_day": "前一天数据",
       "row_previous_day_duration": "24小时",
       "row_current": "当前天气",
-      "row_current_duration": "60分钟（从每小时数据中提取）"
+      "row_current_duration": "60分钟（优先使用current数据）"
     },
     "widget_refresh": {
       "title": "小组件数据刷新",
@@ -213,6 +213,12 @@
       "pm_temp_rule": "将下午时段的温度数据汇总为平均值或代表值显示。",
       "options": "降水量、风速、湿度、降水概率",
       "options_rule": "根据各显示选项的性质，以合计、平均或概率等方式汇总显示。"
+    },
+    "current_weather_basis": {
+      "title": "为什么当前温度和每小时温度可能不同",
+      "desc1": "Meteal会优先使用Open-Meteo的current数据来显示当前温度，以便提供更接近当前时刻的数值。current数据基于15分钟间隔的天气模型数据提供。",
+      "desc2": "而每小时表格和图表中显示的温度使用hourly数据，基于1小时单位的气象信息。因此，当前温度和同一时间段的hourly温度可能会不完全一致。",
+      "desc3": "此外，Meteal的天气信息并不是直接显示某个观测站的实测值，而是使用Open-Meteo根据所选地区坐标、结合多种天气模型数据提供的预测值。根据地区、海拔、模型分辨率和插值方式的不同，数值可能与各国气象机构应用或观测站资料存在差异。"
     },
     "widgets": {
       "title": "小组件说明",
