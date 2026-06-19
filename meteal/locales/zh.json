@@ -96,7 +96,20 @@
       "fallback_title": "广告加载失败时的处理方式",
       "fallback_online": "如果设备已连接互联网，但由于广告服务器响应延迟、广告库存不足或临时服务问题导致无法加载激励广告，Meteal不会阻止功能使用，而会继续进行。此时，应用底部会显示一条广告已跳过并继续的提示，约持续3秒。",
       "fallback_offline": "如果没有互联网连接，则无法加载广告，因此附加功能可能会暂时受限，并会显示网络错误提示。",
-      "retry_policy": "此外，为避免不必要的广告请求反复发生，Meteal会限制横幅广告的重试次数和重试间隔，并在网络恢复后等待短暂稳定时间再重新请求广告。"
+      "retry_policy": "此外，为避免不必要的广告请求反复发生，Meteal会限制横幅广告的重试次数和重试间隔，并在网络恢复后等待短暂稳定时间再重新请求广告。",
+      "stability_title": "广告请求稳定策略",
+      "stability_th_item": "项目",
+      "stability_th_policy": "处理方式",
+      "stability_banner_item": "横幅广告重试",
+      "stability_banner_policy": "连续失败时最多重试5次；超过标准后，会将重试延迟约30分钟。",
+      "stability_network_item": "网络恢复后的请求",
+      "stability_network_policy": "网络恢复后不会立即请求，而是等待约5秒稳定时间后再重新请求广告。",
+      "stability_rewarded_item": "激励广告预加载",
+      "stability_rewarded_policy": "预加载失败时，约2分钟后再次尝试。",
+      "stability_online_item": "激励广告加载失败",
+      "stability_online_policy": "如果存在互联网连接，Meteal会视为广告服务器或库存问题，允许使用功能，并在底部显示约3秒提示。",
+      "stability_offline_item": "离线状态下的广告失败",
+      "stability_offline_policy": "如果没有互联网连接，附加功能会暂时受限，并显示网络错误提示。"
     },
     "weather_codes": {
       "title": "天气状态显示规则",

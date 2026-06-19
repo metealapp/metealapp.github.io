@@ -96,7 +96,20 @@
       "fallback_title": "Gestione degli errori di caricamento degli annunci",
       "fallback_online": "Se la connessione Internet è disponibile ma un annuncio con ricompensa non può essere caricato a causa di un ritardo del server pubblicitario, mancanza di inventario o un problema temporaneo del servizio, Meteal non blocca la funzione e consente di continuare. In basso nell’app viene mostrato per circa 3 secondi un breve messaggio che indica che l’annuncio è stato saltato.",
       "fallback_offline": "Se non è presente una connessione Internet, gli annunci non possono essere caricati. Le funzioni aggiuntive possono quindi essere temporaneamente limitate e viene mostrato un messaggio di errore di rete.",
-      "retry_policy": "Meteal limita inoltre i tentativi ripetuti di caricamento dei banner pubblicitari e i relativi intervalli per evitare richieste pubblicitarie non necessarie. Dopo il ripristino della rete, l’app attende brevemente prima di richiedere di nuovo gli annunci."
+      "retry_policy": "Meteal limita inoltre i tentativi ripetuti di caricamento dei banner pubblicitari e i relativi intervalli per evitare richieste pubblicitarie non necessarie. Dopo il ripristino della rete, l’app attende brevemente prima di richiedere di nuovo gli annunci.",
+      "stability_title": "Criteri di stabilizzazione delle richieste pubblicitarie",
+      "stability_th_item": "Voce",
+      "stability_th_policy": "Gestione",
+      "stability_banner_item": "Tentativi di caricamento banner",
+      "stability_banner_policy": "In caso di errori consecutivi, Meteal riprova fino a 5 volte. Se il limite viene superato, i nuovi tentativi vengono ritardati di circa 30 minuti.",
+      "stability_network_item": "Richiesta dopo il ripristino della rete",
+      "stability_network_policy": "Dopo il ripristino della rete, Meteal non invia subito la richiesta e attende circa 5 secondi prima di richiedere di nuovo gli annunci.",
+      "stability_rewarded_item": "Precaricamento annunci con ricompensa",
+      "stability_rewarded_policy": "Se il precaricamento fallisce, Meteal riprova dopo circa 2 minuti.",
+      "stability_online_item": "Errore di caricamento annuncio con ricompensa",
+      "stability_online_policy": "Se è disponibile una connessione Internet, Meteal lo considera un problema del server pubblicitario o dell’inventario, consente l’uso della funzione e mostra un messaggio in basso per circa 3 secondi.",
+      "stability_offline_item": "Errore pubblicitario offline",
+      "stability_offline_policy": "Se non è presente una connessione Internet, le funzioni aggiuntive vengono temporaneamente limitate e viene mostrato un messaggio di errore di rete."
     },
     "weather_codes": {
       "title": "Regole di visualizzazione dello stato meteo",

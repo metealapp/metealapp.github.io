@@ -96,7 +96,20 @@
       "fallback_title": "Umgang mit fehlgeschlagenem Laden von Werbung",
       "fallback_online": "Wenn eine Internetverbindung besteht, eine belohnte Werbung aber wegen verzögerter Werbeserver-Antwort, fehlendem Anzeigeninventar oder eines vorübergehenden Dienstproblems nicht geladen werden kann, blockiert Meteal die Funktion nicht und lässt dich fortfahren. Unten in der App erscheint für etwa 3 Sekunden ein kurzer Hinweis, dass ohne Werbung fortgefahren wird.",
       "fallback_offline": "Wenn keine Internetverbindung besteht, kann Werbung nicht geladen werden. Zusätzliche Funktionen können daher vorübergehend eingeschränkt sein und es wird ein Netzwerkfehler angezeigt.",
-      "retry_policy": "Meteal begrenzt außerdem wiederholte Banner-Werbeanfragen und deren Intervalle, um unnötige Werbeanfragen zu vermeiden. Nach der Wiederherstellung der Netzwerkverbindung wartet die App kurz, bevor Werbung erneut angefragt wird."
+      "retry_policy": "Meteal begrenzt außerdem wiederholte Banner-Werbeanfragen und deren Intervalle, um unnötige Werbeanfragen zu vermeiden. Nach der Wiederherstellung der Netzwerkverbindung wartet die App kurz, bevor Werbung erneut angefragt wird.",
+      "stability_title": "Stabilisierung von Werbeanfragen",
+      "stability_th_item": "Punkt",
+      "stability_th_policy": "Verarbeitung",
+      "stability_banner_item": "Banner-Werbung erneut laden",
+      "stability_banner_policy": "Bei aufeinanderfolgenden Fehlern wird bis zu 5 Mal erneut versucht. Wird der Grenzwert überschritten, werden weitere Versuche für etwa 30 Minuten verzögert.",
+      "stability_network_item": "Anfrage nach Netzwerk-Wiederherstellung",
+      "stability_network_policy": "Nach der Wiederherstellung der Verbindung wird nicht sofort angefragt. Meteal wartet etwa 5 Sekunden, bevor Werbung erneut angefragt wird.",
+      "stability_rewarded_item": "Belohnte Werbung vorladen",
+      "stability_rewarded_policy": "Wenn das Vorladen fehlschlägt, versucht Meteal es nach etwa 2 Minuten erneut.",
+      "stability_online_item": "Fehler beim Laden belohnter Werbung",
+      "stability_online_policy": "Wenn eine Internetverbindung besteht, behandelt Meteal dies als Werbeserver- oder Inventarproblem, erlaubt die Funktion und zeigt unten etwa 3 Sekunden lang einen Hinweis.",
+      "stability_offline_item": "Werbefehler im Offline-Zustand",
+      "stability_offline_policy": "Wenn keine Internetverbindung besteht, werden zusätzliche Funktionen vorübergehend eingeschränkt und ein Netzwerkfehler angezeigt."
     },
     "weather_codes": {
       "title": "Wetterstatus-Anzeigeregeln",

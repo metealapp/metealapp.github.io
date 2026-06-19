@@ -232,6 +232,39 @@
             <p data-i18n="guide.ad_info.fallback_online">인터넷 연결은 되어 있지만 광고 서버 응답 지연, 광고 재고 부족, 일시적인 서비스 문제 등으로 리워드 광고를 불러오지 못한 경우에는 기능 사용을 막지 않고 계속 진행할 수 있습니다. 이때 앱 하단에 광고를 건너뛰고 진행된다는 안내가 약 3초간 표시됩니다.</p>
             <p data-i18n="guide.ad_info.fallback_offline">인터넷 연결이 없는 경우에는 광고를 불러올 수 없으므로 추가 기능 사용이 일시적으로 제한되며, 네트워크 오류 안내가 표시됩니다.</p>
             <p data-i18n="guide.ad_info.retry_policy">또한 불필요한 광고 요청이 반복되지 않도록 배너 광고 재시도 횟수와 재시도 간격을 제한하고, 네트워크가 복구된 뒤에는 잠시 안정화 시간을 둔 후 광고를 다시 요청합니다.</p>
+            <h3 data-i18n="guide.ad_info.stability_title">광고 요청 안정화 정책</h3>
+            <div class="table-wrap">
+              <table id="adStabilityTable">
+                <thead>
+                  <tr>
+                    <th data-i18n="guide.ad_info.stability_th_item">항목</th>
+                    <th data-i18n="guide.ad_info.stability_th_policy">처리 방식</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-i18n="guide.ad_info.stability_banner_item">배너 광고 재시도</td>
+                    <td data-i18n="guide.ad_info.stability_banner_policy">연속 실패 시 최대 5회까지 재시도하며, 기준을 초과하면 약 30분 동안 재시도를 늦춥니다.</td>
+                  </tr>
+                  <tr>
+                    <td data-i18n="guide.ad_info.stability_network_item">네트워크 복구 후 요청</td>
+                    <td data-i18n="guide.ad_info.stability_network_policy">네트워크가 복구되면 즉시 요청하지 않고 약 5초간 안정화 시간을 둔 뒤 광고를 다시 요청합니다.</td>
+                  </tr>
+                  <tr>
+                    <td data-i18n="guide.ad_info.stability_rewarded_item">보상형 광고 사전 로드</td>
+                    <td data-i18n="guide.ad_info.stability_rewarded_policy">사전 로드에 실패하면 약 2분 후 다시 시도합니다.</td>
+                  </tr>
+                  <tr>
+                    <td data-i18n="guide.ad_info.stability_online_item">리워드 광고 로드 실패</td>
+                    <td data-i18n="guide.ad_info.stability_online_policy">인터넷 연결이 있으면 광고 서버 또는 재고 문제로 보고 기능 사용을 허용하며, 하단 안내를 약 3초간 표시합니다.</td>
+                  </tr>
+                  <tr>
+                    <td data-i18n="guide.ad_info.stability_offline_item">오프라인 상태의 광고 실패</td>
+                    <td data-i18n="guide.ad_info.stability_offline_policy">인터넷 연결이 없으면 추가 기능 사용을 일시적으로 제한하고 네트워크 오류 안내를 표시합니다.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </section>
         </section>
 
