@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "Vergleichen Sie nur das Wetter, das Sie brauchen, auf einen Blick",
     "subtitle": "Eine einfache Wetter-App, um das heutige Wetter mit den jüngsten gefühlten Temperaturänderungen intuitiv zu überprüfen und das Wetter in mehreren Regionen schnell zu vergleichen.",
-    "badge": "v1.0.78 · iOS & Android",
+    "badge": "v1.0.79 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Demnächst verfügbar"
@@ -92,7 +92,11 @@
       "reason2": "Kein Werbeinventar verfügbar",
       "reason3": "Serververzögerung",
       "reason4": "Geräte- oder OS-Einschränkungen",
-      "reason5": "Vorübergehende Serviceausfälle"
+      "reason5": "Vorübergehende Serviceausfälle",
+      "fallback_title": "Umgang mit fehlgeschlagenem Laden von Werbung",
+      "fallback_online": "Wenn eine Internetverbindung besteht, eine belohnte Werbung aber wegen verzögerter Werbeserver-Antwort, fehlendem Anzeigeninventar oder eines vorübergehenden Dienstproblems nicht geladen werden kann, blockiert Meteal die Funktion nicht und lässt dich fortfahren. Unten in der App erscheint für etwa 3 Sekunden ein kurzer Hinweis, dass ohne Werbung fortgefahren wird.",
+      "fallback_offline": "Wenn keine Internetverbindung besteht, kann Werbung nicht geladen werden. Zusätzliche Funktionen können daher vorübergehend eingeschränkt sein und es wird ein Netzwerkfehler angezeigt.",
+      "retry_policy": "Meteal begrenzt außerdem wiederholte Banner-Werbeanfragen und deren Intervalle, um unnötige Werbeanfragen zu vermeiden. Nach der Wiederherstellung der Netzwerkverbindung wartet die App kurz, bevor Werbung erneut angefragt wird."
     },
     "weather_codes": {
       "title": "Wetterstatus-Anzeigeregeln",

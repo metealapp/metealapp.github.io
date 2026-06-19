@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "Comparez uniquement la météo dont vous avez besoin, en un coup d'œil",
     "subtitle": "Une application météo simple pour vérifier intuitivement la météo du jour avec les récents changements de température ressentie, et comparer rapidement la météo de plusieurs régions.",
-    "badge": "v1.0.78 · iOS & Android",
+    "badge": "v1.0.79 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Bientôt disponible"
@@ -92,7 +92,11 @@
       "reason2": "Aucun inventaire publicitaire disponible",
       "reason3": "Délai de réponse du serveur",
       "reason4": "Restrictions de l'appareil ou de l'OS",
-      "reason5": "Problèmes de service temporaires"
+      "reason5": "Problèmes de service temporaires",
+      "fallback_title": "Gestion des échecs de chargement des publicités",
+      "fallback_online": "Si la connexion Internet est disponible mais qu’une publicité avec récompense ne peut pas être chargée en raison d’un délai du serveur publicitaire, d’un manque d’inventaire ou d’un problème temporaire du service, Meteal ne bloque pas la fonctionnalité et vous permet de continuer. Un bref message s’affiche en bas de l’app pendant environ 3 secondes pour indiquer que la publicité est ignorée.",
+      "fallback_offline": "S’il n’y a pas de connexion Internet, les publicités ne peuvent pas être chargées. Les fonctionnalités supplémentaires peuvent donc être temporairement limitées et un message d’erreur réseau s’affiche.",
+      "retry_policy": "Meteal limite également les tentatives répétées de chargement des bannières publicitaires et leurs intervalles afin d’éviter les requêtes inutiles. Une fois le réseau rétabli, l’app attend brièvement avant de redemander des publicités."
     },
     "weather_codes": {
       "title": "Règles d'affichage de l'état météo",

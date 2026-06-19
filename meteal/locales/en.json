@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "Compare only the weather you need, at a glance",
     "subtitle": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
-    "badge": "v1.0.78 · iOS & Android",
+    "badge": "v1.0.79 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Coming Soon"
@@ -92,7 +92,11 @@
       "reason2": "No ad inventory available",
       "reason3": "Server response delay",
       "reason4": "Device or OS restrictions",
-      "reason5": "Temporary service issues"
+      "reason5": "Temporary service issues",
+      "fallback_title": "How ad load failures are handled",
+      "fallback_online": "If your internet connection is available but a rewarded ad cannot be loaded because of an ad server delay, unavailable ad inventory, or a temporary service issue, Meteal lets you continue without blocking the feature. A brief message is shown at the bottom of the app for about 3 seconds.",
+      "fallback_offline": "If there is no internet connection, ads cannot be loaded, so additional features may be temporarily limited and a network error message is shown.",
+      "retry_policy": "Meteal also limits repeated banner ad retries and retry intervals to avoid unnecessary ad requests. After the network recovers, it waits briefly before requesting ads again."
     },
     "weather_codes": {
       "title": "Weather Status Display Rules",

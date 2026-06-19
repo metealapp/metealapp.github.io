@@ -8,7 +8,7 @@
   "hero": {
     "tagline": "一目了然地比较您所需的天气",
     "subtitle": "一款简单的天气应用，可通过近期体感温度变化直观了解今日天气，并快速比较多个地区的天气。",
-    "badge": "v1.0.78 · iOS & Android",
+    "badge": "v1.0.79 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "即将推出"
@@ -92,7 +92,11 @@
       "reason2": "无可用广告库存",
       "reason3": "服务器响应延迟",
       "reason4": "设备或操作系统限制",
-      "reason5": "服务临时故障"
+      "reason5": "服务临时故障",
+      "fallback_title": "广告加载失败时的处理方式",
+      "fallback_online": "如果设备已连接互联网，但由于广告服务器响应延迟、广告库存不足或临时服务问题导致无法加载激励广告，Meteal不会阻止功能使用，而会继续进行。此时，应用底部会显示一条广告已跳过并继续的提示，约持续3秒。",
+      "fallback_offline": "如果没有互联网连接，则无法加载广告，因此附加功能可能会暂时受限，并会显示网络错误提示。",
+      "retry_policy": "此外，为避免不必要的广告请求反复发生，Meteal会限制横幅广告的重试次数和重试间隔，并在网络恢复后等待短暂稳定时间再重新请求广告。"
     },
     "weather_codes": {
       "title": "天气状态显示规则",
