@@ -1,4 +1,4 @@
-﻿{
+{
   "nav": {
     "home": "Home",
     "guide": "User Guide",
@@ -96,12 +96,12 @@
       "fallback_title": "How ad load failures are handled",
       "fallback_online": "If your internet connection is available but a rewarded ad cannot be loaded because of an ad server delay, unavailable ad inventory, or a temporary service issue, Meteal lets you continue without blocking the feature. A brief message is shown at the bottom of the app for about 3 seconds.",
       "fallback_offline": "If there is no internet connection, ads cannot be loaded, so additional features may be temporarily limited and a network error message is shown.",
-      "retry_policy": "Meteal also limits repeated banner ad retries and retry intervals to avoid unnecessary ad requests. After the network recovers, it waits briefly before requesting ads again.",
+      "retry_policy": "Meteal also limits repeated banner ad retries and request intervals to avoid unnecessary ad requests, and it does not request ads while the app is in the background. After the network recovers, it waits briefly before requesting ads again.",
       "stability_title": "Ad Request Stabilization Policy",
       "stability_th_item": "Item",
       "stability_th_policy": "Handling",
       "stability_banner_item": "Banner ad retries",
-      "stability_banner_policy": "Retries up to 5 times after consecutive failures. If the limit is exceeded, retries are delayed for about 30 minutes.",
+      "stability_banner_policy": "Retries up to 5 times after consecutive failures. When the limit is reached, retries are delayed for about 30 minutes.",
       "stability_network_item": "Requests after network recovery",
       "stability_network_policy": "After the network recovers, Meteal waits about 5 seconds before requesting ads again instead of requesting immediately.",
       "stability_rewarded_item": "Rewarded ad preload",
@@ -109,7 +109,11 @@
       "stability_online_item": "Rewarded ad load failure",
       "stability_online_policy": "If an internet connection is available, Meteal treats it as an ad server or inventory issue, allows the feature, and shows a bottom message for about 3 seconds.",
       "stability_offline_item": "Ad failure while offline",
-      "stability_offline_policy": "If there is no internet connection, additional features are temporarily limited and a network error message is shown."
+      "stability_offline_policy": "If there is no internet connection, additional features are temporarily limited and a network error message is shown.",
+      "stability_banner_interval_item": "Banner ad request interval",
+      "stability_banner_interval_policy": "New banner ad requests keep a minimum 60-second interval. If another request occurs within 60 seconds, Meteal waits for the remaining time and retries only once.",
+      "stability_background_item": "Background state",
+      "stability_background_policy": "When the app is in the background, Meteal does not request banner ads or preload rewarded ads. When the app returns to the foreground, it checks the required ad preparation again."
     },
     "weather_codes": {
       "title": "Weather Status Display Rules",

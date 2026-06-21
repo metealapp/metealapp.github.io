@@ -1,4 +1,4 @@
-﻿{
+{
   "nav": {
     "home": "Accueil",
     "guide": "Guide d'utilisation",
@@ -96,12 +96,12 @@
       "fallback_title": "Gestion des échecs de chargement des publicités",
       "fallback_online": "Si la connexion Internet est disponible mais qu’une publicité avec récompense ne peut pas être chargée en raison d’un délai du serveur publicitaire, d’un manque d’inventaire ou d’un problème temporaire du service, Meteal ne bloque pas la fonctionnalité et vous permet de continuer. Un bref message s’affiche en bas de l’app pendant environ 3 secondes pour indiquer que la publicité est ignorée.",
       "fallback_offline": "S’il n’y a pas de connexion Internet, les publicités ne peuvent pas être chargées. Les fonctionnalités supplémentaires peuvent donc être temporairement limitées et un message d’erreur réseau s’affiche.",
-      "retry_policy": "Meteal limite également les tentatives répétées de chargement des bannières publicitaires et leurs intervalles afin d’éviter les requêtes inutiles. Une fois le réseau rétabli, l’app attend brièvement avant de redemander des publicités.",
+      "retry_policy": "Meteal limite également les tentatives répétées de chargement des bannières publicitaires et les intervalles de requête afin d’éviter les requêtes inutiles, et ne demande pas de publicité lorsque l’app est en arrière-plan. Une fois le réseau rétabli, l’app attend brièvement avant de redemander des publicités.",
       "stability_title": "Politique de stabilisation des requêtes publicitaires",
       "stability_th_item": "Élément",
       "stability_th_policy": "Traitement",
       "stability_banner_item": "Nouvelles tentatives de bannière publicitaire",
-      "stability_banner_policy": "En cas d’échecs consécutifs, Meteal réessaie jusqu’à 5 fois. Si cette limite est dépassée, les nouvelles tentatives sont retardées d’environ 30 minutes.",
+      "stability_banner_policy": "En cas d’échecs consécutifs, Meteal réessaie jusqu’à 5 fois. Lorsque cette limite est atteinte, les nouvelles tentatives sont retardées d’environ 30 minutes.",
       "stability_network_item": "Requête après rétablissement du réseau",
       "stability_network_policy": "Une fois le réseau rétabli, Meteal n’envoie pas immédiatement la requête et attend environ 5 secondes avant de redemander des publicités.",
       "stability_rewarded_item": "Préchargement des publicités avec récompense",
@@ -109,7 +109,11 @@
       "stability_online_item": "Échec de chargement d’une publicité avec récompense",
       "stability_online_policy": "Si une connexion Internet est disponible, Meteal considère qu’il s’agit d’un problème de serveur publicitaire ou d’inventaire, autorise la fonctionnalité et affiche un message en bas pendant environ 3 secondes.",
       "stability_offline_item": "Échec publicitaire hors ligne",
-      "stability_offline_policy": "S’il n’y a pas de connexion Internet, les fonctionnalités supplémentaires sont temporairement limitées et un message d’erreur réseau s’affiche."
+      "stability_offline_policy": "S’il n’y a pas de connexion Internet, les fonctionnalités supplémentaires sont temporairement limitées et un message d’erreur réseau s’affiche.",
+      "stability_banner_interval_item": "Intervalle des requêtes de bannière",
+      "stability_banner_interval_policy": "Les nouvelles requêtes de bannière respectent un intervalle minimal de 60 secondes. Si une autre requête survient avant 60 secondes, Meteal attend le temps restant puis ne réessaie qu’une seule fois.",
+      "stability_background_item": "État en arrière-plan",
+      "stability_background_policy": "Lorsque l’app est en arrière-plan, Meteal ne demande pas de bannière publicitaire et ne précharge pas les publicités avec récompense. Au retour au premier plan, l’app vérifie à nouveau la préparation publicitaire nécessaire."
     },
     "weather_codes": {
       "title": "Règles d'affichage de l'état météo",
