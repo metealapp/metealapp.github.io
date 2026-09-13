@@ -7,8 +7,8 @@
   },
   "hero": {
     "tagline": "Comparez uniquement la météo dont vous avez besoin, en un coup d'œil",
-    "subtitle": "Une application météo simple pour vérifier intuitivement la météo du jour avec les récents changements de température ressentie, et comparer rapidement la météo de plusieurs régions.",
-    "badge": "v1.0.80 · iOS & Android",
+    "subtitle": "Une application météo simple pour consulter intuitivement la météo du jour avec les changements récents de température, et comparer rapidement la météo de plusieurs régions.",
+    "badge": "v1.0.81 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Bientôt disponible"
@@ -17,8 +17,8 @@
     "title": "Fonctionnalités clés",
     "subtitle": "Vérifiez la météo d'aujourd'hui et de demain plus intelligemment",
     "weather": {
-      "title": "Graphiques de température ressentie",
-      "desc": "Comparez les maxima et minima ressentis des 8 derniers jours et des 7 prochains jours pour comprendre la tendance d’un coup d’œil."
+      "title": "Graphiques de température",
+      "desc": "Consultez les tendances des températures max/min des 8 derniers jours et des 7 prochains jours, et comparez-les en ressenti ou en température réelle selon votre réglage."
     },
     "comparison": {
       "title": "Comparaison multi-régions",
@@ -193,7 +193,7 @@
       "android_title": "Android",
       "android_desc": "Tâche d'arrière-plan s'exécutant environ toutes les heures, récupère la plage complète des données Open-Meteo et stocke les données partielles du widget.",
       "widget_data_title": "Données stockées par le widget",
-      "widget_data_items": "Région unique sélectionnée, Température ressentie max/min sur 8 jours, Résumé AM/PM d'aujourd'hui, Lieu, Heure de collecte, Étiquettes de langue",
+      "widget_data_items": "Région unique sélectionnée, températures max/min sur 8 jours, résumé AM/PM d’aujourd’hui, lieu, heure de collecte, libellés de langue",
       "ios_title": "iOS",
       "ios_desc": "Deux chemins : actualisation en arrière-plan de l'app + auto-actualisation du widget",
       "ios_self_refresh": "Le widget s'auto-actualise si >1 heure s'est écoulée depuis la dernière actualisation et si les coordonnées sont disponibles.",
@@ -207,12 +207,12 @@
     },
     "app_features": {
       "title": "Fonctions de l’application",
-      "desc": "Comparez rapidement les tendances de température ressentie et la météo par région dans les vues région unique et groupe.",
+      "desc": "Comparez rapidement les changements de température par date et la météo par région dans les vues région unique et groupe. Les graphiques peuvent afficher la température ressentie ou réelle selon votre réglage.",
       "single_title": "Graphiques de région unique",
-      "single_past": "Graphique comparatif des maxima/minima ressentis sur les 8 derniers jours, aujourd’hui inclus",
-      "single_future": "Graphique comparatif des maxima/minima ressentis sur les 7 prochains jours, aujourd’hui inclus",
+      "single_past": "Graphique comparatif des températures max/min sur les 8 derniers jours, aujourd’hui inclus",
+      "single_future": "Graphique comparatif des températures max/min sur les 7 prochains jours, aujourd’hui inclus",
       "group_title": "Résumé hebdomadaire du groupe",
-      "group_weekly": "Graphique comparatif des maxima/minima ressentis par région sur les 7 prochains jours, aujourd’hui inclus"
+      "group_weekly": "Graphique comparatif des températures max/min par région sur les 7 prochains jours, aujourd’hui inclus"
     },
     "search": {
       "title": "Recherche",
@@ -249,19 +249,19 @@
       "title": "Guide des widgets",
       "basis": "Tous les widgets affichent les informations de la dernière région affichée dans l’écran de région unique.",
       "android_title": "Widgets Android",
-      "android_home": "Affiche un graphique des maxima/minima ressentis sur les 8 derniers jours, les icônes météo du matin et de l’après-midi, la température ressentie actuelle et les informations météo actuelles.",
+      "android_home": "Affiche un graphique des températures max/min sur les 8 derniers jours, les icônes météo du matin et de l’après-midi, la température actuelle et les informations météo actuelles.",
       "ios_title": "Widgets iOS",
-      "ios_home": "Écran d’accueil : affiche un graphique des maxima/minima ressentis sur les 8 derniers jours, les icônes météo du matin et de l’après-midi, la température ressentie actuelle et les informations météo actuelles.",
-      "ios_lock_full": "Écran verrouillé : graphique comparatif des maxima/minima ressentis sur les 8 derniers jours",
-      "ios_lock_split": "Écran verrouillé : graphiques séparés pour les maxima et minima ressentis",
+      "ios_home": "Écran d’accueil : affiche un graphique des températures max/min sur les 8 derniers jours, les icônes météo du matin et de l’après-midi, la température actuelle et les informations météo actuelles.",
+      "ios_lock_full": "Écran verrouillé : graphique comparatif des températures max/min sur les 8 derniers jours",
+      "ios_lock_split": "Écran verrouillé : graphiques séparés pour les températures max et min",
       "android_desc": "Les widgets Android de l’écran d’accueil utilisent un arrière-plan transparent afin de s’intégrer naturellement au fond d’écran.",
       "ios_desc": "Les widgets iOS de l’écran d’accueil ajustent automatiquement leur arrière-plan et leurs couleurs selon le mode clair ou sombre."
     },
     "widget_temperature_basis": {
       "title": "Règles d’affichage de la température des widgets",
-      "desc1": "Le nombre de température actuelle affiché dans les widgets correspond à la température ressentie actuelle. Meteal utilise en priorité les données current apparent_temperature d’Open-Meteo afin de rester cohérent avec l’affichage centré sur la température ressentie.",
-      "desc2": "Le graphique du widget montre lui aussi l’évolution des maxima et minima ressentis sur les 8 derniers jours. Toutefois, le nombre de température ressentie actuelle utilise les données current du moment présent, tandis que le graphique utilise les maxima/minima quotidiens. Les valeurs peuvent donc différer.",
-      "desc3": "Les informations météo du matin et de l’après-midi sont affichées comme un résumé de moments représentatifs de la journée et sont calculées séparément de la température ressentie actuelle."
+      "desc1": "Dans les widgets d’écran d’accueil, la température actuelle et le graphique max/min s’affichent en température ressentie ou réelle selon le réglage Graph Temp de l’app.",
+      "desc2": "Si la température ressentie est choisie, Meteal utilise en priorité current apparent_temperature d’Open-Meteo pour la température actuelle. Si la température réelle est choisie, current temperature_2m est utilisé en priorité.",
+      "desc3": "La température actuelle utilise les données current du moment présent, tandis que le graphique utilise des valeurs max/min quotidiennes. Les valeurs peuvent donc différer. Les informations météo du matin et de l’après-midi sont résumées séparément."
     }
   },
   "privacy": {
@@ -322,11 +322,11 @@
     "title": "Infos de l'app",
     "subtitle": "Informations sur l'app Meteal et licences open source",
     "app_desc_title": "À propos de l'app",
-    "app_desc": "Une application météo simple pour vérifier intuitivement la météo du jour avec les récents changements de température ressentie, et comparer rapidement la météo de plusieurs régions.",
+    "app_desc": "Une application météo simple pour consulter intuitivement la météo du jour avec les changements récents de température, et comparer rapidement la météo de plusieurs régions.",
     "features_title": "Fonctionnalités clés",
-    "features_list": "Température ressentie sur 8 jours|Enregistrer et comparer plusieurs régions|Support de widget météo|Thèmes personnalisés|Support multilingue|Interface simple et intuitive",
+    "features_list": "Comparaison de température sur 8 jours|Enregistrer et comparer plusieurs régions|Support de widget météo|Thèmes personnalisés|Support multilingue|Interface simple et intuitive",
     "feature_today": "Consulter la météo d'aujourd'hui et de demain",
-    "feature_feels_like": "Comparer les récents changements de température ressentie",
+    "feature_feels_like": "Comparer les tendances de température",
     "feature_regions": "Enregistrer et comparer plusieurs régions",
     "feature_widget": "Prise en charge des widgets météo",
     "feature_theme": "Thèmes personnalisés",

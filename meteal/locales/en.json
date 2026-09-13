@@ -7,8 +7,8 @@
   },
   "hero": {
     "tagline": "Compare only the weather you need, at a glance",
-    "subtitle": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
-    "badge": "v1.0.80 · iOS & Android",
+    "subtitle": "A simple weather app to intuitively check today's weather with recent temperature changes, and quickly compare weather across multiple regions.",
+    "badge": "v1.0.81 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Coming Soon"
@@ -17,8 +17,8 @@
     "title": "Key Features",
     "subtitle": "Check today and tomorrow's weather smarter",
     "weather": {
-      "title": "Feels-Like Temperature Graphs",
-      "desc": "Compare feels-like highs and lows for the recent 8 days and next 7 days to understand temperature trends at a glance."
+      "title": "Temperature Graphs",
+      "desc": "Check high/low temperature trends for the recent 8 days and next 7 days, and compare them as feels-like or actual temperatures depending on your setting."
     },
     "comparison": {
       "title": "Multi-Region Comparison",
@@ -193,7 +193,7 @@
       "android_title": "Android",
       "android_desc": "Background work runs approximately every hour, fetches full Open-Meteo data range, and stores partial widget data.",
       "widget_data_title": "Widget Stored Data",
-      "widget_data_items": "Selected single region, Feels-like high/low for 8 days, Today AM/PM summary, Location, Collection time, Language labels",
+      "widget_data_items": "Selected single region, 8-day high/low temperatures, Today AM/PM summary, Location, Collection time, Language labels",
       "ios_title": "iOS",
       "ios_desc": "Two paths: app background refresh + widget self-refresh",
       "ios_self_refresh": "Widget self-refreshes if >1 hour has passed since last refresh and coordinates are available.",
@@ -207,12 +207,12 @@
     },
     "app_features": {
       "title": "App Features",
-      "desc": "Compare feels-like temperature trends and regional weather quickly in single-region and group views.",
+      "desc": "Compare date-by-date temperature changes and regional weather quickly in single-region and group views. Temperature graphs can be shown as feels-like or actual temperatures depending on your setting.",
       "single_title": "Single-Region Graphs",
-      "single_past": "Feels-like high/low comparison graph for the recent 8 days, including today",
-      "single_future": "Feels-like high/low comparison graph for the next 7 days, including today",
+      "single_past": "High/low temperature comparison graph for the recent 8 days, including today",
+      "single_future": "High/low temperature comparison graph for the next 7 days, including today",
       "group_title": "Group Weekly Summary",
-      "group_weekly": "Feels-like high/low comparison graph for each region over the next 7 days, including today"
+      "group_weekly": "High/low temperature comparison graph for each region over the next 7 days, including today"
     },
     "search": {
       "title": "Search Behavior",
@@ -249,19 +249,19 @@
       "title": "Widget Guide",
       "basis": "All widgets display information for the region most recently shown on the single-region screen.",
       "android_title": "Android Widgets",
-      "android_home": "Shows a recent 8-day feels-like high/low graph, morning and afternoon weather icons, current feels-like temperature, and current weather information.",
+      "android_home": "Shows a recent 8-day high/low temperature graph, morning and afternoon weather icons, current temperature, and current weather information.",
       "ios_title": "iOS Widgets",
-      "ios_home": "Home screen: shows a recent 8-day feels-like high/low graph, morning and afternoon weather icons, current feels-like temperature, and current weather information.",
-      "ios_lock_full": "Lock screen: recent 8-day feels-like high/low comparison graph",
-      "ios_lock_split": "Lock screen: separate feels-like high and low graphs",
+      "ios_home": "Home screen: shows a recent 8-day high/low temperature graph, morning and afternoon weather icons, current temperature, and current weather information.",
+      "ios_lock_full": "Lock screen: recent 8-day high/low temperature comparison graph",
+      "ios_lock_split": "Lock screen: separate high and low temperature graphs",
       "android_desc": "Android home screen widgets use a transparent background, so they blend naturally with your home screen wallpaper.",
       "ios_desc": "iOS home screen widgets automatically adjust their background and colors for Light Mode and Dark Mode."
     },
     "widget_temperature_basis": {
       "title": "Widget Temperature Display Rules",
-      "desc1": "The current temperature number shown in widgets is the current feels-like temperature. Meteal prioritizes Open-Meteo current apparent_temperature data so the widget stays consistent with its feels-like temperature focus.",
-      "desc2": "The widget graph also shows the recent 8-day trend of feels-like highs and lows. However, the current feels-like temperature number uses current data for the present moment, while the graph uses daily high/low data, so the values may differ.",
-      "desc3": "Morning and afternoon weather information is shown as a summary for representative times of the day and is calculated separately from the current feels-like temperature."
+      "desc1": "Home screen widgets show the current temperature and high/low graph as feels-like or actual temperatures depending on the app's Graph Temp setting.",
+      "desc2": "When Feels is selected, Meteal prioritizes Open-Meteo current apparent_temperature for the current temperature. When Actual is selected, it prioritizes current temperature_2m.",
+      "desc3": "The current temperature uses current data for the present moment, while the graph uses daily high/low data, so values may differ. Morning and afternoon weather information is summarized separately."
     }
   },
   "privacy": {
@@ -322,11 +322,11 @@
     "title": "App Info",
     "subtitle": "Meteal App Information & Open Source Licenses",
     "app_desc_title": "About the App",
-    "app_desc": "A simple weather app to intuitively check today's weather with recent feels-like temperature changes, and quickly compare weather across multiple regions.",
+    "app_desc": "A simple weather app to intuitively check today's weather with recent temperature changes, and quickly compare weather across multiple regions.",
     "features_title": "Key Features",
-    "features_list": "8-Day feels-like temperature comparison|Save and compare multiple regions|Weather widget support|Custom theme support|Multi-language support|Simple and intuitive UI",
+    "features_list": "8-day temperature comparison|Save and compare multiple regions|Weather widget support|Custom theme support|Multi-language support|Simple and intuitive UI",
     "feature_today": "Check today's and tomorrow's weather",
-    "feature_feels_like": "Compare recent feels-like temperature changes",
+    "feature_feels_like": "Compare temperature graph trends",
     "feature_regions": "Save and compare multiple regions",
     "feature_widget": "Weather widget support",
     "feature_theme": "Custom theme support",

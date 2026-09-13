@@ -7,8 +7,8 @@
   },
   "hero": {
     "tagline": "Vergleichen Sie nur das Wetter, das Sie brauchen, auf einen Blick",
-    "subtitle": "Eine einfache Wetter-App, um das heutige Wetter mit den jüngsten gefühlten Temperaturänderungen intuitiv zu überprüfen und das Wetter in mehreren Regionen schnell zu vergleichen.",
-    "badge": "v1.0.80 · iOS & Android",
+    "subtitle": "Eine einfache Wetter-App, mit der du das heutige Wetter anhand aktueller Temperaturänderungen intuitiv prüfst und das Wetter mehrerer Regionen schnell vergleichst.",
+    "badge": "v1.0.81 · iOS & Android",
     "download_ios": "App Store",
     "download_android": "Google Play",
     "download_coming_soon": "Demnächst verfügbar"
@@ -17,8 +17,8 @@
     "title": "Hauptfunktionen",
     "subtitle": "Überprüfen Sie das Wetter von heute und morgen intelligenter",
     "weather": {
-      "title": "Gefühlte-Temperatur-Diagramme",
-      "desc": "Vergleiche Höchst- und Tiefstwerte der gefühlten Temperatur für die letzten 8 und nächsten 7 Tage und erkenne den Temperaturverlauf auf einen Blick."
+      "title": "Temperaturdiagramme",
+      "desc": "Sieh dir Höchst- und Tiefsttemperaturen der letzten 8 und nächsten 7 Tage als Diagramm an und vergleiche sie je nach Einstellung als gefühlte oder tatsächliche Temperatur."
     },
     "comparison": {
       "title": "Mehrere Regionen vergleichen",
@@ -193,7 +193,7 @@
       "android_title": "Android",
       "android_desc": "Hintergrundaufgabe läuft ca. jede Stunde, ruft den vollen Open-Meteo-Datenbereich ab und speichert teilweise Widget-Daten.",
       "widget_data_title": "Widget-gespeicherte Daten",
-      "widget_data_items": "Ausgewählte Einzelregion, Gefühlte Temp. Hoch/Tief für 8 Tage, Heute AM/PM-Zusammenfassung, Standort, Erhebungszeit, Sprachetiketten",
+      "widget_data_items": "Ausgewählte Einzelregion, 8-Tage-Höchst-/Tiefsttemperaturen, heutige AM/PM-Zusammenfassung, Standort, Erhebungszeit, Sprachetiketten",
       "ios_title": "iOS",
       "ios_desc": "Zwei Pfade: App-Hintergrundaktualisierung + Widget-Selbstaktualisierung",
       "ios_self_refresh": "Widget aktualisiert sich selbst, wenn >1 Stunde seit der letzten Aktualisierung vergangen ist und Koordinaten vorhanden sind.",
@@ -207,12 +207,12 @@
     },
     "app_features": {
       "title": "App-Funktionen",
-      "desc": "Vergleiche Trends der gefühlten Temperatur und regionales Wetter schnell in Einzelregion- und Gruppenansichten.",
+      "desc": "Vergleiche Temperaturänderungen nach Datum und regionales Wetter schnell in Einzelregion- und Gruppenansichten. Temperaturdiagramme können je nach Einstellung als gefühlte oder tatsächliche Temperatur angezeigt werden.",
       "single_title": "Diagramme für Einzelregionen",
-      "single_past": "Vergleichsdiagramm der gefühlten Höchst-/Tiefsttemperatur für die letzten 8 Tage inklusive heute",
-      "single_future": "Vergleichsdiagramm der gefühlten Höchst-/Tiefsttemperatur für die nächsten 7 Tage inklusive heute",
+      "single_past": "Vergleichsdiagramm der Höchst-/Tiefsttemperaturen der letzten 8 Tage inklusive heute",
+      "single_future": "Vergleichsdiagramm der Höchst-/Tiefsttemperaturen der nächsten 7 Tage inklusive heute",
       "group_title": "Wöchentliche Gruppenzusammenfassung",
-      "group_weekly": "Vergleichsdiagramm der gefühlten Höchst-/Tiefsttemperatur je Region für die nächsten 7 Tage inklusive heute"
+      "group_weekly": "Vergleichsdiagramm der Höchst-/Tiefsttemperaturen je Region für die nächsten 7 Tage inklusive heute"
     },
     "search": {
       "title": "Suchverhalten",
@@ -249,19 +249,19 @@
       "title": "Widget-Anleitung",
       "basis": "Alle Widgets zeigen Informationen für die Region, die zuletzt in der Einzelregion-Ansicht angezeigt wurde.",
       "android_title": "Android-Widgets",
-      "android_home": "Zeigt ein Diagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage, Wetter-Icons für Vormittag und Nachmittag, die aktuelle gefühlte Temperatur und aktuelle Wetterinformationen.",
+      "android_home": "Zeigt ein 8-Tage-Diagramm der Höchst-/Tiefsttemperaturen, Wetter-Icons für Vormittag und Nachmittag, die aktuelle Temperatur und aktuelle Wetterinformationen.",
       "ios_title": "iOS-Widgets",
-      "ios_home": "Startbildschirm: zeigt ein Diagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage, Wetter-Icons für Vormittag und Nachmittag, die aktuelle gefühlte Temperatur und aktuelle Wetterinformationen.",
-      "ios_lock_full": "Sperrbildschirm: Vergleichsdiagramm der gefühlten Höchst-/Tiefsttemperatur der letzten 8 Tage",
-      "ios_lock_split": "Sperrbildschirm: getrennte Diagramme für gefühlte Höchst- und Tiefsttemperatur",
+      "ios_home": "Startbildschirm: zeigt ein 8-Tage-Diagramm der Höchst-/Tiefsttemperaturen, Wetter-Icons für Vormittag und Nachmittag, die aktuelle Temperatur und aktuelle Wetterinformationen.",
+      "ios_lock_full": "Sperrbildschirm: Vergleichsdiagramm der Höchst-/Tiefsttemperaturen der letzten 8 Tage",
+      "ios_lock_split": "Sperrbildschirm: getrennte Diagramme für Höchst- und Tiefsttemperatur",
       "android_desc": "Android-Startbildschirm-Widgets verwenden einen transparenten Hintergrund und fügen sich dadurch natürlich in dein Hintergrundbild ein.",
       "ios_desc": "iOS-Startbildschirm-Widgets passen Hintergrund und Farben automatisch an den Hell- oder Dunkelmodus an."
     },
     "widget_temperature_basis": {
       "title": "Temperaturanzeige in Widgets",
-      "desc1": "Die in Widgets angezeigte aktuelle Temperaturzahl ist die aktuelle gefühlte Temperatur. Meteal verwendet bevorzugt die current apparent_temperature-Daten von Open-Meteo, damit die Widget-Anzeige zum Fokus auf gefühlte Temperaturen passt.",
-      "desc2": "Auch das Diagramm im Widget zeigt den Verlauf der gefühlten Höchst- und Tiefsttemperaturen der letzten 8 Tage. Die aktuelle gefühlte Temperaturzahl nutzt jedoch current-Daten für den aktuellen Zeitpunkt, während das Diagramm tägliche Höchst-/Tiefstwerte verwendet. Daher können die Werte voneinander abweichen.",
-      "desc3": "Die Wetterinformationen für Vormittag und Nachmittag werden als Zusammenfassung repräsentativer Tageszeiten angezeigt und getrennt von der aktuellen gefühlten Temperatur berechnet."
+      "desc1": "Die aktuelle Temperatur und das Höchst-/Tiefsttemperatur-Diagramm in Startbildschirm-Widgets werden je nach Diagrammtemperatur-Einstellung der App als gefühlte oder tatsächliche Temperatur angezeigt.",
+      "desc2": "Bei gefühlter Temperatur nutzt Meteal für die aktuelle Temperatur bevorzugt Open-Meteo current apparent_temperature. Bei tatsächlicher Temperatur wird current temperature_2m bevorzugt.",
+      "desc3": "Die aktuelle Temperatur nutzt current-Daten für den aktuellen Zeitpunkt, während das Diagramm tägliche Höchst-/Tiefstwerte verwendet. Daher können die Werte abweichen. Wetterinformationen für Vormittag und Nachmittag werden separat zusammengefasst."
     }
   },
   "privacy": {
@@ -322,11 +322,11 @@
     "title": "App-Informationen",
     "subtitle": "Meteal App-Informationen und Open-Source-Lizenzen",
     "app_desc_title": "Über die App",
-    "app_desc": "Eine einfache Wetter-App, um das heutige Wetter mit den jüngsten gefühlten Temperaturänderungen intuitiv zu überprüfen und das Wetter in mehreren Regionen schnell zu vergleichen.",
+    "app_desc": "Eine einfache Wetter-App, mit der du das heutige Wetter anhand aktueller Temperaturänderungen intuitiv prüfst und das Wetter mehrerer Regionen schnell vergleichst.",
     "features_title": "Hauptfunktionen",
-    "features_list": "8-Tage Gefühlte Temperatur|Mehrere Regionen speichern und vergleichen|Wetter-Widget-Unterstützung|Eigene Designs|Mehrsprachige Unterstützung|Einfache und intuitive Benutzeroberfläche",
+    "features_list": "8-Tage-Temperaturvergleich|Mehrere Regionen speichern und vergleichen|Wetter-Widget-Unterstützung|Eigene Designs|Mehrsprachige Unterstützung|Einfache und intuitive Benutzeroberfläche",
     "feature_today": "Wetter für heute und morgen prüfen",
-    "feature_feels_like": "Jüngste Änderungen der gefühlten Temperatur vergleichen",
+    "feature_feels_like": "Temperaturdiagramme vergleichen",
     "feature_regions": "Mehrere Regionen speichern und vergleichen",
     "feature_widget": "Wetter-Widget-Unterstützung",
     "feature_theme": "Eigene Designs",
